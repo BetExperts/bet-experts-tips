@@ -1,0 +1,47 @@
+name: H2H Tips
+
+on:
+  schedule:
+    - cron: "30 6 * * *"    # 08:30 CEST — genereren (ochtend)
+    - cron: "30 15 * * *"   # 17:30 CEST — genereren (eind middag)
+    - cron: "0 23 * * *"    # 01:00 CEST — afsluiten (eindstand + status)
+  workflow_dispatch:
+
+jobs:
+  generate:
+    # ochtend + eind middag, en bij handmatig starten
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 6 * * *' || github.event.schedule == '30 15 * * *'
+    runs-on: ubuntu-latest
+    concurrency: { group: tips, cancel-in-progress: false }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -r requirements.txt
+      - name: Genereer tips (komende dagen, verse odds)
+        env:
+          WEBFLOW_TOKEN: ${{ secrets.WEBFLOW_TOKEN }}
+        # Zet repo-variabele PUBLISH=true om live te gaan (anders concept).
+        run: python generate.py --days 4 ${{ vars.PUBLISH == 'true' && '--publish' || '' }}
+      - name: Commit state
+        run: |
+          git config user.name "tips-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state/tips.json || true
+          git commit -m "state: tips $(date -u +%F_%H%M)" || echo "geen wijzigingen"
+          git pull --rebase --autostash || true
+          git push || echo "niets te pushen"
+
+  settle:
+    # 's nachts, en bij handmatig starten
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 23 * * *'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -r requirements.txt
+      - name: Sluit afgelopen tips af (eindstand + status)
+        env:
+          WEBFLOW_TOKEN: ${{ secrets.WEBFLOW_TOKEN }}
+        run: python settle.py

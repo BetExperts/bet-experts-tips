@@ -1,0 +1,48 @@
+# -*- coding: utf-8 -*-
+"""Webflow Data API v2 — create/update/publish van Tips-items + state."""
+import os, json, requests
+from tp_config import WEBFLOW_TOKEN, WF_API, TIPS_COLLECTION
+
+BASE = os.path.dirname(os.path.abspath(__file__))
+STATE = os.path.join(BASE, "state", "tips.json")
+
+def _h():
+    return {"Authorization": f"Bearer {WEBFLOW_TOKEN}", "Content-Type": "application/json",
+            "accept": "application/json"}
+
+def load_state():
+    try: return json.load(open(STATE, encoding="utf-8"))
+    except Exception: return {}
+
+def save_state(s):
+    os.makedirs(os.path.dirname(STATE), exist_ok=True)
+    json.dump(s, open(STATE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+
+def list_items(limit=100):
+    """Alle Tips-items (paginerend)."""
+    out = []; offset = 0
+    while True:
+        url = f"{WF_API}/collections/{TIPS_COLLECTION}/items?limit={limit}&offset={offset}"
+        r = requests.get(url, headers=_h(), timeout=30); r.raise_for_status()
+        d = r.json(); items = d.get("items", [])
+        out.extend(items)
+        if len(items) < limit: break
+        offset += limit
+    return out
+
+def create_item(fd, live=False):
+    ep = "items/live" if live else "items"
+    url = f"{WF_API}/collections/{TIPS_COLLECTION}/{ep}"
+    body = {"isArchived": False, "isDraft": not live, "fieldData": fd}
+    r = requests.post(url, headers=_h(), json=body, timeout=30)
+    r.raise_for_status()
+    return r.json().get("id")
+
+def update_item(item_id, fd, live=False):
+    ep = f"items/{item_id}/live" if live else f"items/{item_id}"
+    url = f"{WF_API}/collections/{TIPS_COLLECTION}/{ep}"
+    body = {"fieldData": fd}
+    if live: body.update({"isArchived": False, "isDraft": False})
+    r = requests.patch(url, headers=_h(), json=body, timeout=30)
+    r.raise_for_status()
+    return item_id

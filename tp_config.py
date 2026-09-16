@@ -1,0 +1,96 @@
+# -*- coding: utf-8 -*-
+"""Config voor de H2H-tips-agent (BTTS / Over-Under 2.5 / thuis-uitwinst)."""
+import os
+
+# --- Webflow ---
+WEBFLOW_TOKEN    = os.environ.get("WEBFLOW_TOKEN", "").strip()
+WF_API           = "https://api.webflow.com/v2"
+TIPS_COLLECTION  = "6aab04ace124b6e1d758d57f"
+
+# Optie-veld ids (uit get_collection_details)
+MARKT = {
+    "BTTS":       "2fa1b1ee8141e33bea9123a2bffc1454",
+    "Over 2.5":   "c96a8ca4d5fb73ac48d074d6fd30d875",
+    "Under 2.5":  "5afd0b803c4b3c161872e79f2fd91833",
+    "Thuiswinst": "33a771e2b9ec909a9a54b82821acab92",
+    "Uitwinst":   "c5c5e7894dcc0bb89e0ca590c664824c",
+    "Betbuilder": "61efb95cbb282e5f3275f1600d00055f",
+}
+ZEKERHEID = {"Laag": "1493ba914f646ef3c0bef44284b91621",
+             "Middel": "d7710104c72d56042c38ba550bd54c46",
+             "Hoog": "dfdb2584aab9c4c6cb99ed2f031db7fa"}
+STATUS = {"In afwachting": "d79fd2517846c28916899a024cf3d88e",
+          "Gewonnen": "a9cafc90d97eb9056124af35f33e5446",
+          "Verloren": "1c31fbbb2ca1e856b9aae028cc05f1f7",
+          "Push": "d6a27c6436130f710bb921a711d2227e"}
+
+# --- Bet-Experts API-proxy ---
+API = "https://www.bet-experts.nl/api"
+
+# Competities (slug -> weergavenaam)
+LEAGUES = {
+ "eredivisie":"Eredivisie","eerste-divisie":"Eerste Divisie","knvb-beker":"KNVB Beker",
+ "johan-cruijff-schaal":"Johan Cruijff Schaal","premier-league":"Premier League","championship":"Championship",
+ "league-one":"League One","league-two":"League Two","fa-cup":"FA Cup","efl-cup":"EFL Cup",
+ "carabao-cup":"Carabao Cup","community-shield":"Community Shield","scottish-premiership":"Scottish Premiership",
+ "mls":"MLS","la-liga":"La Liga","la-liga-2":"La Liga 2","segunda-division":"Segunda Division",
+ "copa-del-rey":"Copa del Rey","serie-a":"Serie A","serie-b":"Serie B","coppa-italia":"Coppa Italia",
+ "bundesliga":"Bundesliga","2-bundesliga":"2. Bundesliga","dfb-pokal":"DFB-Pokal","ligue-1":"Ligue 1",
+ "ligue-2":"Ligue 2","coupe-de-france":"Coupe de France","primeira-liga":"Primeira Liga",
+ "taca-de-portugal":"Taca de Portugal","jupiler-pro-league":"Jupiler Pro League","belgian-cup":"Belgian Cup",
+ "super-lig":"Super Lig","1-lig":"1. Lig","turkish-cup":"Turkiye Kupasi","eliteserien":"Eliteserien",
+ "allsvenskan":"Allsvenskan","superliga":"Superliga","ekstraklasa":"Ekstraklasa","czech-liga":"Czech Liga",
+ "nb-i":"NB I","ukrainian-premier-league":"Ukrainian Premier League","slovak-super-liga":"Slovak Super Liga",
+ "bulgarian-first-league":"Bulgarian First League","super-league":"Super League",
+ "swiss-super-league":"Swiss Super League","austrian-bundesliga":"Austrian Bundesliga",
+ "greek-super-league":"Greek Super League","veikkausliiga":"Veikkausliiga","brasileirao":"Brasileirao",
+ "saudi-pro-league":"Saudi Pro League","champions-league":"Champions League","europa-league":"Europa League",
+ "conference-league":"Conference League","nations-league":"Nations League",
+ "wc-qualification-europe":"WK Kwalificatie Europa",
+}
+
+# --- Odds-feed (jouw eigen NL-bookmakers via tubeemate; Referer verplicht) ---
+TUBE_URL = "https://tubeemate.com/odds/odds.php"
+TUBE_HEADERS = {"Referer": "https://www.bet-experts.nl/",
+                "Origin": "https://www.bet-experts.nl",
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
+# bookmaker-key -> weergavenaam + affiliatelink (fallback als event geen affiliate_url geeft)
+BOOKMAKERS = {
+ "circus":{"name":"Circus","link":"https://note.circus.nl/redirect.aspx?pid=12467&bid=10131"},
+ "tonybet":{"name":"Tonybet","link":"https://dro.netavix.com/redirect.aspx?pid=175115&bid=2034&lpid=1688"},
+ "unibet":{"name":"Unibet","link":"https://b1.trickyrock.com/redirect.aspx?pid=86118747&bid=39312"},
+ "onecasino":{"name":"OneCasino","link":"https://record.oneaffiliates.net/_8XG55gD0z_7PWnjzjqRrQ2Nd7ZgqdRLk/1"},
+ "bet365":{"name":"Bet365","link":"https://www.bet365.nl/hub/nl-nl/open-account?affiliate=365_02599619"},
+ "leovegas":{"name":"LeoVegas","link":"https://casino.leovegas.nl/redirect.aspx?pid=3768358&lpid=506&bid=13309"},
+ "betmgm":{"name":"BetMGM","link":"https://casino.betmgm.nl/redirect.aspx?pid=3781431&lpid=3329&bid=20762"},
+ "888sports":{"name":"888Sports","link":"https://media.888.nl/tracking.php?tracking_code&aid=119973&mid=9674&sid=460575&pid=3736"},
+ "comeon":{"name":"ComeOn!","link":"https://media.comeon.nl/tracking.php?tracking_code&aid=119973&mid=9234&sid=458851&pid=3459"},
+ "bingoal":{"name":"Bingoal","link":"https://tinyurl.com/bingoal-betexperts-sport"},
+ "711sports":{"name":"711","link":"https://media1.711affiliates.nl/redirect.aspx?pid=2395&bid=1505"},
+ "toto":{"name":"TOTO","link":"https://partner.toto.nl/C.ashx?btag=a_375b_445c_&affid=184&siteid=375&adid=445&c="},
+ "jacks":{"name":"Jacks.nl","link":"https://media.friendsofjacks.eu/redirect.aspx?pid=2527&bid=2224"},
+ "vbet":{"name":"Vbet","link":"https://www.vbet.nl/nl/affiliates/?btag=2343788_l356243"},
+ "starcasino":{"name":"StarCasino","link":"https://media1.affiliates.starcasino.nl/redirect.aspx?pid=2170&bid=1478"},
+}
+FEEDS = list(BOOKMAKERS.keys())
+
+# tubeemate-bookmaker-key -> item-id in de Bookmakers-collectie (voor het reference-veld)
+BOOKMAKER_REF = {
+ "circus":"64ff0fbd5a8f205b05d54670","tonybet":"682b116bb82996896cb52d5d",
+ "unibet":"64ff0fbd5a8f205b05d54687","onecasino":"67974cf05b546fe28ef78cdc",
+ "bet365":"651bd6728c40de720bd8072a","leovegas":"6526a08a94d8631739581743",
+ "betmgm":"66bb685ec057aa8c4337ceea","888sports":"6909dcf78e3c22a32d06e2ad",
+ "comeon":"66a24463b6de25483eec85e9","bingoal":"68dd287867de5cd59d44dc39",
+ "711sports":"66a8a87062108480763b7309","toto":"669ab9f5aceb8b717cea24c3",
+ "jacks":"64ff0fbd5a8f205b05d5465c","vbet":"67c9acaf7db0b29e5b03370d",
+ "starcasino":"6a7afdaa4a7453c17d31cab5",
+}
+
+# --- Selectie-drempels ---
+MIN_H2H = 4          # minimaal aantal onderlinge duels
+MIN_STREAK = 2       # minimale lopende streak
+def threshold(n_fixtures):
+    """Drukke dag = strengere drempel."""
+    if n_fixtures >= 200: return 80
+    if n_fixtures >= 100: return 75
+    return 70
