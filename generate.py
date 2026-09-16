@@ -13,6 +13,7 @@ from zoneinfo import ZoneInfo
 
 import tp_api as api
 import tp_stats as stats
+import tp_form as form_mod
 import tp_build as build
 import tp_odds as odds
 import tp_webflow as WF
@@ -66,12 +67,12 @@ def main():
     made = updated = 0
     for slug, fx in fixtures:
         st = stats.analyse(fx, want_form=False)
-        tips = build.select(st, thr)
+        # vorm-signaal (recente wedstrijden beide teams) — nodig voor de selectie
+        fm = form_mod.signal(st["hid"], st["aid"])
+        st["form_home"] = fm["form_home"]; st["form_away"] = fm["form_away"]
+        tips = build.select(st, fm, thr)
         if not tips:
             continue
-        # vorm ophalen (alleen voor kansrijke wedstrijden)
-        st["form_home"] = stats._form_string(api.team_form(st["hid"]), st["hid"])
-        st["form_away"] = stats._form_string(api.team_form(st["aid"]), st["aid"])
         for t in tips:
             od = None
             if not a.dry and not a.no_odds:
@@ -83,8 +84,9 @@ def main():
                     continue
             fd, tslug, name = build.build_fielddata(st, t, slug, odds=od)
             oddtxt = f' @ {od["best"]:.2f} ({od["bookmaker"]})' if od else ""
+            star = " ★" if t.get("feature") else ""
             if a.dry:
-                print(f"  ○ {t['markt']:11s} {t['pct']}%/{t['streak']} | {name}{oddtxt}")
+                print(f"  ○ {t['markt']:9s} H2H{t['h2h_pct']}% vorm{t['form_pct']}% [{t['basis']}]{star} | {name}{oddtxt}")
             else:
                 if tslug in state:
                     WF.update_item(state[tslug], fd, live=live); updated += 1

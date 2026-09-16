@@ -3,7 +3,8 @@
 import re, unicodedata
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
-from tp_config import (MARKT, MARKT_FIELD, ZEKERHEID, STATUS, LEAGUES, MIN_H2H, MIN_STREAK, BOOKMAKER_REF)
+from tp_config import (MARKT, MARKT_FIELD, ZEKERHEID, STATUS, LEAGUES, MIN_H2H, MIN_STREAK,
+                       BOOKMAKER_REF, H2H_STRONG, FORM_CONFIRM, FORM_STRONG, FORM_FEATURE, N_FORM)
 
 NL = ZoneInfo("Europe/Amsterdam")
 
@@ -14,54 +15,68 @@ def slugify(s):
 def _local(iso):
     return datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(NL)
 
-def _zekerheid(pct, streak):
-    if pct >= 85 and streak >= 4: return "Hoog"
-    if pct >= 77: return "Middel"
-    return "Laag"
+def _decide(h2h_n, h2h_pct, h2h_streak, form_pct, thr, min_n=MIN_H2H):
+    """Beslis of een markt kwalificeert op basis van H2H + vorm.
+    Return (qualify, feature, zekerheid, basis) of (False,...)."""
+    strong = h2h_n >= min_n and h2h_pct >= H2H_STRONG and h2h_streak >= MIN_STREAK
+    combined = h2h_n >= min_n and h2h_pct >= thr and form_pct >= FORM_CONFIRM
+    form_only = h2h_n < min_n and form_pct >= FORM_STRONG
+    qualify = strong or combined or form_only
+    if not qualify:
+        return (False, False, None, None)
+    feature = strong and form_pct >= FORM_FEATURE
+    if feature:                 zek = "Hoog"
+    elif strong or combined:    zek = "Middel"
+    else:                       zek = "Laag"
+    basis = "h2h" if strong else ("combi" if combined else "vorm")
+    return (True, feature, zek, basis)
 
-# markt -> (voorwaarde(stat,thr) -> bool, tip_text_fn, onderbouwing_fn, pct_key, streak_key)
-def _candidates(st, thr):
-    out = []
+def _candidates(st, form, thr):
     n, sn = st["n"], st["same_n"]
-    def add(markt, ok, tip, ond, pct, streak, odds_key):
-        if ok: out.append((markt, tip, ond, pct, streak, odds_key))
-    add("BTTS", n >= MIN_H2H and st["btts_pct"] >= thr and st["btts_streak"] >= MIN_STREAK,
-        "Beide teams scoren", f'{st["btts"]} van {n} onderlinge duels BTTS',
-        st["btts_pct"], st["btts_streak"], "btts_yes")
-    add("Over 2.5", n >= MIN_H2H and st["o25_pct"] >= thr and st["o25_streak"] >= MIN_STREAK,
-        "Meer dan 2.5 doelpunten", f'{st["o25"]} van {n} duels over 2.5',
-        st["o25_pct"], st["o25_streak"], "over25")
-    add("Under 2.5", n >= MIN_H2H and st["under_pct"] >= thr and st["under_streak"] >= MIN_STREAK,
-        "Minder dan 2.5 doelpunten", f'{st["under"]} van {n} duels onder 2.5',
-        st["under_pct"], st["under_streak"], "under25")
-    # 1X2 (thuis- of uitwinst; markt heet 1X2, de tip zegt welke kant)
-    add("1X2", sn >= 3 and st["home_w_pct"] >= thr and st["home_w_streak"] >= MIN_STREAK,
-        f'{st["home"]} wint', f'{st["home"]} won {st["home_w"]} van {sn} thuisduels tegen {st["away"]}',
-        st["home_w_pct"], st["home_w_streak"], "home")
-    add("1X2", sn >= 3 and st["away_w_pct"] >= thr and st["away_w_streak"] >= MIN_STREAK,
-        f'{st["away"]} wint', f'{st["away"]} won {st["away_w"]} van {sn} uitduels bij {st["home"]}',
-        st["away_w_pct"], st["away_w_streak"], "away")
+    specs = [
+        ("BTTS", "Beide teams scoren", "btts_yes", n, st["btts_pct"], st["btts_streak"],
+         form["btts"], f'{st["btts"]} van {n} H2H BTTS', MIN_H2H),
+        ("Over 2.5", "Meer dan 2.5 doelpunten", "over25", n, st["o25_pct"], st["o25_streak"],
+         form["over25"], f'{st["o25"]} van {n} H2H over 2.5', MIN_H2H),
+        ("Under 2.5", "Minder dan 2.5 doelpunten", "under25", n, st["under_pct"], st["under_streak"],
+         form["under25"], f'{st["under"]} van {n} H2H onder 2.5', MIN_H2H),
+        ("1X2", f'{st["home"]} wint', "home", sn, st["home_w_pct"], st["home_w_streak"],
+         form["home_win"], f'{st["home"]} won {st["home_w"]} van {sn} thuisduels', 3),
+        ("1X2", f'{st["away"]} wint', "away", sn, st["away_w_pct"], st["away_w_streak"],
+         form["away_win"], f'{st["away"]} won {st["away_w"]} van {sn} uitduels', 3),
+    ]
+    out = []
+    for markt, tip, key, h2h_n, h2h_pct, h2h_streak, form_pct, h2h_desc, min_n in specs:
+        qual, feature, zek, basis = _decide(h2h_n, h2h_pct, h2h_streak, form_pct, thr, min_n)
+        if not qual:
+            continue
+        if basis == "vorm":
+            ond = f'Vorm: {form_pct}% in de laatste {N_FORM} duels'
+        else:
+            ond = f'{h2h_desc} · vorm {form_pct}%'
+        out.append({"markt": markt, "tip": tip, "onderbouwing": ond, "odds_key": key,
+                    "h2h_pct": h2h_pct, "h2h_streak": h2h_streak, "form_pct": form_pct,
+                    "zekerheid": zek, "feature": feature, "basis": basis})
     return out
 
-def select(st, thr):
-    """Return lijst van tip-dicts voor deze wedstrijd (kan meerdere markten zijn)."""
-    tips = []
-    for markt, tip, ond, pct, streak, odds_key in _candidates(st, thr):
-        tips.append({"markt": markt, "tip": tip, "onderbouwing": ond, "odds_key": odds_key,
-                     "pct": pct, "streak": streak, "zekerheid": _zekerheid(pct, streak)})
-    return tips
+def select(st, form, thr):
+    """Return lijst van tip-dicts (H2H + vorm gecombineerd)."""
+    return _candidates(st, form, thr)
+
+_BASIS_TXT = {"h2h": "sterke onderlinge reeks", "combi": "onderlinge reeks + vorm",
+              "vorm": "recente vorm"}
 
 def _berekening(st, t):
-    dt = _local(st["date"])
-    lines = [f'<p><strong>{t["tip"]}</strong> — {t["onderbouwing"]} '
-             f'(reeks van {t["streak"]} op rij).</p>']
+    basis = _BASIS_TXT.get(t.get("basis"), "statistiek")
+    lines = [f'<p><strong>{t["tip"]}</strong> — {t["onderbouwing"]} (op basis van {basis}).</p>']
     lines.append("<ul>"
-        f'<li>BTTS in H2H: {st["btts"]}/{st["n"]} ({st["btts_pct"]}%), streak {st["btts_streak"]}</li>'
-        f'<li>Over 2.5 in H2H: {st["o25"]}/{st["n"]} ({st["o25_pct"]}%), streak {st["o25_streak"]}</li>'
+        f'<li>H2H BTTS: {st["btts"]}/{st["n"]} ({st["btts_pct"]}%), streak {st["btts_streak"]}</li>'
+        f'<li>H2H Over 2.5: {st["o25"]}/{st["n"]} ({st["o25_pct"]}%), streak {st["o25_streak"]}</li>'
         f'<li>Thuis-oriëntatie ({st["home"]} thuis): BTTS {st["same_btts"]}/{st["same_n"]}, '
         f'thuiswinst {st["home_w"]}/{st["same_n"]}</li>'
-        + (f'<li>Vorm {st["home"]}: {st["form_home"]}</li>' if st.get("form_home") else "")
-        + (f'<li>Vorm {st["away"]}: {st["form_away"]}</li>' if st.get("form_away") else "")
+        f'<li>Vorm voor deze tip (laatste {N_FORM} duels): {t["form_pct"]}%</li>'
+        + (f'<li>Vorm {st["home"]}: {st.get("form_home","")}</li>' if st.get("form_home") else "")
+        + (f'<li>Vorm {st["away"]}: {st.get("form_away","")}</li>' if st.get("form_away") else "")
         + "</ul>")
     return "".join(lines)
 
@@ -95,6 +110,8 @@ def build_fielddata(st, t, league_slug, odds=None, now=None):
         MARKT_FIELD: MARKT[t["markt"]],
         "zekerheid": ZEKERHEID[t["zekerheid"]],
         "status": STATUS["In afwachting"],
+        "uitgelicht": bool(t.get("feature")),
+        "beste-tip": bool(t.get("feature")),
         "fixture-id": str(st["fixture_id"]),
         "home-team-id": str(st["hid"]), "away-team-id": str(st["aid"]),
         "thuisclub": st["home"], "uitclub": st["away"],

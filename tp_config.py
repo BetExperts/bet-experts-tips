@@ -93,6 +93,13 @@ BOOKMAKER_REF = {
 MIN_H2H = 4          # minimaal aantal onderlinge duels
 MIN_STREAK = 2       # minimale lopende streak
 MIN_ODD = 1.40       # tip alleen als de beste odd hier boven ligt (geen waarde bij lagere odds)
+
+# H2H + vorm combineren
+H2H_STRONG   = 80    # sterke H2H (8/10+) → mag op H2H alleen
+FORM_CONFIRM = 60    # vorm moet minimaal dit zijn om een H2H op de dagdrempel te bevestigen
+FORM_STRONG  = 75    # vorm alleen (als er te weinig H2H is) kwalificeert vanaf dit %
+FORM_FEATURE = 70    # sterke H2H + vorm hierboven → uitgelicht
+N_FORM = 8           # aantal recente wedstrijden per team voor de vorm-percentages
 def threshold(n_fixtures):
     """Drukke dag = strengere drempel."""
     if n_fixtures >= 200: return 80
