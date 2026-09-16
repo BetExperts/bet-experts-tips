@@ -16,7 +16,7 @@ import tp_stats as stats
 import tp_build as build
 import tp_odds as odds
 import tp_webflow as WF
-from tp_config import LEAGUES, threshold, WEBFLOW_TOKEN
+from tp_config import LEAGUES, threshold, WEBFLOW_TOKEN, MIN_ODD
 
 NL = ZoneInfo("Europe/Amsterdam")
 
@@ -77,6 +77,10 @@ def main():
             if not a.dry and not a.no_odds:
                 try: od = odds.odds_for(st["home"], st["away"], t["markt"])
                 except Exception: od = None
+                # kwaliteitsdrempel: te lage odd = geen waarde, tip overslaan
+                if od and od["best"] < MIN_ODD:
+                    print(f"  · overslaan (odd {od['best']:.2f} < {MIN_ODD}): {t['markt']} {st['home']} - {st['away']}")
+                    continue
             fd, tslug, name = build.build_fielddata(st, t, slug, odds=od)
             oddtxt = f' @ {od["best"]:.2f} ({od["bookmaker"]})' if od else ""
             if a.dry:

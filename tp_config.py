@@ -89,6 +89,7 @@ BOOKMAKER_REF = {
 # --- Selectie-drempels ---
 MIN_H2H = 4          # minimaal aantal onderlinge duels
 MIN_STREAK = 2       # minimale lopende streak
+MIN_ODD = 1.40       # tip alleen als de beste odd hier boven ligt (geen waarde bij lagere odds)
 def threshold(n_fixtures):
     """Drukke dag = strengere drempel."""
     if n_fixtures >= 200: return 80
