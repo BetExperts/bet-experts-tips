@@ -75,7 +75,7 @@ def main():
         for t in tips:
             od = None
             if not a.dry and not a.no_odds:
-                try: od = odds.odds_for(st["home"], st["away"], t["markt"])
+                try: od = odds.odds_for(st["home"], st["away"], t["odds_key"])
                 except Exception: od = None
                 # kwaliteitsdrempel: te lage odd = geen waarde, tip overslaan
                 if od and od["best"] < MIN_ODD:

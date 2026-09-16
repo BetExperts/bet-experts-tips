@@ -38,19 +38,15 @@ def _outcome(ev, market, pick):
         if pick == "away" and team_match(name, ev.get("away", "")): return odd
     return None
 
-# pick -> (market, pick-key)
-PICK = {
-    "BTTS":       ("btts", "btts_yes"),
-    "Over 2.5":   ("over_under_2.5", "over25"),
-    "Under 2.5":  ("over_under_2.5", "under25"),
-    "Thuiswinst": ("1x2", "home"),
-    "Uitwinst":   ("1x2", "away"),
-}
+# odds_key -> tubeemate-markt
+_MARKET = {"btts_yes": "btts", "over25": "over_under_2.5", "under25": "over_under_2.5",
+           "home": "1x2", "away": "1x2"}
 
-def odds_for(home, away, markt):
-    """Return (beste_odd, bm_naam, link, [(bm_naam, odd, link)...]) voor deze pick."""
-    if markt not in PICK: return None
-    market, pick = PICK[markt]
+def odds_for(home, away, odds_key):
+    """Return beste odd (+ bookmaker/link/all) voor deze pick, o.b.v. odds_key."""
+    market = _MARKET.get(odds_key)
+    if not market: return None
+    pick = odds_key
     rows = []
     for bm, events in _CACHE.items():
         for ev in events:

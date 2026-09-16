@@ -7,14 +7,17 @@ WEBFLOW_TOKEN    = os.environ.get("WEBFLOW_TOKEN", "").strip()
 WF_API           = "https://api.webflow.com/v2"
 TIPS_COLLECTION  = "6aab04ace124b6e1d758d57f"
 
-# Optie-veld ids (uit get_collection_details)
+# Markt = optieveld met slug 'markt-2' (Webflow hernoemde na herbouw)
+MARKT_FIELD = "markt-2"
 MARKT = {
-    "BTTS":       "2fa1b1ee8141e33bea9123a2bffc1454",
-    "Over 2.5":   "c96a8ca4d5fb73ac48d074d6fd30d875",
-    "Under 2.5":  "5afd0b803c4b3c161872e79f2fd91833",
-    "Thuiswinst": "33a771e2b9ec909a9a54b82821acab92",
-    "Uitwinst":   "c5c5e7894dcc0bb89e0ca590c664824c",
-    "Betbuilder": "61efb95cbb282e5f3275f1600d00055f",
+    "BTTS":               "53feacdaa55da29b5656a9e4e185b4dd",
+    "Over 2.5":           "c8c0d590f7a8ccff3f4460c48868ba86",
+    "Under 2.5":          "71e68aa9856394ec15cdece58b2c40ff",
+    "1X2":                "4bf48ee09d0eb9fd2990da882dbe1cba",
+    "Dubbele kans":       "976e400ed47d49f0071532facf973636",
+    "Thuisteam over 1.5": "bb9c6784493d13440cad0052b1339e5c",
+    "Uitteam over 1.5":   "9b3abb0566b338e955a7d3545e88a479",
+    "Betbuilder":         "a11fc22bcc36723f5a74b24c1a1c246a",
 }
 ZEKERHEID = {"Laag": "1493ba914f646ef3c0bef44284b91621",
              "Middel": "d7710104c72d56042c38ba550bd54c46",

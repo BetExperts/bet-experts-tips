@@ -3,7 +3,7 @@
 import re, unicodedata
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
-from tp_config import (MARKT, ZEKERHEID, STATUS, LEAGUES, MIN_H2H, MIN_STREAK, BOOKMAKER_REF)
+from tp_config import (MARKT, MARKT_FIELD, ZEKERHEID, STATUS, LEAGUES, MIN_H2H, MIN_STREAK, BOOKMAKER_REF)
 
 NL = ZoneInfo("Europe/Amsterdam")
 
@@ -23,27 +23,31 @@ def _zekerheid(pct, streak):
 def _candidates(st, thr):
     out = []
     n, sn = st["n"], st["same_n"]
-    def add(markt, ok, tip, ond, pct, streak):
-        if ok: out.append((markt, tip, ond, pct, streak))
+    def add(markt, ok, tip, ond, pct, streak, odds_key):
+        if ok: out.append((markt, tip, ond, pct, streak, odds_key))
     add("BTTS", n >= MIN_H2H and st["btts_pct"] >= thr and st["btts_streak"] >= MIN_STREAK,
-        "Beide teams scoren", f'{st["btts"]} van {n} onderlinge duels BTTS', st["btts_pct"], st["btts_streak"])
+        "Beide teams scoren", f'{st["btts"]} van {n} onderlinge duels BTTS',
+        st["btts_pct"], st["btts_streak"], "btts_yes")
     add("Over 2.5", n >= MIN_H2H and st["o25_pct"] >= thr and st["o25_streak"] >= MIN_STREAK,
-        "Meer dan 2.5 doelpunten", f'{st["o25"]} van {n} duels over 2.5', st["o25_pct"], st["o25_streak"])
+        "Meer dan 2.5 doelpunten", f'{st["o25"]} van {n} duels over 2.5',
+        st["o25_pct"], st["o25_streak"], "over25")
     add("Under 2.5", n >= MIN_H2H and st["under_pct"] >= thr and st["under_streak"] >= MIN_STREAK,
-        "Minder dan 2.5 doelpunten", f'{st["under"]} van {n} duels onder 2.5', st["under_pct"], st["under_streak"])
-    add("Thuiswinst", sn >= 3 and st["home_w_pct"] >= thr and st["home_w_streak"] >= MIN_STREAK,
+        "Minder dan 2.5 doelpunten", f'{st["under"]} van {n} duels onder 2.5',
+        st["under_pct"], st["under_streak"], "under25")
+    # 1X2 (thuis- of uitwinst; markt heet 1X2, de tip zegt welke kant)
+    add("1X2", sn >= 3 and st["home_w_pct"] >= thr and st["home_w_streak"] >= MIN_STREAK,
         f'{st["home"]} wint', f'{st["home"]} won {st["home_w"]} van {sn} thuisduels tegen {st["away"]}',
-        st["home_w_pct"], st["home_w_streak"])
-    add("Uitwinst", sn >= 3 and st["away_w_pct"] >= thr and st["away_w_streak"] >= MIN_STREAK,
+        st["home_w_pct"], st["home_w_streak"], "home")
+    add("1X2", sn >= 3 and st["away_w_pct"] >= thr and st["away_w_streak"] >= MIN_STREAK,
         f'{st["away"]} wint', f'{st["away"]} won {st["away_w"]} van {sn} uitduels bij {st["home"]}',
-        st["away_w_pct"], st["away_w_streak"])
+        st["away_w_pct"], st["away_w_streak"], "away")
     return out
 
 def select(st, thr):
     """Return lijst van tip-dicts voor deze wedstrijd (kan meerdere markten zijn)."""
     tips = []
-    for markt, tip, ond, pct, streak in _candidates(st, thr):
-        tips.append({"markt": markt, "tip": tip, "onderbouwing": ond,
+    for markt, tip, ond, pct, streak, odds_key in _candidates(st, thr):
+        tips.append({"markt": markt, "tip": tip, "onderbouwing": ond, "odds_key": odds_key,
                      "pct": pct, "streak": streak, "zekerheid": _zekerheid(pct, streak)})
     return tips
 
@@ -74,10 +78,10 @@ def build_fielddata(st, t, league_slug, odds=None, now=None):
     name = f'{st["home"]} - {st["away"]}: {tip_text}'
     slug = slugify(f'{t["markt"]}-{st["home"]}-{st["away"]}-{dt:%Y-%m-%d}')
 
-    # thuis-oriëntatie afhankelijk van markt
-    if t["markt"] in ("Thuiswinst",):
+    # thuis-oriëntatie afhankelijk van de pick
+    if t.get("odds_key") == "home":
         orient = f'{st["home_w"]}/{st["same_n"]} thuiswinst'
-    elif t["markt"] in ("Uitwinst",):
+    elif t.get("odds_key") == "away":
         orient = f'{st["away_w"]}/{st["same_n"]} uitwinst'
     else:
         orient = f'{st["same_btts"]}/{st["same_n"]} BTTS thuis'
@@ -88,7 +92,7 @@ def build_fielddata(st, t, league_slug, odds=None, now=None):
         "tip": tip_text,
         "onderbouwing": t["onderbouwing"],
         "berekening": _berekening(st, t),
-        "markt": MARKT[t["markt"]],
+        MARKT_FIELD: MARKT[t["markt"]],
         "zekerheid": ZEKERHEID[t["zekerheid"]],
         "status": STATUS["In afwachting"],
         "fixture-id": str(st["fixture_id"]),

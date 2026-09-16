@@ -9,20 +9,25 @@ import sys, argparse
 from datetime import datetime, timezone
 import tp_api as api
 import tp_webflow as WF
-from tp_config import API, STATUS, MARKT, WEBFLOW_TOKEN
+from tp_config import API, STATUS, MARKT, MARKT_FIELD, WEBFLOW_TOKEN
 
 FIN = ("FT", "AET", "PEN")
 INAFWACHTING = STATUS["In afwachting"]
 MARKT_NAAM = {v: k for k, v in MARKT.items()}
 
-def result_of(markt, gh, ga):
+def result_of(markt, gh, ga, fd):
     tot = gh + ga
     if markt == "BTTS":       return gh > 0 and ga > 0
     if markt == "Over 2.5":   return tot >= 3
     if markt == "Under 2.5":  return tot <= 2
-    if markt == "Thuiswinst": return gh > ga
-    if markt == "Uitwinst":   return ga > gh
-    return None   # Betbuilder e.d. handmatig
+    if markt == "Thuisteam over 1.5": return gh >= 2
+    if markt == "Uitteam over 1.5":   return ga >= 2
+    if markt == "1X2":
+        tip = (fd.get("tip") or "")
+        if tip.startswith(fd.get("thuisclub", "\0")): return gh > ga
+        if tip.startswith(fd.get("uitclub", "\0")):   return ga > gh
+        return None
+    return None   # Dubbele kans / Betbuilder e.d. handmatig
 
 def match_result(fid):
     d = api._get(f"{API}/match/{fid}")
@@ -51,14 +56,14 @@ def main():
     for it in open_tips:
         fd = it["fieldData"]
         fid = fd.get("fixture-id")
-        markt = MARKT_NAAM.get(fd.get("markt"))
+        markt = MARKT_NAAM.get(fd.get(MARKT_FIELD))
         if not fid or not markt:
             continue
         res = match_result(fid)
         if not res:
             continue   # nog niet gespeeld / geen uitslag
         gh, ga = res
-        won = result_of(markt, gh, ga)
+        won = result_of(markt, gh, ga, fd)
         if won is None:
             continue
         eindstand = f"{gh}-{ga}"
