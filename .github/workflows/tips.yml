@@ -12,6 +12,8 @@ jobs:
     # ochtend + eind middag, en bij handmatig starten
     if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 6 * * *' || github.event.schedule == '30 15 * * *'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write          # nodig om state/tips.json terug te committen
     concurrency: { group: tips, cancel-in-progress: false }
     steps:
       - uses: actions/checkout@v4
