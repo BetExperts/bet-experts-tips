@@ -38,6 +38,14 @@ def create_item(fd, live=False):
     r.raise_for_status()
     return r.json().get("id")
 
+def delete_item(item_id):
+    url = f"{WF_API}/collections/{TIPS_COLLECTION}/items/{item_id}"
+    r = requests.delete(url, headers=_h(), timeout=30)
+    # 404 = al weg; niet fataal
+    if r.status_code not in (200, 204, 404):
+        r.raise_for_status()
+    return True
+
 def update_item(item_id, fd, live=False):
     ep = f"items/{item_id}/live" if live else f"items/{item_id}"
     url = f"{WF_API}/collections/{TIPS_COLLECTION}/{ep}"

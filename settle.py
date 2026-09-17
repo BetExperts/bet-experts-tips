@@ -6,10 +6,10 @@ automatisch de status op Gewonnen/Verloren.
   python3 settle.py           # eindstand + status bijwerken
 """
 import sys, argparse
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import tp_api as api
 import tp_webflow as WF
-from tp_config import API, STATUS, MARKT, MARKT_FIELD, WEBFLOW_TOKEN
+from tp_config import API, STATUS, MARKT, MARKT_FIELD, WEBFLOW_TOKEN, RETENTION_DAYS
 
 FIN = ("FT", "AET", "PEN")
 INAFWACHTING = STATUS["In afwachting"]
@@ -78,7 +78,17 @@ def main():
             WF.update_item(it["id"], upd, live=live)
             print(f"  ✔ {label}")
         done += 1
-    print(f"\nKLAAR — {done} tip(s) afgesloten.")
+
+    # Retentie: tips ouder dan RETENTION_DAYS opruimen (CMS niet laten vollopen).
+    cutoff = (now.date() - timedelta(days=RETENTION_DAYS)).isoformat()
+    old = [it for it in items if (it["fieldData"].get("tipdatum") or "")[:10] and
+           (it["fieldData"].get("tipdatum") or "")[:10] < cutoff]
+    print(f"\nOpruimen (ouder dan {RETENTION_DAYS} dagen): {len(old)}")
+    for it in old:
+        if not a.dry:
+            WF.delete_item(it["id"])
+        print(f"  🗑  {it['fieldData'].get('name')}")
+    print(f"\nKLAAR — {done} afgesloten, {len(old)} opgeruimd.")
 
 if __name__ == "__main__":
     main()

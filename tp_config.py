@@ -30,7 +30,8 @@ STATUS = {"In afwachting": "d79fd2517846c28916899a024cf3d88e",
 # --- Bet-Experts API-proxy ---
 API = "https://www.bet-experts.nl/api"
 
-# Competities (slug -> weergavenaam)
+# Competities (slug -> weergavenaam). Alle competities; kwaliteit komt uit de
+# H2H-eis (geen tip zonder H2H) i.p.v. uit een competitie-beperking.
 LEAGUES = {
  "eredivisie":"Eredivisie","eerste-divisie":"Eerste Divisie","knvb-beker":"KNVB Beker",
  "johan-cruijff-schaal":"Johan Cruijff Schaal","premier-league":"Premier League","championship":"Championship",
@@ -40,13 +41,13 @@ LEAGUES = {
  "copa-del-rey":"Copa del Rey","serie-a":"Serie A","serie-b":"Serie B","coppa-italia":"Coppa Italia",
  "bundesliga":"Bundesliga","2-bundesliga":"2. Bundesliga","dfb-pokal":"DFB-Pokal","ligue-1":"Ligue 1",
  "ligue-2":"Ligue 2","coupe-de-france":"Coupe de France","primeira-liga":"Primeira Liga",
- "taca-de-portugal":"Taca de Portugal","jupiler-pro-league":"Jupiler Pro League","belgian-cup":"Belgian Cup",
+ "jupiler-pro-league":"Jupiler Pro League","belgian-cup":"Belgian Cup",
  "super-lig":"Super Lig","1-lig":"1. Lig","turkish-cup":"Turkiye Kupasi","eliteserien":"Eliteserien",
  "allsvenskan":"Allsvenskan","superliga":"Superliga","ekstraklasa":"Ekstraklasa","czech-liga":"Czech Liga",
  "nb-i":"NB I","ukrainian-premier-league":"Ukrainian Premier League","slovak-super-liga":"Slovak Super Liga",
  "bulgarian-first-league":"Bulgarian First League","super-league":"Super League",
  "swiss-super-league":"Swiss Super League","austrian-bundesliga":"Austrian Bundesliga",
- "greek-super-league":"Greek Super League","veikkausliiga":"Veikkausliiga","brasileirao":"Brasileirao",
+ "greek-super-league":"Greek Super League","brasileirao":"Brasileirao",
  "saudi-pro-league":"Saudi Pro League","champions-league":"Champions League","europa-league":"Europa League",
  "conference-league":"Conference League","nations-league":"Nations League",
  "wc-qualification-europe":"WK Kwalificatie Europa",
@@ -94,12 +95,18 @@ MIN_H2H = 4          # minimaal aantal onderlinge duels
 MIN_STREAK = 2       # minimale lopende streak
 MIN_ODD = 1.40       # tip alleen als de beste odd hier boven ligt (geen waarde bij lagere odds)
 
-# H2H + vorm combineren
-H2H_STRONG   = 80    # sterke H2H (8/10+) → mag op H2H alleen
-FORM_CONFIRM = 60    # vorm moet minimaal dit zijn om een H2H op de dagdrempel te bevestigen
-FORM_STRONG  = 75    # vorm alleen (als er te weinig H2H is) kwalificeert vanaf dit %
+# H2H = basis (er moet H2H zijn). Sterke H2H kwalificeert; matige H2H alleen als
+# de vorm het bevestigt. GEEN puur-op-vorm tips.
+H2H_STRONG   = 80    # sterke H2H (8/10+) → kwalificeert
+H2H_MODERATE = 60    # matige H2H (6/10+) → alleen mét sterke vorm
+FORM_SUPPORT = 75    # vorm die een matige H2H mag bevestigen
 FORM_FEATURE = 70    # sterke H2H + vorm hierboven → uitgelicht
-N_FORM = 8           # aantal recente wedstrijden per team voor de vorm-percentages
+N_FORM = 8           # recente wedstrijden per team voor de vorm-percentages
+
+# Volume/beheer
+CAP_PER_MARKET_PER_DAY = 6   # max tips per markt per dag (beste eerst)
+REQUIRE_ODDS = True          # geen tip zonder odd (voorkomt obscure duels)
+RETENTION_DAYS = 30          # tips ouder dan dit worden opgeruimd (hitrate-venster blijft)
 def threshold(n_fixtures):
     """Drukke dag = strengere drempel."""
     if n_fixtures >= 200: return 80
