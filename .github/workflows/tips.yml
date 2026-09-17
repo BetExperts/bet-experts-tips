@@ -5,7 +5,7 @@ on:
     - cron: "30 6 * * *"    # 08:30 CEST — genereren (ochtend)
     - cron: "0 7 * * *"     # 09:00 CEST — dagelijkse promo naar Telegram
     - cron: "30 15 * * *"   # 17:30 CEST — genereren (eind middag)
-    - cron: "0 23 * * *"    # 01:00 CEST — afsluiten (eindstand + status)
+    - cron: "0 * * * *"     # elk uur — eindstand + status afsluiten (+ opruimen)
   workflow_dispatch:
 
 jobs:
@@ -64,8 +64,8 @@ jobs:
           git push || echo "niets te pushen"
 
   settle:
-    # 's nachts, en bij handmatig starten
-    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 23 * * *'
+    # elk uur (resultaat snel bijgewerkt), en bij handmatig starten
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 * * * *'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
