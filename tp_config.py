@@ -101,6 +101,7 @@ H2H_STRONG   = 80    # sterke H2H (8/10+) → kwalificeert
 H2H_MODERATE = 60    # matige H2H (6/10+) → alleen mét sterke vorm
 FORM_SUPPORT = 75    # vorm die een matige H2H mag bevestigen
 FORM_FEATURE = 70    # sterke H2H + vorm hierboven → uitgelicht
+FORM_FLOOR_1X2 = 40  # win-tips (1X2): vorm moet minstens dit zijn, ook bij sterke H2H
 N_FORM = 8           # recente wedstrijden per team voor de vorm-percentages
 
 # Volume/beheer

@@ -4,7 +4,8 @@ import re, unicodedata
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from tp_config import (MARKT, MARKT_FIELD, ZEKERHEID, STATUS, LEAGUES, MIN_H2H, MIN_STREAK,
-                       BOOKMAKER_REF, H2H_STRONG, H2H_MODERATE, FORM_SUPPORT, FORM_FEATURE, N_FORM)
+                       BOOKMAKER_REF, H2H_STRONG, H2H_MODERATE, FORM_SUPPORT, FORM_FEATURE,
+                       FORM_FLOOR_1X2, N_FORM)
 
 NL = ZoneInfo("Europe/Amsterdam")
 
@@ -38,10 +39,11 @@ def has_prospect(st):
             return True
     return False
 
-def _decide(h2h_n, h2h_pct, h2h_streak, form_pct, min_n):
+def _decide(h2h_n, h2h_pct, h2h_streak, form_pct, min_n, form_floor=0):
     """H2H = basis. Sterke H2H kwalificeert; matige H2H alleen mét sterke vorm.
-    (Streak is geen harde eis — telt mee in de ranking/uitgelicht.)"""
-    if h2h_n < min_n:
+    (Streak is geen harde eis — telt mee in de ranking/uitgelicht.)
+    form_floor: minimale vorm ook bij sterke H2H (voor 1X2 win-tips)."""
+    if h2h_n < min_n or form_pct < form_floor:
         return (False, False, None, None)
     strong = h2h_pct >= H2H_STRONG
     moderate = (H2H_MODERATE <= h2h_pct < H2H_STRONG) and form_pct >= FORM_SUPPORT
@@ -56,7 +58,8 @@ def select(st, form):
     """Return lijst van tip-dicts. H2H is leidend, vorm bevestigt."""
     out = []
     for markt, tip, key, h2h_n, h2h_pct, h2h_streak, form_pct, h2h_desc, min_n in _specs(st, form):
-        qual, feature, zek, basis = _decide(h2h_n, h2h_pct, h2h_streak, form_pct, min_n)
+        floor = FORM_FLOOR_1X2 if key in ("home", "away") else 0
+        qual, feature, zek, basis = _decide(h2h_n, h2h_pct, h2h_streak, form_pct, min_n, floor)
         if not qual:
             continue
         ond = f'{h2h_desc} · vorm {form_pct}%'
