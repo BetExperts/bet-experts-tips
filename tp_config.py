@@ -107,7 +107,7 @@ N_FORM = 8           # recente wedstrijden per team voor de vorm-percentages
 # Volume/beheer
 CAP_PER_MARKET_PER_DAY = 6   # max tips per markt per dag (beste eerst)
 REQUIRE_ODDS = True          # geen tip zonder odd (voorkomt obscure duels)
-RETENTION_DAYS = 30          # tips ouder dan dit worden opgeruimd (hitrate-venster blijft)
+RETENTION_DAYS = 2           # tips ouder dan dit worden opgeruimd (CMS-limiet ontzien)
 def threshold(n_fixtures):
     """Drukke dag = strengere drempel."""
     if n_fixtures >= 200: return 80
