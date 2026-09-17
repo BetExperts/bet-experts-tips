@@ -60,7 +60,7 @@ body{width:1200px;height:630px;overflow:hidden;position:relative;
 .eyebrow .txt{color:#6CC08B;font-weight:700;font-size:19px;letter-spacing:.14em;text-transform:uppercase}
 h1{font-family:'Poppins',sans-serif;font-size:76px;line-height:1;font-weight:700;
   letter-spacing:-.035em;color:#F2F6F4}
-.sub{color:#A9B7C2;font-size:24px;line-height:1.5;margin-top:24px;max-width:560px}
+.sub{color:#A9B7C2;font-size:24px;line-height:1.5;margin-top:42px;max-width:560px}
 /* markt-kaart rechts */
 .card{position:absolute;right:64px;top:150px;width:372px;
   background:linear-gradient(160deg,#14202B,#0C1620);border:1px solid rgba(47,212,110,.30);
