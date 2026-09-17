@@ -3,6 +3,7 @@ name: H2H Tips
 on:
   schedule:
     - cron: "30 6 * * *"    # 08:30 CEST — genereren (ochtend)
+    - cron: "0 7 * * *"     # 09:00 CEST — dagelijkse promo naar Telegram
     - cron: "30 15 * * *"   # 17:30 CEST — genereren (eind middag)
     - cron: "0 23 * * *"    # 01:00 CEST — afsluiten (eindstand + status)
   workflow_dispatch:
@@ -31,6 +32,34 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add state/tips.json || true
           git commit -m "state: tips $(date -u +%F_%H%M)" || echo "geen wijzigingen"
+          git pull --rebase --autostash || true
+          git push || echo "niets te pushen"
+
+  promo:
+    # dagelijks 's ochtends een teaser + template-afbeelding naar Telegram
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 7 * * *'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write          # om state/promo.json terug te committen
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: |
+          pip install requests playwright
+          python -m playwright install --with-deps chromium
+      - name: Post dagelijkse promo
+        env:
+          WEBFLOW_TOKEN: ${{ secrets.WEBFLOW_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ vars.TELEGRAM_CHANNEL }}
+        run: python promo.py
+      - name: Commit promo-state
+        run: |
+          git config user.name "tips-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state/promo.json || true
+          git commit -m "state: promo $(date -u +%F)" || echo "geen wijzigingen"
           git pull --rebase --autostash || true
           git push || echo "niets te pushen"
 
