@@ -121,11 +121,11 @@ def main():
     if kind == "general":
         html = T.general_html(); url = T.GENERAL["url"]
     else:
-        html = T.market_html(kind, fd["fieldData"]["wedstrijd"], _short_reason(fd["fieldData"]), fd["fieldData"]["beste-odd"])
+        html = T.market_html(kind, fd["wedstrijd"], _short_reason(fd), fd["beste-odd"])
         url = T.MARKETS[kind]["url"]
-    cap = caption(kind, fd["fieldData"] if fd else None, has_any)
+    cap = caption(kind, fd if fd else None, has_any)
 
-    print(f"Type: {kind} | {'tip: '+fd['fieldData']['wedstrijd'] if fd else 'algemeen'}")
+    print(f"Type: {kind} | {'tip: '+fd['wedstrijd'] if fd else 'algemeen'}")
     render(html)
     print(f"Afbeelding: {IMG}")
     if a.dry:
