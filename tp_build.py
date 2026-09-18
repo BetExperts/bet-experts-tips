@@ -147,7 +147,10 @@ def build_fielddata(st, t, league_slug, odds=None, now=None):
         "competitie": comp, "league-slug": league_slug,
         "datum-tijd-wedstrijd": dt.isoformat(),
         "tijd-wedstrijd": f"{dt:%H:%M}",
-        "tipdatum": dt.replace(hour=0, minute=0, second=0, microsecond=0).isoformat(),
+        # 12:00 lokaal (niet middernacht): Webflow bewaart datums in UTC; op middernacht
+        # zou dat 22:00/23:00 de dag ervoor worden en een dag verschuiven. Noon blijft
+        # in beide tijdzones op dezelfde kalenderdag.
+        "tipdatum": dt.replace(hour=12, minute=0, second=0, microsecond=0).isoformat(),
         "publicatiedatum": now.astimezone(timezone.utc).isoformat(),
         "h2h-aantal-duels": st["n"],
         "h2h-laatste-5": t["onderbouwing"],
