@@ -49,6 +49,14 @@ def analyse(fx, want_form=True):
     away_w = sum(1 for h in same if h["goals"]["home"] < h["goals"]["away"])
     draw = len(same) - home_w - away_w
 
+    # algemene onderlinge dominantie: wie won het duel, ongeacht thuis/uit
+    def _winner(h):
+        gh, ga = h["goals"]["home"], h["goals"]["away"]
+        if gh == ga: return None
+        return h["teams"]["home"]["id"] if gh > ga else h["teams"]["away"]["id"]
+    h_wins = sum(1 for h in hl if _winner(h) == hid)   # huidige thuisploeg won (thuis of uit)
+    a_wins = sum(1 for h in hl if _winner(h) == aid)   # huidige uitploeg won (thuis of uit)
+
     def pct(x, tot): return round(100 * x / tot) if tot else 0
 
     form_h = form_a = ""
@@ -69,5 +77,10 @@ def analyse(fx, want_form=True):
         "home_w_pct": pct(home_w, len(same)), "away_w_pct": pct(away_w, len(same)),
         "home_w_streak": _streak(same, lambda h: h["goals"]["home"] > h["goals"]["away"]),
         "away_w_streak": _streak(same, lambda h: h["goals"]["home"] < h["goals"]["away"]),
+        # algemene onderlinge winst (thuis + uit samen)
+        "h_wins": h_wins, "a_wins": a_wins,
+        "h_win_pct": pct(h_wins, n), "a_win_pct": pct(a_wins, n),
+        "h_win_streak": _streak(hl, lambda h: _winner(h) == hid),
+        "a_win_streak": _streak(hl, lambda h: _winner(h) == aid),
         "form_home": form_h, "form_away": form_a,
     }

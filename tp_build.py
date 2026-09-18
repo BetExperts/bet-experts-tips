@@ -16,8 +16,31 @@ def slugify(s):
 def _local(iso):
     return datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(NL)
 
+def _best_1x2(pct_v, streak_v, n_v, desc_v, pct_o, streak_o, n_o, desc_o):
+    """Kies voor een 1X2-pick de sterkste onderbouwing:
+    - venue: winst in dezelfde thuis/uit-opstelling (min 3 duels)
+    - algemeen: winst in ALLE onderlinge duels, thuis én uit (min MIN_H2H)
+    Retourneert (h2h_n, h2h_pct, h2h_streak, desc, min_n). Bij twijfel het hoogste
+    percentage; gelijk → langste streak. Voldoet geen van beide aan zijn drempel,
+    dan de algemene (faalt daarna netjes op min_n)."""
+    cands = []
+    if n_o >= MIN_H2H: cands.append((n_o, pct_o, streak_o, desc_o, MIN_H2H))
+    if n_v >= 3:       cands.append((n_v, pct_v, streak_v, desc_v, 3))
+    if not cands:
+        return (n_o, pct_o, streak_o, desc_o, MIN_H2H)
+    cands.sort(key=lambda c: (c[1], c[2]), reverse=True)   # hoogste pct, dan streak
+    return cands[0]
+
 def _specs(st, form):
     n, sn = st["n"], st["same_n"]
+    hb = _best_1x2(st["home_w_pct"], st["home_w_streak"], sn,
+                   f'{st["home"]} won {st["home_w"]} van {sn} thuisduels',
+                   st["h_win_pct"], st["h_win_streak"], n,
+                   f'{st["home"]} won {st["h_wins"]} van {n} onderlinge duels')
+    ab = _best_1x2(st["away_w_pct"], st["away_w_streak"], sn,
+                   f'{st["away"]} won {st["away_w"]} van {sn} uitduels',
+                   st["a_win_pct"], st["a_win_streak"], n,
+                   f'{st["away"]} won {st["a_wins"]} van {n} onderlinge duels')
     return [
         ("BTTS", "Beide teams scoren", "btts_yes", n, st["btts_pct"], st["btts_streak"],
          form["btts"] if form else 0, f'{st["btts"]} van {n} H2H BTTS', MIN_H2H),
@@ -25,10 +48,10 @@ def _specs(st, form):
          form["over25"] if form else 0, f'{st["o25"]} van {n} H2H over 2.5', MIN_H2H),
         ("Under 2.5", "Minder dan 2.5 doelpunten", "under25", n, st["under_pct"], st["under_streak"],
          form["under25"] if form else 0, f'{st["under"]} van {n} H2H onder 2.5', MIN_H2H),
-        ("1X2", f'{st["home"]} wint', "home", sn, st["home_w_pct"], st["home_w_streak"],
-         form["home_win"] if form else 0, f'{st["home"]} won {st["home_w"]} van {sn} thuisduels', 3),
-        ("1X2", f'{st["away"]} wint', "away", sn, st["away_w_pct"], st["away_w_streak"],
-         form["away_win"] if form else 0, f'{st["away"]} won {st["away_w"]} van {sn} uitduels', 3),
+        ("1X2", f'{st["home"]} wint', "home", hb[0], hb[1], hb[2],
+         form["home_win"] if form else 0, hb[3], hb[4]),
+        ("1X2", f'{st["away"]} wint', "away", ab[0], ab[1], ab[2],
+         form["away_win"] if form else 0, ab[3], ab[4]),
     ]
 
 def has_prospect(st):
@@ -78,6 +101,8 @@ def _berekening(st, t):
         f'<li>H2H Over 2.5: {st["o25"]}/{st["n"]} ({st["o25_pct"]}%), streak {st["o25_streak"]}</li>'
         f'<li>Thuis-oriëntatie ({st["home"]} thuis): BTTS {st["same_btts"]}/{st["same_n"]}, '
         f'thuiswinst {st["home_w"]}/{st["same_n"]}</li>'
+        f'<li>Onderlinge winst (alle duels): {st["home"]} {st["h_wins"]}/{st["n"]}, '
+        f'{st["away"]} {st["a_wins"]}/{st["n"]}</li>'
         f'<li>Vorm voor deze tip (laatste {N_FORM} duels): {t["form_pct"]}%</li>'
         + (f'<li>Vorm {st["home"]}: {st.get("form_home","")}</li>' if st.get("form_home") else "")
         + (f'<li>Vorm {st["away"]}: {st.get("form_away","")}</li>' if st.get("form_away") else "")
