@@ -39,13 +39,25 @@ def save_state(s):
 def _short_reason(fd):
     return (fd.get("onderbouwing") or "").split(" · ")[0]
 
+def _match_date(fd):
+    """Echte lokale wedstrijddag (Europe/Amsterdam) uit datum-tijd-wedstrijd.
+    Niet tipdatum gebruiken: dat staat op lokale middernacht en Webflow bewaart
+    het in UTC (bv. 22:00 de dag ervoor), wat een dag verschuift."""
+    iso = fd.get("datum-tijd-wedstrijd") or ""
+    if iso:
+        try:
+            return datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(NL).date().isoformat()
+        except Exception:
+            pass
+    return (fd.get("tipdatum") or "")[:10]
+
 def pick_featured(items, today, market_key):
     """Beste uitgelichte tip van vandaag voor deze markt (korte naam eerst, dan hoge odd)."""
     cand = []
     for it in items:
         fd = it["fieldData"]
         if not fd.get("uitgelicht"): continue
-        if (fd.get("tipdatum") or "")[:10] != today: continue
+        if _match_date(fd) != today: continue
         if MARKT_KEY.get(MARKT_NAAM.get(fd.get("markt-2"))) != market_key: continue
         try: odd = float(fd.get("beste-odd") or 0)
         except: odd = 0
@@ -102,9 +114,18 @@ def main():
     ap.add_argument("--kind", choices=ORDER, help="forceer een type")
     a = ap.parse_args()
 
+    # DST-proof: geplande runs vuren op 07:00 én 08:00 UTC. Post alleen wanneer het
+    # lokaal (Europe/Amsterdam) 09:00 is — dat is in de zomer 07:00 UTC en in de
+    # winter 08:00 UTC. Handmatige runs (dispatch/--test/--kind) posten altijd.
+    if os.environ.get("PROMO_SCHEDULED") == "1" and not (a.test or a.kind):
+        hour = datetime.now(NL).hour
+        if hour != 9:
+            print(f"  · geplande run maar lokaal {hour:02d}:00 (doel 09:00) → overslaan")
+            return
+
     today = datetime.now(NL).date().isoformat()
     items = WF.list_items()
-    has_any = any((it["fieldData"].get("tipdatum") or "")[:10] == today for it in items)
+    has_any = any(_match_date(it["fieldData"]) == today for it in items)
 
     st = load_state()
     kind = a.kind or ORDER[(st.get("i", -1) + 1) % len(ORDER)]

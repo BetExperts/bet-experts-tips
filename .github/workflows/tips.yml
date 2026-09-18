@@ -3,7 +3,8 @@ name: H2H Tips
 on:
   schedule:
     - cron: "30 6 * * *"    # 08:30 CEST — genereren (ochtend)
-    - cron: "0 7 * * *"     # 09:00 CEST — dagelijkse promo naar Telegram
+    - cron: "0 7 * * *"     # promo: 09:00 in ZOMERtijd (CEST = UTC+2)
+    - cron: "0 8 * * *"     # promo: 09:00 in WINTERtijd (CET = UTC+1)
     - cron: "30 15 * * *"   # 17:30 CEST — genereren (eind middag)
     - cron: "0 * * * *"     # elk uur — eindstand + status afsluiten (+ opruimen)
   workflow_dispatch:
@@ -36,8 +37,9 @@ jobs:
           git push || echo "niets te pushen"
 
   promo:
-    # dagelijks 's ochtends een teaser + template-afbeelding naar Telegram
-    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 7 * * *'
+    # dagelijks 's ochtends een teaser + template-afbeelding naar Telegram.
+    # Vuurt op 07:00 én 08:00 UTC; promo.py post alleen bij lokaal 09:00 (DST-proof).
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 7 * * *' || github.event.schedule == '0 8 * * *'
     runs-on: ubuntu-latest
     permissions:
       contents: write          # om state/promo.json terug te committen
@@ -53,6 +55,8 @@ jobs:
           WEBFLOW_TOKEN: ${{ secrets.WEBFLOW_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ vars.TELEGRAM_CHANNEL }}
+          # bij een cron-run zelf de lokale 09:00-check doen; dispatch post altijd
+          PROMO_SCHEDULED: ${{ github.event_name == 'schedule' && '1' || '' }}
         run: python promo.py
       - name: Commit promo-state
         run: |
