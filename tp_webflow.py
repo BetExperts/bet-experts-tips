@@ -30,12 +30,19 @@ def list_items(limit=100):
         offset += limit
     return out
 
+def _check(r):
+    """raise_for_status, maar mét de Webflow-fouttekst (anders zie je alleen '400')."""
+    if r.status_code >= 400:
+        raise requests.exceptions.HTTPError(
+            f"{r.status_code} {r.reason} voor {r.request.method} {r.url} — {r.text[:400]}",
+            response=r)
+
 def create_item(fd, live=False):
     ep = "items/live" if live else "items"
     url = f"{WF_API}/collections/{TIPS_COLLECTION}/{ep}"
     body = {"isArchived": False, "isDraft": not live, "fieldData": fd}
     r = requests.post(url, headers=_h(), json=body, timeout=30)
-    r.raise_for_status()
+    _check(r)
     return r.json().get("id")
 
 def delete_item(item_id):
@@ -52,5 +59,5 @@ def update_item(item_id, fd, live=False):
     body = {"fieldData": fd}
     if live: body.update({"isArchived": False, "isDraft": False})
     r = requests.patch(url, headers=_h(), json=body, timeout=30)
-    r.raise_for_status()
+    _check(r)
     return item_id

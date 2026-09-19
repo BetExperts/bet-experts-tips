@@ -94,18 +94,22 @@ def main():
     print(f"Kandidaten: {len(cands)}  →  geselecteerd (na cap {CAP_PER_MARKET_PER_DAY}/markt/dag): {len(selected)}")
 
     state = WF.load_state()
-    made = updated = 0
+    made = updated = failed = 0
     for c in sorted(selected, key=lambda c: (c["day"], c["markt"], -c["score"])):
         t = c["t"]; star = " ★" if t.get("feature") else ""
         oddtxt = f' @ {c["od"]["best"]:.2f} ({c["od"]["bookmaker"]})' if c["od"] else ""
         line = f'{c["markt"]:9s} H2H{t["h2h_pct"]}% vorm{t["form_pct"]}%{star} | {c["name"]}{oddtxt}'
         if a.dry:
             print(f"  ○ {line}"); continue
-        if c["slug"] in state:
-            WF.update_item(state[c["slug"]], c["fd"], live=live); updated += 1
-        else:
-            state[c["slug"]] = WF.create_item(c["fd"], live=live); WF.save_state(state); made += 1
-        print(f"  ✔ {line}")
+        try:
+            if c["slug"] in state:
+                WF.update_item(state[c["slug"]], c["fd"], live=live); updated += 1
+            else:
+                state[c["slug"]] = WF.create_item(c["fd"], live=live); WF.save_state(state); made += 1
+            print(f"  ✔ {line}")
+        except Exception as e:
+            failed += 1
+            print(f"  ⚠️  OVERGESLAGEN (Webflow-fout) | {line}\n       {e}")
 
     # 4) opruimen: tips in dit venster die NIET meer geselecteerd zijn (odd weg, niet meer sterk genoeg)
     removed = 0
@@ -117,7 +121,7 @@ def main():
                 print(f"  🗑  vervalt: {tslug}")
         WF.save_state(state)
 
-    print(f"\nKLAAR — nieuw: {made}, bijgewerkt: {updated}, verwijderd: {removed}")
+    print(f"\nKLAAR — nieuw: {made}, bijgewerkt: {updated}, verwijderd: {removed}, overgeslagen: {failed}")
 
 if __name__ == "__main__":
     if "--dry" not in sys.argv and not WEBFLOW_TOKEN:
