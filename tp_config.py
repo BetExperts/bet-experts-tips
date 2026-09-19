@@ -91,7 +91,7 @@ BOOKMAKER_REF = {
 }
 
 # --- Selectie-drempels ---
-MIN_H2H = 4          # minimaal aantal onderlinge duels
+MIN_H2H = 8          # minimaal aantal onderlinge duels
 MIN_STREAK = 2       # minimale lopende streak
 MIN_ODD = 1.40       # tip alleen als de beste odd hier boven ligt (geen waarde bij lagere odds)
 
@@ -105,7 +105,7 @@ FORM_FLOOR_1X2 = 40  # win-tips (1X2): vorm moet minstens dit zijn, ook bij ster
 N_FORM = 8           # recente wedstrijden per team voor de vorm-percentages
 
 # Volume/beheer
-CAP_PER_MARKET_PER_DAY = 6   # max tips per markt per dag (beste eerst)
+CAP_PER_MARKET_PER_DAY = 20  # max tips per markt per dag (beste eerst)
 REQUIRE_ODDS = True          # geen tip zonder odd (voorkomt obscure duels)
 RETENTION_DAYS = 2           # tips ouder dan dit worden opgeruimd (CMS-limiet ontzien)
 def threshold(n_fixtures):

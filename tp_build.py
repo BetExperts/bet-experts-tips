@@ -17,19 +17,11 @@ def _local(iso):
     return datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(NL)
 
 def _best_1x2(pct_v, streak_v, n_v, desc_v, pct_o, streak_o, n_o, desc_o):
-    """Kies voor een 1X2-pick de sterkste onderbouwing:
-    - venue: winst in dezelfde thuis/uit-opstelling (min 3 duels)
-    - algemeen: winst in ALLE onderlinge duels, thuis én uit (min MIN_H2H)
-    Retourneert (h2h_n, h2h_pct, h2h_streak, desc, min_n). Bij twijfel het hoogste
-    percentage; gelijk → langste streak. Voldoet geen van beide aan zijn drempel,
-    dan de algemene (faalt daarna netjes op min_n)."""
-    cands = []
-    if n_o >= MIN_H2H: cands.append((n_o, pct_o, streak_o, desc_o, MIN_H2H))
-    if n_v >= 3:       cands.append((n_v, pct_v, streak_v, desc_v, 3))
-    if not cands:
-        return (n_o, pct_o, streak_o, desc_o, MIN_H2H)
-    cands.sort(key=lambda c: (c[1], c[2]), reverse=True)   # hoogste pct, dan streak
-    return cands[0]
+    """1X2 = de ALGEMENE onderlinge dominantie (thuis + uit samen), altijd met
+    minstens MIN_H2H duels. We tonen dus 'won 8 van 10 onderlinge duels', nooit een
+    kleine venue-subset. Te weinig onderlinge duels → faalt op min_n (geen tip).
+    (venue-argumenten blijven in de signatuur voor de berekening/detailweergave.)"""
+    return (n_o, pct_o, streak_o, desc_o, MIN_H2H)
 
 def _specs(st, form):
     n, sn = st["n"], st["same_n"]
