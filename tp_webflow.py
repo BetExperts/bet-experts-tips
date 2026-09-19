@@ -43,7 +43,17 @@ def create_item(fd, live=False):
     body = {"isArchived": False, "isDraft": not live, "fieldData": fd}
     r = requests.post(url, headers=_h(), json=body, timeout=30)
     _check(r)
-    return r.json().get("id")
+    j = r.json()
+    want = fd.get("slug"); got = (j.get("fieldData") or {}).get("slug")
+    if want and got and got != want:
+        # Webflow weigert een dubbele slug niet met een 400 maar plakt er een
+        # suffix achter -> stille duplicaten. Detecteer dat, verwijder het net
+        # aangemaakte duplicaat en meld het (generate slaat de tip over; het
+        # bestaande item blijft en wordt op een volgende run bijgewerkt).
+        delete_item(j.get("id"))
+        raise requests.exceptions.HTTPError(
+            f"duplicaat vermeden: slug '{want}' bestond al (Webflow gaf '{got}')")
+    return j.get("id")
 
 def delete_item(item_id):
     url = f"{WF_API}/collections/{TIPS_COLLECTION}/items/{item_id}"
