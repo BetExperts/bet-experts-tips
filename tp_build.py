@@ -4,8 +4,8 @@ import re, unicodedata
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from tp_config import (MARKT, MARKT_FIELD, ZEKERHEID, STATUS, LEAGUES, MIN_H2H, MIN_STREAK,
-                       BOOKMAKER_REF, H2H_STRONG, H2H_MODERATE, FORM_SUPPORT, FORM_FEATURE,
-                       FORM_FLOOR_1X2, N_FORM)
+                       MIN_VENUE, BOOKMAKER_REF, H2H_STRONG, H2H_MODERATE, FORM_SUPPORT,
+                       FORM_FEATURE, FORM_FLOOR_1X2, N_FORM)
 
 NL = ZoneInfo("Europe/Amsterdam")
 
@@ -16,23 +16,36 @@ def slugify(s):
 def _local(iso):
     return datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(NL)
 
-def _best_1x2(pct_v, streak_v, n_v, desc_v, pct_o, streak_o, n_o, desc_o):
-    """1X2 = de ALGEMENE onderlinge dominantie (thuis + uit samen), altijd met
-    minstens MIN_H2H duels. We tonen dus 'won 8 van 10 onderlinge duels', nooit een
-    kleine venue-subset. Te weinig onderlinge duels → faalt op min_n (geen tip).
-    (venue-argumenten blijven in de signatuur voor de berekening/detailweergave.)"""
+def _best_1x2(pct_v, streak_v, n_v, desc_v, pct_o, streak_o, n_o, desc_o, form_pct):
+    """1X2 = een COMBINATIE van twee onderbouwingen, zodat beide soorten tips
+    voorkomen:
+    - voorkeur: de ALGEMENE onderlinge dominantie ('won 8 van 10 onderlinge duels'),
+      met minstens MIN_H2H onderlinge duels;
+    - anders: een sterke thuis/uit-reeks ('won 5 van 5 thuisduels'), met minstens
+      MIN_VENUE venue-duels.
+    Een basis 'kwalificeert' bij sterke H2H, of matige H2H mét sterke vorm.
+    Retourneert (h2h_n, h2h_pct, h2h_streak, desc, min_n)."""
+    def ok(pct):
+        return pct >= H2H_STRONG or (H2H_MODERATE <= pct < H2H_STRONG and form_pct >= FORM_SUPPORT)
+    if n_o >= MIN_H2H and ok(pct_o):
+        return (n_o, pct_o, streak_o, desc_o, MIN_H2H)      # voorkeur: algemeen
+    if n_v >= MIN_VENUE and ok(pct_v):
+        return (n_v, pct_v, streak_v, desc_v, MIN_VENUE)    # anders: venue-reeks
+    # niets kwalificeert → geef het algemene terug (faalt daarna netjes in _decide)
     return (n_o, pct_o, streak_o, desc_o, MIN_H2H)
 
 def _specs(st, form):
     n, sn = st["n"], st["same_n"]
+    hf = form["home_win"] if form else 0
+    af = form["away_win"] if form else 0
     hb = _best_1x2(st["home_w_pct"], st["home_w_streak"], sn,
                    f'{st["home"]} won {st["home_w"]} van {sn} thuisduels',
                    st["h_win_pct"], st["h_win_streak"], n,
-                   f'{st["home"]} won {st["h_wins"]} van {n} onderlinge duels')
+                   f'{st["home"]} won {st["h_wins"]} van {n} onderlinge duels', hf)
     ab = _best_1x2(st["away_w_pct"], st["away_w_streak"], sn,
                    f'{st["away"]} won {st["away_w"]} van {sn} uitduels',
                    st["a_win_pct"], st["a_win_streak"], n,
-                   f'{st["away"]} won {st["a_wins"]} van {n} onderlinge duels')
+                   f'{st["away"]} won {st["a_wins"]} van {n} onderlinge duels', af)
     return [
         ("BTTS", "Beide teams scoren", "btts_yes", n, st["btts_pct"], st["btts_streak"],
          form["btts"] if form else 0, f'{st["btts"]} van {n} H2H BTTS', MIN_H2H),
