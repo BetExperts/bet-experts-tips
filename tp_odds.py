@@ -1,11 +1,18 @@
 # -*- coding: utf-8 -*-
 """Haalt live NL-odds op uit de eigen tubeemate-feed en bindt de beste odd aan een pick."""
-import time, requests
+import re, time, requests
 from tp_config import TUBE_URL, TUBE_HEADERS, FEEDS, BOOKMAKERS
 from tp_api import team_match
 
 S = requests.Session()
 _CACHE = {}   # bm -> [events]
+
+# Jeugdteams (U15 t/m U23) mogen in Nederland niet aangeboden worden. Sommige feeds
+# (Altenar: StarCasino, OneCasino) bevatten ze toch, dus die events slaan we altijd over.
+_YOUTH = re.compile(r"\b(?:u|o|under|onder)[\s-]?(?:1[5-9]|2[0-3])\b", re.I)
+
+def is_youth(name):
+    return bool(_YOUTH.search(name or ""))
 
 def load_all():
     """Haal per bookmaker alle prematch-events op (1x2, over_under_2.5, btts)."""
@@ -18,7 +25,9 @@ def load_all():
             d = r.json() if r.status_code == 200 else {}
         except Exception:
             d = {}
-        _CACHE[bm] = d.get("events", []) if isinstance(d, dict) else []
+        events = d.get("events", []) if isinstance(d, dict) else []
+        _CACHE[bm] = [ev for ev in events
+                      if not (is_youth(ev.get("home")) or is_youth(ev.get("away")))]
     return sum(len(v) for v in _CACHE.values())
 
 def _outcome(ev, market, pick):
