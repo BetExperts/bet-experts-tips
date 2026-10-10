@@ -114,13 +114,15 @@ def main():
     ap.add_argument("--kind", choices=ORDER, help="forceer een type")
     a = ap.parse_args()
 
-    # DST-proof: geplande runs vuren op 07:00 én 08:00 UTC. Post alleen wanneer het
-    # lokaal (Europe/Amsterdam) 09:00 is — dat is in de zomer 07:00 UTC en in de
-    # winter 08:00 UTC. Handmatige runs (dispatch/--test/--kind) posten altijd.
+    # DST-proof: geplande runs vuren 4x tussen 07:17 en 08:47 UTC. Post alleen tussen 09:00 en
+    # 10:59 lokaal (Europe/Amsterdam) en max. 1x per dag. Handmatige runs (dispatch/--test/--kind) posten altijd.
     if os.environ.get("PROMO_SCHEDULED") == "1" and not (a.test or a.kind):
         hour = datetime.now(NL).hour
-        if hour != 9:
-            print(f"  · geplande run maar lokaal {hour:02d}:00 (doel 09:00) → overslaan")
+        if hour not in (9, 10):
+            print(f"  · geplande run maar lokaal {hour:02d}:00 (venster 09:00-10:59) → overslaan")
+            return
+        if load_state().get("last") == datetime.now(NL).date().isoformat():
+            print("  · vandaag al gepost → overslaan")
             return
 
     today = datetime.now(NL).date().isoformat()

@@ -3,10 +3,14 @@ name: H2H Tips
 on:
   schedule:
     - cron: "30 6 * * *"    # 08:30 CEST — genereren (ochtend)
-    - cron: "0 7 * * *"     # promo: 09:00 in ZOMERtijd (CEST = UTC+2)
-    - cron: "0 8 * * *"     # promo: 09:00 in WINTERtijd (CET = UTC+1)
+    # promo: niet op het hele uur (GitHub laat die runs vaak vallen, sinds 6 okt geen promo meer).
+    # Meerdere kansen; promo.py post alleen tussen 09:00 en 10:59 lokaal en max. 1x per dag.
+    - cron: "17 7 * * *"
+    - cron: "47 7 * * *"
+    - cron: "17 8 * * *"
+    - cron: "47 8 * * *"
     - cron: "30 15 * * *"   # 17:30 CEST — genereren (eind middag)
-    - cron: "0 * * * *"     # elk uur — eindstand + status afsluiten (+ opruimen)
+    - cron: "13 * * * *"    # elk uur — eindstand + status afsluiten (+ opruimen)
   workflow_dispatch:
 
 jobs:
@@ -38,8 +42,8 @@ jobs:
 
   promo:
     # dagelijks 's ochtends een teaser + template-afbeelding naar Telegram.
-    # Vuurt op 07:00 én 08:00 UTC; promo.py post alleen bij lokaal 09:00 (DST-proof).
-    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 7 * * *' || github.event.schedule == '0 8 * * *'
+    # Vuurt 4x tussen 07:17 en 08:47 UTC; promo.py post 1x tussen 09:00 en 10:59 lokaal (DST-proof).
+    if: github.event_name == 'workflow_dispatch' || contains(fromJSON('["17 7 * * *","47 7 * * *","17 8 * * *","47 8 * * *"]'), github.event.schedule)
     runs-on: ubuntu-latest
     permissions:
       contents: write          # om state/promo.json terug te committen
@@ -69,7 +73,7 @@ jobs:
 
   settle:
     # elk uur (resultaat snel bijgewerkt), en bij handmatig starten
-    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 * * * *'
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '13 * * * *'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
