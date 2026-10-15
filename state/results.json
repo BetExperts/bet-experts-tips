@@ -15,8 +15,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-15T08:51:56+00:00",
   "status": "open",
-  "odd_laatst": 1.94,
-  "bijgewerkt": "2026-10-15T08:51:56+00:00"
+  "odd_laatst": 1.95,
+  "bijgewerkt": "2026-10-15T11:55:12+00:00"
  },
  "1x2-venezia-napoli-2026-10-17": {
   "fid": "1550156",
@@ -34,8 +34,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-15T08:51:57+00:00",
   "status": "open",
-  "odd_laatst": 1.68,
-  "bijgewerkt": "2026-10-15T08:51:57+00:00"
+  "odd_laatst": 1.73,
+  "bijgewerkt": "2026-10-15T11:55:12+00:00"
  },
  "under-2-5-watford-charlton-2026-10-17": {
   "fid": "1563212",
@@ -54,7 +54,7 @@
   "gepubliceerd": "2026-10-15T08:51:58+00:00",
   "status": "open",
   "odd_laatst": 1.9,
-  "bijgewerkt": "2026-10-15T08:51:58+00:00"
+  "bijgewerkt": "2026-10-15T11:55:12+00:00"
  },
  "1x2-benevento-vicenza-virtus-2026-10-17": {
   "fid": "1601554",
@@ -73,7 +73,7 @@
   "gepubliceerd": "2026-10-15T08:52:00+00:00",
   "status": "open",
   "odd_laatst": 2.1,
-  "bijgewerkt": "2026-10-15T08:52:00+00:00"
+  "bijgewerkt": "2026-10-15T11:55:12+00:00"
  },
  "1x2-wigan-reading-2026-10-17": {
   "fid": "1564365",
@@ -92,7 +92,7 @@
   "gepubliceerd": "2026-10-15T08:52:01+00:00",
   "status": "open",
   "odd_laatst": 2.07,
-  "bijgewerkt": "2026-10-15T08:52:01+00:00"
+  "bijgewerkt": "2026-10-15T11:55:12+00:00"
  },
  "under-2-5-juventus-lazio-2026-10-18": {
   "fid": "1550152",
@@ -111,7 +111,7 @@
   "gepubliceerd": "2026-10-15T08:52:02+00:00",
   "status": "open",
   "odd_laatst": 1.91,
-  "bijgewerkt": "2026-10-15T08:52:02+00:00"
+  "bijgewerkt": "2026-10-15T11:55:12+00:00"
  },
  "1x2-brighton-crystal-palace-2026-10-18": {
   "fid": "1557429",
@@ -130,7 +130,7 @@
   "gepubliceerd": "2026-10-15T08:52:03+00:00",
   "status": "open",
   "odd_laatst": 1.58,
-  "bijgewerkt": "2026-10-15T08:52:03+00:00"
+  "bijgewerkt": "2026-10-15T11:55:12+00:00"
  },
  "1x2-lyon-nice-2026-10-18": {
   "fid": "1552788",
@@ -149,7 +149,7 @@
   "gepubliceerd": "2026-10-15T08:52:05+00:00",
   "status": "open",
   "odd_laatst": 1.7,
-  "bijgewerkt": "2026-10-15T08:52:05+00:00"
+  "bijgewerkt": "2026-10-15T11:55:12+00:00"
  },
  "over-2-5-osasuna-racing-santander-2026-10-18": {
   "fid": "1570419",
@@ -168,7 +168,7 @@
   "gepubliceerd": "2026-10-15T08:52:06+00:00",
   "status": "open",
   "odd_laatst": 1.73,
-  "bijgewerkt": "2026-10-15T08:52:06+00:00"
+  "bijgewerkt": "2026-10-15T11:55:12+00:00"
  },
  "1x2-fluminense-santos-2026-10-18": {
   "fid": "1492415",
@@ -186,7 +186,26 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-15T08:52:07+00:00",
   "status": "open",
-  "odd_laatst": 2.06,
-  "bijgewerkt": "2026-10-15T08:52:07+00:00"
+  "odd_laatst": 2.1,
+  "bijgewerkt": "2026-10-15T11:55:12+00:00"
+ },
+ "over-2-5-le-mans-toulouse-2026-10-16": {
+  "fid": "1552785",
+  "markt": "Over 2.5",
+  "pick": "over25",
+  "tip": "Meer dan 2.5 doelpunten",
+  "wedstrijd": "Le Mans - Toulouse",
+  "competitie": "Ligue 1",
+  "aftrap": "2026-10-16T18:45:00+00:00",
+  "odd_publicatie": 1.73,
+  "bookmaker": "Bet365",
+  "kans": 0.597,
+  "kans_markt": 0.5664,
+  "edge": 0.0328,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-15T11:56:05+00:00",
+  "status": "open",
+  "odd_laatst": 1.73,
+  "bijgewerkt": "2026-10-15T11:56:05+00:00"
  }
 }
