@@ -140,7 +140,7 @@ def build_fielddata(st, t, league_slug, odds=None, now=None):
         "wedstrijd": f'{st["home"]} - {st["away"]}',
         "tip": tip_text,
         "onderbouwing": t["onderbouwing"],
-        "berekening": _berekening(st, t),
+        "berekening": t.get("berekening") or _berekening(st, t),
         MARKT_FIELD: MARKT[t["markt"]],
         "zekerheid": ZEKERHEID[t["zekerheid"]],
         "status": STATUS["In afwachting"],

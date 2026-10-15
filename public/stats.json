@@ -1,0 +1,115 @@
+{
+ "bijgewerkt": "2026-10-15T08:52:48+00:00",
+ "sinds": "2026-10-15T08:51:56+00:00",
+ "totaal": {
+  "tips": 0,
+  "gewonnen": 0,
+  "verloren": 0,
+  "raak": null,
+  "winst_eenheden": 0,
+  "rendement": null,
+  "gem_odd": null
+ },
+ "dertig_dagen": {
+  "tips": 0,
+  "gewonnen": 0,
+  "verloren": 0,
+  "raak": null,
+  "winst_eenheden": 0,
+  "rendement": null,
+  "gem_odd": null
+ },
+ "per_markt": {
+  "BTTS": {
+   "totaal": {
+    "tips": 0,
+    "gewonnen": 0,
+    "verloren": 0,
+    "raak": null,
+    "winst_eenheden": 0,
+    "rendement": null,
+    "gem_odd": null
+   },
+   "dertig_dagen": {
+    "tips": 0,
+    "gewonnen": 0,
+    "verloren": 0,
+    "raak": null,
+    "winst_eenheden": 0,
+    "rendement": null,
+    "gem_odd": null
+   }
+  },
+  "Over 2.5": {
+   "totaal": {
+    "tips": 0,
+    "gewonnen": 0,
+    "verloren": 0,
+    "raak": null,
+    "winst_eenheden": 0,
+    "rendement": null,
+    "gem_odd": null
+   },
+   "dertig_dagen": {
+    "tips": 0,
+    "gewonnen": 0,
+    "verloren": 0,
+    "raak": null,
+    "winst_eenheden": 0,
+    "rendement": null,
+    "gem_odd": null
+   }
+  },
+  "Under 2.5": {
+   "totaal": {
+    "tips": 0,
+    "gewonnen": 0,
+    "verloren": 0,
+    "raak": null,
+    "winst_eenheden": 0,
+    "rendement": null,
+    "gem_odd": null
+   },
+   "dertig_dagen": {
+    "tips": 0,
+    "gewonnen": 0,
+    "verloren": 0,
+    "raak": null,
+    "winst_eenheden": 0,
+    "rendement": null,
+    "gem_odd": null
+   }
+  },
+  "1X2": {
+   "totaal": {
+    "tips": 0,
+    "gewonnen": 0,
+    "verloren": 0,
+    "raak": null,
+    "winst_eenheden": 0,
+    "rendement": null,
+    "gem_odd": null
+   },
+   "dertig_dagen": {
+    "tips": 0,
+    "gewonnen": 0,
+    "verloren": 0,
+    "raak": null,
+    "winst_eenheden": 0,
+    "rendement": null,
+    "gem_odd": null
+   }
+  }
+ },
+ "tip_van_de_dag": {
+  "tips": 0,
+  "gewonnen": 0,
+  "verloren": 0,
+  "raak": null,
+  "winst_eenheden": 0,
+  "rendement": null,
+  "gem_odd": null
+ },
+ "open": 10,
+ "laatste": []
+}

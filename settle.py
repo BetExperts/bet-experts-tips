@@ -9,6 +9,7 @@ import sys, argparse
 from datetime import datetime, timezone, timedelta
 import tp_api as api
 import tp_webflow as WF
+import tp_results as R
 from tp_config import API, STATUS, MARKT, MARKT_FIELD, WEBFLOW_TOKEN, RETENTION_DAYS
 
 FIN = ("FT", "AET", "PEN")
@@ -78,6 +79,31 @@ def main():
             WF.update_item(it["id"], upd, live=live)
             print(f"  ✔ {label}")
         done += 1
+
+    # Trackrecord (state/results.json): ook tips waarvan het CMS-item al is opgeruimd
+    res = R.load(); n_res = 0
+    for slug, e in res.items():
+        if e["status"] != "open" or e["aftrap"] > (now - timedelta(hours=2)).isoformat():
+            continue
+        d = api._get(f"{API}/match/{e['fid']}") or {}
+        r = d.get("response", d); fx = r[0] if isinstance(r, list) and r else r
+        st = ((fx or {}).get("fixture", {}).get("status", {}) or {}).get("short") if isinstance(fx, dict) else None
+        if st in ("PST", "CANC", "ABD", "AWD", "WO"):
+            e["status"] = "afgelast"; n_res += 1; continue
+        uit = match_result(e["fid"])
+        if not uit:
+            continue
+        gh, ga = uit; won = R.uitkomst(e["pick"], gh, ga)
+        if won is None:
+            continue
+        e.update({"status": "gewonnen" if won else "verloren", "eindstand": f"{gh}-{ga}",
+                  "afgesloten": now.isoformat(timespec="seconds")}); n_res += 1
+        print(f'  {"✔" if won else "✘"} trackrecord: {e["wedstrijd"]} | {e["tip"]} @ {e["odd_publicatie"]} ({gh}-{ga})')
+    if not a.dry:
+        R.save(res); stats = R.write_stats(res)
+        t = stats["totaal"]
+        print(f"Trackrecord: {n_res} afgesloten · totaal {t['tips']} tips, {t['raak']}% raak, "
+              f"rendement {t['rendement']}%")
 
     # Retentie: tips ouder dan RETENTION_DAYS opruimen (CMS niet laten vollopen).
     cutoff = (now.date() - timedelta(days=RETENTION_DAYS)).isoformat()

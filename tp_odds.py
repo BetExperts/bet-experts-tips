@@ -71,3 +71,51 @@ def odds_for(home, away, odds_key):
     best_name, best_odd, best_link, best_key = rows[0]
     return {"best": best_odd, "bookmaker": best_name, "link": best_link,
             "key": best_key, "all": rows}
+
+
+def _all_outcomes(ev, market, home, away):
+    """{key: odd} voor alle uitkomsten van één markt bij één bookmaker."""
+    mk = (ev.get("markets") or {}).get(market)
+    if not mk: return {}
+    out = {}
+    for o in mk.get("outcomes", []):
+        name = (o.get("name") or "").strip(); low = name.lower()
+        odd = o.get("odd") or o.get("odds") or o.get("price")
+        try: odd = float(odd)
+        except Exception: continue
+        if odd < 1.01 or odd > 100: continue
+        if market == "btts":
+            if low in ("yes", "ja"): out["btts_yes"] = odd
+            elif low in ("no", "nee"): out["btts_no"] = odd
+        elif market == "over_under_2.5":
+            if low.startswith("over"): out["over25"] = odd
+            elif low.startswith("under"): out["under25"] = odd
+        elif market == "1x2":
+            if low in ("draw", "x", "gelijk", "gelijkspel"): out["draw"] = odd
+            elif team_match(name, ev.get("home", "")): out["home"] = odd
+            elif team_match(name, ev.get("away", "")): out["away"] = odd
+    return out
+
+
+_SETS = {"1x2": ("home", "draw", "away"), "btts": ("btts_yes", "btts_no"),
+         "over_under_2.5": ("over25", "under25")}
+
+
+def market_fair(home, away):
+    """Eerlijke kansen volgens de markt: per bookmaker de marge eruit (1/odd genormaliseerd),
+    daarna het gemiddelde over alle bookmakers met een complete markt. {key: kans} + aantal books."""
+    acc = {}; n = {}
+    for bm, events in _CACHE.items():
+        for ev in events:
+            if team_match(ev.get("home", ""), home) and team_match(ev.get("away", ""), away):
+                for market, keys in _SETS.items():
+                    o = _all_outcomes(ev, market, home, away)
+                    if not all(k in o for k in keys):
+                        continue
+                    inv = {k: 1 / o[k] for k in keys}; s = sum(inv.values())
+                    if not (1.0 <= s <= 1.25):            # onzin-marge (verkeerde koppeling) overslaan
+                        continue
+                    for k in keys:
+                        acc[k] = acc.get(k, 0) + inv[k] / s; n[k] = n.get(k, 0) + 1
+                break
+    return {k: acc[k] / n[k] for k in acc}, (min(n.values()) if n else 0)
