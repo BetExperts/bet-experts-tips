@@ -1,23 +1,23 @@
 {
- "bijgewerkt": "2026-10-16T18:52:49+00:00",
+ "bijgewerkt": "2026-10-16T21:05:30+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 0,
-  "gewonnen": 0,
-  "verloren": 0,
-  "raak": null,
-  "winst_eenheden": 0,
-  "rendement": null,
-  "gem_odd": null
+  "tips": 2,
+  "gewonnen": 1,
+  "verloren": 1,
+  "raak": 50,
+  "winst_eenheden": -0.27,
+  "rendement": -13.5,
+  "gem_odd": 1.83
  },
  "dertig_dagen": {
-  "tips": 0,
-  "gewonnen": 0,
-  "verloren": 0,
-  "raak": null,
-  "winst_eenheden": 0,
-  "rendement": null,
-  "gem_odd": null
+  "tips": 2,
+  "gewonnen": 1,
+  "verloren": 1,
+  "raak": 50,
+  "winst_eenheden": -0.27,
+  "rendement": -13.5,
+  "gem_odd": 1.83
  },
  "per_markt": {
   "BTTS": {
@@ -42,22 +42,22 @@
   },
   "Over 2.5": {
    "totaal": {
-    "tips": 0,
-    "gewonnen": 0,
-    "verloren": 0,
-    "raak": null,
-    "winst_eenheden": 0,
-    "rendement": null,
-    "gem_odd": null
+    "tips": 2,
+    "gewonnen": 1,
+    "verloren": 1,
+    "raak": 50,
+    "winst_eenheden": -0.27,
+    "rendement": -13.5,
+    "gem_odd": 1.83
    },
    "dertig_dagen": {
-    "tips": 0,
-    "gewonnen": 0,
-    "verloren": 0,
-    "raak": null,
-    "winst_eenheden": 0,
-    "rendement": null,
-    "gem_odd": null
+    "tips": 2,
+    "gewonnen": 1,
+    "verloren": 1,
+    "raak": 50,
+    "winst_eenheden": -0.27,
+    "rendement": -13.5,
+    "gem_odd": 1.83
    }
   },
   "Under 2.5": {
@@ -102,14 +102,33 @@
   }
  },
  "tip_van_de_dag": {
-  "tips": 0,
+  "tips": 1,
   "gewonnen": 0,
-  "verloren": 0,
-  "raak": null,
-  "winst_eenheden": 0,
-  "rendement": null,
-  "gem_odd": null
+  "verloren": 1,
+  "raak": 0,
+  "winst_eenheden": -1,
+  "rendement": -100.0,
+  "gem_odd": 1.94
  },
- "open": 12,
- "laatste": []
+ "open": 10,
+ "laatste": [
+  {
+   "datum": "2026-10-16",
+   "wedstrijd": "Deportivo La Coruna - Levante",
+   "markt": "Over 2.5",
+   "tip": "Meer dan 2.5 doelpunten",
+   "odd": 1.94,
+   "uitslag": "1-1",
+   "status": "verloren"
+  },
+  {
+   "datum": "2026-10-16",
+   "wedstrijd": "Le Mans - Toulouse",
+   "markt": "Over 2.5",
+   "tip": "Meer dan 2.5 doelpunten",
+   "odd": 1.73,
+   "uitslag": "0-3",
+   "status": "gewonnen"
+  }
+ ]
 }

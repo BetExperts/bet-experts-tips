@@ -14,9 +14,11 @@
   "edge": 0.0709,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-15T08:51:56+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.91,
-  "bijgewerkt": "2026-10-16T18:51:52+00:00"
+  "bijgewerkt": "2026-10-16T18:51:52+00:00",
+  "eindstand": "1-1",
+  "afgesloten": "2026-10-16T21:05:23+00:00"
  },
  "1x2-venezia-napoli-2026-10-17": {
   "fid": "1550156",
@@ -204,9 +206,11 @@
   "edge": 0.0328,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-15T11:56:05+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.68,
-  "bijgewerkt": "2026-10-16T11:46:00+00:00"
+  "bijgewerkt": "2026-10-16T11:46:00+00:00",
+  "eindstand": "0-3",
+  "afgesloten": "2026-10-16T21:05:23+00:00"
  },
  "under-2-5-sc-braga-gil-vicente-2026-10-19": {
   "fid": "1575458",
