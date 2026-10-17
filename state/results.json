@@ -473,9 +473,11 @@
   "edge": 0.0653,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-17T17:54:21+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.92,
-  "bijgewerkt": "2026-10-17T17:54:21+00:00"
+  "bijgewerkt": "2026-10-17T17:54:21+00:00",
+  "eindstand": "1-3",
+  "afgesloten": "2026-10-17T22:16:44+00:00"
  },
  "1x2-lille-stade-brestois-29-2026-10-17": {
   "fid": "1552786",
@@ -492,9 +494,11 @@
   "edge": 0.0662,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-17T17:54:23+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 2.05,
-  "bijgewerkt": "2026-10-17T17:54:23+00:00"
+  "bijgewerkt": "2026-10-17T17:54:23+00:00",
+  "eindstand": "1-1",
+  "afgesloten": "2026-10-17T22:16:44+00:00"
  },
  "btts-philadelphia-union-charlotte-2026-10-17": {
   "fid": "1490541",
@@ -511,8 +515,10 @@
   "edge": -0.0395,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-17T17:54:24+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.47,
-  "bijgewerkt": "2026-10-17T17:54:24+00:00"
+  "bijgewerkt": "2026-10-17T17:54:24+00:00",
+  "eindstand": "2-2",
+  "afgesloten": "2026-10-17T22:16:44+00:00"
  }
 }
