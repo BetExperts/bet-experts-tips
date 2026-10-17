@@ -54,9 +54,11 @@
   "edge": 0.0504,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-15T08:51:58+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.9,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "bijgewerkt": "2026-10-17T11:02:53+00:00",
+  "eindstand": "2-0",
+  "afgesloten": "2026-10-17T13:42:32+00:00"
  },
  "1x2-benevento-vicenza-virtus-2026-10-17": {
   "fid": "1601554",
@@ -303,9 +305,11 @@
   "edge": 0.0441,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-17T10:05:13+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.85,
-  "bijgewerkt": "2026-10-17T10:25:23+00:00"
+  "bijgewerkt": "2026-10-17T10:25:23+00:00",
+  "eindstand": "2-0",
+  "afgesloten": "2026-10-17T13:42:32+00:00"
  },
  "btts-spvgg-greuther-furth-eintracht-braunschweig-2026-10-17": {
   "fid": "1576199",
@@ -322,9 +326,11 @@
   "edge": -0.0298,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-17T10:25:39+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.46,
-  "bijgewerkt": "2026-10-17T10:25:39+00:00"
+  "bijgewerkt": "2026-10-17T10:25:39+00:00",
+  "eindstand": "2-0",
+  "afgesloten": "2026-10-17T13:42:32+00:00"
  },
  "btts-bayer-leverkusen-sc-freiburg-2026-10-18": {
   "fid": "1575186",
