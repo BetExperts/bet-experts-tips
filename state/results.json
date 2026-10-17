@@ -121,7 +121,7 @@
   "gepubliceerd": "2026-10-15T08:52:02+00:00",
   "status": "open",
   "odd_laatst": 1.91,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "bijgewerkt": "2026-10-17T17:53:02+00:00"
  },
  "1x2-brighton-crystal-palace-2026-10-18": {
   "fid": "1557429",
@@ -140,7 +140,7 @@
   "gepubliceerd": "2026-10-15T08:52:03+00:00",
   "status": "open",
   "odd_laatst": 1.52,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "bijgewerkt": "2026-10-17T17:53:02+00:00"
  },
  "1x2-lyon-nice-2026-10-18": {
   "fid": "1552788",
@@ -158,8 +158,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-15T08:52:05+00:00",
   "status": "open",
-  "odd_laatst": 1.7,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "odd_laatst": 1.8,
+  "bijgewerkt": "2026-10-17T17:53:02+00:00"
  },
  "over-2-5-osasuna-racing-santander-2026-10-18": {
   "fid": "1570419",
@@ -177,8 +177,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-15T08:52:06+00:00",
   "status": "open",
-  "odd_laatst": 1.64,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "odd_laatst": 1.68,
+  "bijgewerkt": "2026-10-17T17:53:02+00:00"
  },
  "1x2-fluminense-santos-2026-10-18": {
   "fid": "1492415",
@@ -196,8 +196,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-15T08:52:07+00:00",
   "status": "open",
-  "odd_laatst": 2.32,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "odd_laatst": 2.42,
+  "bijgewerkt": "2026-10-17T17:53:02+00:00"
  },
  "over-2-5-le-mans-toulouse-2026-10-16": {
   "fid": "1552785",
@@ -237,7 +237,7 @@
   "gepubliceerd": "2026-10-16T18:52:44+00:00",
   "status": "open",
   "odd_laatst": 1.78,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "bijgewerkt": "2026-10-17T17:53:02+00:00"
  },
  "btts-austria-lustenau-lask-linz-2026-10-17": {
   "fid": "1561942",
@@ -358,8 +358,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-17T10:25:40+00:00",
   "status": "open",
-  "odd_laatst": 1.51,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "odd_laatst": 1.52,
+  "bijgewerkt": "2026-10-17T17:53:02+00:00"
  },
  "btts-dukla-banska-bystrica-podbrezova-2026-10-18": {
   "fid": "1551575",
@@ -378,7 +378,7 @@
   "gepubliceerd": "2026-10-17T10:25:41+00:00",
   "status": "open",
   "odd_laatst": 1.57,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "bijgewerkt": "2026-10-17T17:53:02+00:00"
  },
  "btts-cambridge-united-wycombe-2026-10-20": {
   "fid": "1564371",
@@ -396,8 +396,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-17T10:25:42+00:00",
   "status": "open",
-  "odd_laatst": 1.6,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "odd_laatst": 1.66,
+  "bijgewerkt": "2026-10-17T17:53:02+00:00"
  },
  "btts-luton-barnsley-2026-10-20": {
   "fid": "1564374",
@@ -416,7 +416,7 @@
   "gepubliceerd": "2026-10-17T10:25:44+00:00",
   "status": "open",
   "odd_laatst": 1.52,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "bijgewerkt": "2026-10-17T17:53:02+00:00"
  },
  "btts-botafogo-chapecoense-sc-2026-10-17": {
   "fid": "1492413",
@@ -434,8 +434,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-17T11:04:01+00:00",
   "status": "open",
-  "odd_laatst": 1.86,
-  "bijgewerkt": "2026-10-17T11:04:01+00:00"
+  "odd_laatst": 1.74,
+  "bijgewerkt": "2026-10-17T17:53:02+00:00"
  },
  "under-2-5-celta-vigo-alaves-2026-10-18": {
   "fid": "1570414",
@@ -454,6 +454,63 @@
   "gepubliceerd": "2026-10-17T11:04:03+00:00",
   "status": "open",
   "odd_laatst": 1.73,
-  "bijgewerkt": "2026-10-17T11:04:03+00:00"
+  "bijgewerkt": "2026-10-17T17:53:02+00:00"
+ },
+ "1x2-estac-troyes-lens-2026-10-17": {
+  "fid": "1552791",
+  "markt": "1X2",
+  "pick": "away",
+  "tip": "Lens wint",
+  "wedstrijd": "Estac Troyes - Lens",
+  "competitie": "Ligue 1",
+  "aftrap": "2026-10-17T18:45:00+00:00",
+  "odd_publicatie": 1.92,
+  "bookmaker": "711",
+  "kans": 0.5548,
+  "kans_markt": 0.5121,
+  "edge": 0.0653,
+  "tip_van_de_dag": true,
+  "gepubliceerd": "2026-10-17T17:54:21+00:00",
+  "status": "open",
+  "odd_laatst": 1.92,
+  "bijgewerkt": "2026-10-17T17:54:21+00:00"
+ },
+ "1x2-lille-stade-brestois-29-2026-10-17": {
+  "fid": "1552786",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Lille wint",
+  "wedstrijd": "Lille - Stade Brestois 29",
+  "competitie": "Ligue 1",
+  "aftrap": "2026-10-17T18:45:00+00:00",
+  "odd_publicatie": 2.05,
+  "bookmaker": "Bet365",
+  "kans": 0.5201,
+  "kans_markt": 0.4778,
+  "edge": 0.0662,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-17T17:54:23+00:00",
+  "status": "open",
+  "odd_laatst": 2.05,
+  "bijgewerkt": "2026-10-17T17:54:23+00:00"
+ },
+ "btts-philadelphia-union-charlotte-2026-10-17": {
+  "fid": "1490541",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Philadelphia Union - Charlotte",
+  "competitie": "MLS",
+  "aftrap": "2026-10-17T18:30:00+00:00",
+  "odd_publicatie": 1.47,
+  "bookmaker": "Circus",
+  "kans": 0.6534,
+  "kans_markt": 0.6444,
+  "edge": -0.0395,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-17T17:54:24+00:00",
+  "status": "open",
+  "odd_laatst": 1.47,
+  "bijgewerkt": "2026-10-17T17:54:24+00:00"
  }
 }
