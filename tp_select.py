@@ -18,6 +18,13 @@ NBOOKS_MIN = 3
 MIN_GESPEELD = 3
 CAP_MARKT, CAP_DAG = 3, 8
 
+# BTTS-minimum per dag (17-10-2026, gebruiker): de BTTS-hub mag niet leeg blijven. Zijn er op een dag minder dan
+# BTTS_MIN_DAG BTTS-tips, dan vullen we aan met de BTTS-kansen met de hoogste kans waarvan de beste NL-odd rond
+# de eerlijke prijs ligt (edge >= BTTS_BASIS_EDGE_MIN). Zulke tips heten 'basis: kans': geen waarde-claim in de tekst.
+BTTS_MIN_DAG = 2
+BTTS_BASIS_P_MIN = 0.58
+BTTS_BASIS_EDGE_MIN = -0.04
+
 # alleen nationale competities met een eigen stand (beker/Europees/interlands: sterktes niet vergelijkbaar)
 GEEN_MODEL = {"knvb-beker", "johan-cruijff-schaal", "fa-cup", "efl-cup", "carabao-cup", "community-shield",
               "copa-del-rey", "coppa-italia", "dfb-pokal", "coupe-de-france", "belgian-cup", "turkish-cup",
@@ -59,6 +66,46 @@ def beste_tip(home, away, lam, fair, nbooks, odds_for):
                        "p_markt": fair[key], "edge": edge, "od": od, "score": edge * p,
                        "zekerheid": zekerheid(p), "lam": lam})
     return max(opties, key=lambda o: o["score"]) if opties else None
+
+
+def btts_basis(home, away, lam, fair, nbooks, odds_for):
+    """BTTS-aanvulling voor één wedstrijd: hoge kans, odd rond de eerlijke prijs. None als hij niet voldoet."""
+    if nbooks < NBOOKS_MIN or "btts_yes" not in fair:
+        return None
+    mp, f = probs(*lam)["btts_yes"], fair["btts_yes"]
+    if abs(mp - f) > MAX_VERSCHIL:
+        return None
+    p = blend(mp, f)
+    if p < BTTS_BASIS_P_MIN:
+        return None
+    od = odds_for(home, away, "btts_yes")
+    if not od or not (ODD_MIN <= od["best"] <= ODD_MAX):
+        return None
+    edge = p * od["best"] - 1
+    if not (BTTS_BASIS_EDGE_MIN <= edge <= EDGE_MAX):
+        return None
+    return {"markt": "BTTS", "tip": "Beide teams scoren", "odds_key": "btts_yes", "p": p, "p_model": mp,
+            "p_markt": f, "edge": edge, "od": od, "score": edge * p, "zekerheid": zekerheid(p), "lam": lam,
+            "basis": "kans"}
+
+
+def aanvullen_btts(basis, gekozen, bestaand_per_dag=None, bezet=()):
+    """Vul per dag aan tot BTTS_MIN_DAG BTTS-tips (hoogste kans eerst; nooit een tweede tip bij dezelfde wedstrijd)."""
+    bestaand_per_dag = bestaand_per_dag or {}
+    telling = {}
+    for d, markten in bestaand_per_dag.items():
+        telling[d] = markten.count("BTTS")
+    for c in gekozen:
+        if c["markt"] == "BTTS":
+            telling[c["dag"]] = telling.get(c["dag"], 0) + 1
+    bezet = set(bezet) | {c["fid"] for c in gekozen}
+    extra = []
+    for c in sorted(basis, key=lambda c: (-c["t"]["p"], -c["t"]["edge"])):
+        if c["fid"] in bezet or telling.get(c["dag"], 0) >= BTTS_MIN_DAG:
+            continue
+        telling[c["dag"]] = telling.get(c["dag"], 0) + 1
+        bezet.add(c["fid"]); extra.append(c)
+    return extra
 
 
 def kies(kandidaten, bestaand_per_dag=None):

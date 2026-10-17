@@ -46,10 +46,15 @@ def berekening(st, t, lg, hid, aid):
             return f"<li>{naam}: nog geen competitiewedstrijden dit seizoen</li>"
         return (f'<li>{naam} dit seizoen: {v["gf"] / v["p"]:.1f} doelpunten voor en {v["ga"] / v["p"]:.1f} tegen '
                 f'per wedstrijd ({v["p"]} duels; thuis {v["hgf"]}-{v["hga"]}, uit {v["agf"]}-{v["aga"]})</li>')
+    if t.get("basis") == "kans":
+        oordeel = (f'Die odd ligt rond de eerlijke prijs. We kiezen deze tip om de hoge kans dat beide ploegen '
+                   f'scoren, niet om extra waarde.</p>')
+    else:
+        oordeel = f'dus deze odd biedt waarde: verwacht rendement +{round(100 * t["edge"])}%.</p>'
     return (f'<p><strong>{t["tip"]}</strong>: onze kans is <strong>{_pct(t["p"])}</strong>. '
             f'De bookmakers rekenen gemiddeld met {_pct(t["p_markt"])} (marge eruit gehaald). '
-            f'Bij een odd van {od["best"]:.2f} ({od["bookmaker"]}) hoort een kans van {_pct(1 / od["best"])}, '
-            f'dus deze odd biedt waarde: verwacht rendement +{round(100 * t["edge"])}%.</p>'
+            f'Bij een odd van {od["best"]:.2f} ({od["bookmaker"]}) hoort een kans van {_pct(1 / od["best"])}'
+            + (". " if t.get("basis") == "kans" else ", ") + oordeel +
             "<ul>"
             f'<li>Verwachte doelpunten: {st["home"]} {lh:.2f}, {st["away"]} {la:.2f}</li>'
             f'<li>Kansen volgens ons model: {st["home"]} wint {_pct(mp["home"])}, gelijk {_pct(mp["draw"])}, '
@@ -97,7 +102,7 @@ def main():
     for e in behouden.values():
         bestaand_per_dag.setdefault(e["aftrap"][:10], []).append(e["markt"])
 
-    lgs, kand, zonder = {}, [], 0
+    lgs, kand, basis, zonder = {}, [], [], 0
     for slug, fx in fixtures:
         lg = lgs.get(slug) or lgs.setdefault(slug, League(slug))
         th, ta = fx["teams"]["home"], fx["teams"]["away"]
@@ -110,10 +115,14 @@ def main():
         if not lam:
             zonder += 1; continue
         fair, nb = odds.market_fair(th["name"], ta["name"])
+        dag = fx["fixture"]["date"][:10]
+        b = SEL.btts_basis(th["name"], ta["name"], lam, fair, nb, odds.odds_for)
+        if b:
+            basis.append({"slug": slug, "fx": fx, "fid": str(fx["fixture"]["id"]), "dag": dag, "markt": "BTTS",
+                          "t": b, "lg": lg})
         t = SEL.beste_tip(th["name"], ta["name"], lam, fair, nb, odds.odds_for)
         if not t:
             continue
-        dag = fx["fixture"]["date"][:10]
         kand.append({"slug": slug, "fx": fx, "fid": str(fx["fixture"]["id"]), "dag": dag, "markt": t["markt"],
                      "t": t, "lg": lg})
     print(f"Zonder bruikbare data (geen stand/te weinig duels): {zonder} · kandidaten met waarde: {len(kand)}")
@@ -130,14 +139,18 @@ def main():
                   key=lambda c: c["t"]["p"] + c["t"]["edge"], default=None)
         if top:
             top["t"]["feature"] = True
-    print(f"Geselecteerd: {len(gekozen)} nieuw + {len(behouden)} al gepubliceerd")
+    # BTTS-minimum per dag: aanvullen met hoge-kans-BTTS (geen tip van de dag, geen waarde-claim)
+    extra = SEL.aanvullen_btts(basis, gekozen, bestaand_per_dag, bezet=fid_behouden)
+    gekozen += extra
+    print(f"Geselecteerd: {len(gekozen)} nieuw (waarvan {len(extra)} BTTS-aanvulling) + {len(behouden)} al gepubliceerd")
 
     made = updated = removed = failed = 0
     for c in sorted(gekozen, key=lambda c: (c["dag"], -c["t"]["score"])):
         t, fx, lg = c["t"], c["fx"], c["lg"]
         star = " ★ tip van de dag" if t.get("feature") else ""
         line = (f'{t["markt"]:9s} kans {_pct(t["p"])} (model {_pct(t["p_model"])}, markt {_pct(t["p_markt"])}) '
-                f'@ {t["od"]["best"]:.2f} {t["od"]["bookmaker"]} edge +{round(100 * t["edge"])}%{star} | '
+                f'@ {t["od"]["best"]:.2f} {t["od"]["bookmaker"]} edge {round(100 * t["edge"]):+d}%{star}'
+                f'{" (aanvulling: hoge kans)" if t.get("basis") == "kans" else ""} | '
                 f'{fx["teams"]["home"]["name"]} - {fx["teams"]["away"]["name"]}: {t["tip"]}')
         if a.dry:
             print(f"  ○ {line}"); continue
