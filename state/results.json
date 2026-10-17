@@ -37,7 +37,7 @@
   "gepubliceerd": "2026-10-15T08:51:57+00:00",
   "status": "open",
   "odd_laatst": 1.73,
-  "bijgewerkt": "2026-10-16T18:51:52+00:00"
+  "bijgewerkt": "2026-10-17T10:04:41+00:00"
  },
  "under-2-5-watford-charlton-2026-10-17": {
   "fid": "1563212",
@@ -56,7 +56,7 @@
   "gepubliceerd": "2026-10-15T08:51:58+00:00",
   "status": "open",
   "odd_laatst": 1.9,
-  "bijgewerkt": "2026-10-16T18:51:52+00:00"
+  "bijgewerkt": "2026-10-17T10:04:41+00:00"
  },
  "1x2-benevento-vicenza-virtus-2026-10-17": {
   "fid": "1601554",
@@ -74,8 +74,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-15T08:52:00+00:00",
   "status": "open",
-  "odd_laatst": 2.04,
-  "bijgewerkt": "2026-10-16T18:51:52+00:00"
+  "odd_laatst": 1.97,
+  "bijgewerkt": "2026-10-17T10:04:41+00:00"
  },
  "1x2-wigan-reading-2026-10-17": {
   "fid": "1564365",
@@ -93,8 +93,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-15T08:52:01+00:00",
   "status": "open",
-  "odd_laatst": 2.0,
-  "bijgewerkt": "2026-10-16T18:51:52+00:00"
+  "odd_laatst": 1.94,
+  "bijgewerkt": "2026-10-17T10:04:41+00:00"
  },
  "under-2-5-juventus-lazio-2026-10-18": {
   "fid": "1550152",
@@ -113,7 +113,7 @@
   "gepubliceerd": "2026-10-15T08:52:02+00:00",
   "status": "open",
   "odd_laatst": 1.91,
-  "bijgewerkt": "2026-10-16T18:51:52+00:00"
+  "bijgewerkt": "2026-10-17T10:04:41+00:00"
  },
  "1x2-brighton-crystal-palace-2026-10-18": {
   "fid": "1557429",
@@ -131,8 +131,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-15T08:52:03+00:00",
   "status": "open",
-  "odd_laatst": 1.54,
-  "bijgewerkt": "2026-10-16T18:51:52+00:00"
+  "odd_laatst": 1.52,
+  "bijgewerkt": "2026-10-17T10:04:41+00:00"
  },
  "1x2-lyon-nice-2026-10-18": {
   "fid": "1552788",
@@ -151,7 +151,7 @@
   "gepubliceerd": "2026-10-15T08:52:05+00:00",
   "status": "open",
   "odd_laatst": 1.7,
-  "bijgewerkt": "2026-10-16T18:51:52+00:00"
+  "bijgewerkt": "2026-10-17T10:04:41+00:00"
  },
  "over-2-5-osasuna-racing-santander-2026-10-18": {
   "fid": "1570419",
@@ -170,7 +170,7 @@
   "gepubliceerd": "2026-10-15T08:52:06+00:00",
   "status": "open",
   "odd_laatst": 1.64,
-  "bijgewerkt": "2026-10-16T18:51:52+00:00"
+  "bijgewerkt": "2026-10-17T10:04:41+00:00"
  },
  "1x2-fluminense-santos-2026-10-18": {
   "fid": "1492415",
@@ -188,8 +188,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-15T08:52:07+00:00",
   "status": "open",
-  "odd_laatst": 2.25,
-  "bijgewerkt": "2026-10-16T18:51:52+00:00"
+  "odd_laatst": 2.32,
+  "bijgewerkt": "2026-10-17T10:04:41+00:00"
  },
  "over-2-5-le-mans-toulouse-2026-10-16": {
   "fid": "1552785",
@@ -229,6 +229,82 @@
   "gepubliceerd": "2026-10-16T18:52:44+00:00",
   "status": "open",
   "odd_laatst": 1.78,
-  "bijgewerkt": "2026-10-16T18:52:44+00:00"
+  "bijgewerkt": "2026-10-17T10:04:41+00:00"
+ },
+ "btts-austria-lustenau-lask-linz-2026-10-17": {
+  "fid": "1561942",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Austria Lustenau - Lask Linz",
+  "competitie": "Austrian Bundesliga",
+  "aftrap": "2026-10-17T15:00:00+00:00",
+  "odd_publicatie": 1.95,
+  "bookmaker": "Circus",
+  "kans": 0.5779,
+  "kans_markt": 0.5421,
+  "edge": 0.1269,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-17T10:05:09+00:00",
+  "status": "open",
+  "odd_laatst": 1.95,
+  "bijgewerkt": "2026-10-17T10:05:09+00:00"
+ },
+ "over-2-5-bologna-inter-2026-10-17": {
+  "fid": "1550149",
+  "markt": "Over 2.5",
+  "pick": "over25",
+  "tip": "Meer dan 2.5 doelpunten",
+  "wedstrijd": "Bologna - Inter",
+  "competitie": "Serie A",
+  "aftrap": "2026-10-17T16:00:00+00:00",
+  "odd_publicatie": 1.75,
+  "bookmaker": "StarCasino",
+  "kans": 0.6026,
+  "kans_markt": 0.5736,
+  "edge": 0.0545,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-17T10:05:10+00:00",
+  "status": "open",
+  "odd_laatst": 1.75,
+  "bijgewerkt": "2026-10-17T10:05:10+00:00"
+ },
+ "under-2-5-eibar-mallorca-2026-10-17": {
+  "fid": "1569973",
+  "markt": "Under 2.5",
+  "pick": "under25",
+  "tip": "Minder dan 2.5 doelpunten",
+  "wedstrijd": "Eibar - Mallorca",
+  "competitie": "La Liga 2",
+  "aftrap": "2026-10-17T14:15:00+00:00",
+  "odd_publicatie": 1.87,
+  "bookmaker": "StarCasino",
+  "kans": 0.5652,
+  "kans_markt": 0.5316,
+  "edge": 0.0569,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-17T10:05:12+00:00",
+  "status": "open",
+  "odd_laatst": 1.87,
+  "bijgewerkt": "2026-10-17T10:05:12+00:00"
+ },
+ "under-2-5-erzurumspor-fk-eyupspor-2026-10-17": {
+  "fid": "1584433",
+  "markt": "Under 2.5",
+  "pick": "under25",
+  "tip": "Minder dan 2.5 doelpunten",
+  "wedstrijd": "Erzurumspor FK - Eyüpspor",
+  "competitie": "Super Lig",
+  "aftrap": "2026-10-17T10:30:00+00:00",
+  "odd_publicatie": 1.85,
+  "bookmaker": "Bet365",
+  "kans": 0.5644,
+  "kans_markt": 0.512,
+  "edge": 0.0441,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-17T10:05:13+00:00",
+  "status": "open",
+  "odd_laatst": 1.85,
+  "bijgewerkt": "2026-10-17T10:05:13+00:00"
  }
 }
