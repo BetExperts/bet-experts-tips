@@ -1,43 +1,43 @@
 {
- "bijgewerkt": "2026-10-17T13:42:47+00:00",
+ "bijgewerkt": "2026-10-17T17:09:06+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 5,
-  "gewonnen": 3,
-  "verloren": 2,
-  "raak": 60,
-  "winst_eenheden": 0.48,
-  "rendement": 9.6,
-  "gem_odd": 1.78
+  "tips": 10,
+  "gewonnen": 4,
+  "verloren": 6,
+  "raak": 40,
+  "winst_eenheden": -2.65,
+  "rendement": -26.5,
+  "gem_odd": 1.85
  },
  "dertig_dagen": {
-  "tips": 5,
-  "gewonnen": 3,
-  "verloren": 2,
-  "raak": 60,
-  "winst_eenheden": 0.48,
-  "rendement": 9.6,
-  "gem_odd": 1.78
+  "tips": 10,
+  "gewonnen": 4,
+  "verloren": 6,
+  "raak": 40,
+  "winst_eenheden": -2.65,
+  "rendement": -26.5,
+  "gem_odd": 1.85
  },
  "per_markt": {
   "BTTS": {
    "totaal": {
-    "tips": 1,
+    "tips": 2,
     "gewonnen": 0,
-    "verloren": 1,
+    "verloren": 2,
     "raak": 0,
-    "winst_eenheden": -1,
+    "winst_eenheden": -2,
     "rendement": -100.0,
-    "gem_odd": 1.46
+    "gem_odd": 1.71
    },
    "dertig_dagen": {
-    "tips": 1,
+    "tips": 2,
     "gewonnen": 0,
-    "verloren": 1,
+    "verloren": 2,
     "raak": 0,
-    "winst_eenheden": -1,
+    "winst_eenheden": -2,
     "rendement": -100.0,
-    "gem_odd": 1.46
+    "gem_odd": 1.71
    }
   },
   "Over 2.5": {
@@ -62,56 +62,101 @@
   },
   "Under 2.5": {
    "totaal": {
-    "tips": 2,
-    "gewonnen": 2,
+    "tips": 3,
+    "gewonnen": 3,
     "verloren": 0,
     "raak": 100,
-    "winst_eenheden": 1.75,
-    "rendement": 87.5,
-    "gem_odd": 1.88
+    "winst_eenheden": 2.62,
+    "rendement": 87.3,
+    "gem_odd": 1.87
    },
    "dertig_dagen": {
-    "tips": 2,
-    "gewonnen": 2,
+    "tips": 3,
+    "gewonnen": 3,
     "verloren": 0,
     "raak": 100,
-    "winst_eenheden": 1.75,
-    "rendement": 87.5,
-    "gem_odd": 1.88
+    "winst_eenheden": 2.62,
+    "rendement": 87.3,
+    "gem_odd": 1.87
    }
   },
   "1X2": {
    "totaal": {
-    "tips": 0,
+    "tips": 3,
     "gewonnen": 0,
-    "verloren": 0,
-    "raak": null,
-    "winst_eenheden": 0,
-    "rendement": null,
-    "gem_odd": null
+    "verloren": 3,
+    "raak": 0,
+    "winst_eenheden": -3,
+    "rendement": -100.0,
+    "gem_odd": 1.95
    },
    "dertig_dagen": {
-    "tips": 0,
+    "tips": 3,
     "gewonnen": 0,
-    "verloren": 0,
-    "raak": null,
-    "winst_eenheden": 0,
-    "rendement": null,
-    "gem_odd": null
+    "verloren": 3,
+    "raak": 0,
+    "winst_eenheden": -3,
+    "rendement": -100.0,
+    "gem_odd": 1.95
    }
   }
  },
  "tip_van_de_dag": {
-  "tips": 1,
+  "tips": 2,
   "gewonnen": 0,
-  "verloren": 1,
+  "verloren": 2,
   "raak": 0,
-  "winst_eenheden": -1,
+  "winst_eenheden": -2,
   "rendement": -100.0,
-  "gem_odd": 1.94
+  "gem_odd": 1.81
  },
- "open": 18,
+ "open": 13,
  "laatste": [
+  {
+   "datum": "2026-10-17",
+   "wedstrijd": "Austria Lustenau - Lask Linz",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.95,
+   "uitslag": "0-4",
+   "status": "verloren"
+  },
+  {
+   "datum": "2026-10-17",
+   "wedstrijd": "Eibar - Mallorca",
+   "markt": "Under 2.5",
+   "tip": "Minder dan 2.5 doelpunten",
+   "odd": 1.87,
+   "uitslag": "1-1",
+   "status": "gewonnen"
+  },
+  {
+   "datum": "2026-10-17",
+   "wedstrijd": "Wigan - Reading",
+   "markt": "1X2",
+   "tip": "Reading wint",
+   "odd": 2.07,
+   "uitslag": "1-0",
+   "status": "verloren"
+  },
+  {
+   "datum": "2026-10-17",
+   "wedstrijd": "Venezia - Napoli",
+   "markt": "1X2",
+   "tip": "Napoli wint",
+   "odd": 1.68,
+   "uitslag": "1-0",
+   "status": "verloren"
+  },
+  {
+   "datum": "2026-10-17",
+   "wedstrijd": "Benevento - Vicenza Virtus",
+   "markt": "1X2",
+   "tip": "Benevento wint",
+   "odd": 2.1,
+   "uitslag": "2-2",
+   "status": "verloren"
+  },
   {
    "datum": "2026-10-17",
    "wedstrijd": "Watford - Charlton",

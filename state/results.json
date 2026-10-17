@@ -35,9 +35,11 @@
   "edge": 0.051,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-15T08:51:57+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.73,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "bijgewerkt": "2026-10-17T11:02:53+00:00",
+  "eindstand": "1-0",
+  "afgesloten": "2026-10-17T17:08:54+00:00"
  },
  "under-2-5-watford-charlton-2026-10-17": {
   "fid": "1563212",
@@ -75,9 +77,11 @@
   "edge": 0.0546,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-15T08:52:00+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.97,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "bijgewerkt": "2026-10-17T11:02:53+00:00",
+  "eindstand": "2-2",
+  "afgesloten": "2026-10-17T17:08:54+00:00"
  },
  "1x2-wigan-reading-2026-10-17": {
   "fid": "1564365",
@@ -94,9 +98,11 @@
   "edge": 0.0503,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-15T08:52:01+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.94,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "bijgewerkt": "2026-10-17T11:02:53+00:00",
+  "eindstand": "1-0",
+  "afgesloten": "2026-10-17T17:08:54+00:00"
  },
  "under-2-5-juventus-lazio-2026-10-18": {
   "fid": "1550152",
@@ -248,9 +254,11 @@
   "edge": 0.1269,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-17T10:05:09+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.95,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "bijgewerkt": "2026-10-17T11:02:53+00:00",
+  "eindstand": "0-4",
+  "afgesloten": "2026-10-17T17:08:54+00:00"
  },
  "over-2-5-bologna-inter-2026-10-17": {
   "fid": "1550149",
@@ -286,9 +294,11 @@
   "edge": 0.0569,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-17T10:05:12+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.87,
-  "bijgewerkt": "2026-10-17T11:02:53+00:00"
+  "bijgewerkt": "2026-10-17T11:02:53+00:00",
+  "eindstand": "1-1",
+  "afgesloten": "2026-10-17T17:08:54+00:00"
  },
  "under-2-5-erzurumspor-fk-eyupspor-2026-10-17": {
   "fid": "1584433",
