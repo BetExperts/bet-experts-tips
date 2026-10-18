@@ -1,43 +1,43 @@
 {
- "bijgewerkt": "2026-10-17T22:16:51+00:00",
+ "bijgewerkt": "2026-10-18T01:00:59+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 14,
+  "tips": 15,
   "gewonnen": 7,
-  "verloren": 7,
-  "raak": 50,
-  "winst_eenheden": -1.51,
-  "rendement": -10.8,
+  "verloren": 8,
+  "raak": 47,
+  "winst_eenheden": -2.51,
+  "rendement": -16.7,
   "gem_odd": 1.84
  },
  "dertig_dagen": {
-  "tips": 14,
+  "tips": 15,
   "gewonnen": 7,
-  "verloren": 7,
-  "raak": 50,
-  "winst_eenheden": -1.51,
-  "rendement": -10.8,
+  "verloren": 8,
+  "raak": 47,
+  "winst_eenheden": -2.51,
+  "rendement": -16.7,
   "gem_odd": 1.84
  },
  "per_markt": {
   "BTTS": {
    "totaal": {
-    "tips": 3,
+    "tips": 4,
     "gewonnen": 1,
-    "verloren": 2,
-    "raak": 33,
-    "winst_eenheden": -1.53,
-    "rendement": -51.0,
-    "gem_odd": 1.63
+    "verloren": 3,
+    "raak": 25,
+    "winst_eenheden": -2.53,
+    "rendement": -63.3,
+    "gem_odd": 1.69
    },
    "dertig_dagen": {
-    "tips": 3,
+    "tips": 4,
     "gewonnen": 1,
-    "verloren": 2,
-    "raak": 33,
-    "winst_eenheden": -1.53,
-    "rendement": -51.0,
-    "gem_odd": 1.63
+    "verloren": 3,
+    "raak": 25,
+    "winst_eenheden": -2.53,
+    "rendement": -63.3,
+    "gem_odd": 1.69
    }
   },
   "Over 2.5": {
@@ -110,8 +110,17 @@
   "rendement": -36.0,
   "gem_odd": 1.85
  },
- "open": 12,
+ "open": 11,
  "laatste": [
+  {
+   "datum": "2026-10-17",
+   "wedstrijd": "Botafogo - Chapecoense-sc",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.86,
+   "uitslag": "1-0",
+   "status": "verloren"
+  },
   {
    "datum": "2026-10-17",
    "wedstrijd": "Estac Troyes - Lens",
