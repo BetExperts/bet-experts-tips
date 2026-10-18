@@ -119,9 +119,11 @@
   "edge": 0.0679,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-15T08:52:02+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.94,
-  "bijgewerkt": "2026-10-18T18:12:54+00:00"
+  "bijgewerkt": "2026-10-18T18:12:54+00:00",
+  "eindstand": "0-3",
+  "afgesloten": "2026-10-18T23:09:48+00:00"
  },
  "1x2-brighton-crystal-palace-2026-10-18": {
   "fid": "1557429",
@@ -159,9 +161,11 @@
   "edge": 0.0475,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-15T08:52:05+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.86,
-  "bijgewerkt": "2026-10-18T18:12:54+00:00"
+  "bijgewerkt": "2026-10-18T18:12:54+00:00",
+  "eindstand": "2-1",
+  "afgesloten": "2026-10-18T23:09:48+00:00"
  },
  "over-2-5-osasuna-racing-santander-2026-10-18": {
   "fid": "1570419",
@@ -199,9 +203,11 @@
   "edge": 0.0512,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-15T08:52:07+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 2.21,
-  "bijgewerkt": "2026-10-18T18:12:54+00:00"
+  "bijgewerkt": "2026-10-18T18:12:54+00:00",
+  "eindstand": "1-2",
+  "afgesloten": "2026-10-18T23:09:48+00:00"
  },
  "over-2-5-le-mans-toulouse-2026-10-16": {
   "fid": "1552785",
