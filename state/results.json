@@ -246,8 +246,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-16T18:52:44+00:00",
   "status": "open",
-  "odd_laatst": 1.8,
-  "bijgewerkt": "2026-10-18T18:12:54+00:00"
+  "odd_laatst": 1.85,
+  "bijgewerkt": "2026-10-19T13:47:56+00:00"
  },
  "btts-austria-lustenau-lask-linz-2026-10-17": {
   "fid": "1561942",
@@ -413,7 +413,7 @@
   "gepubliceerd": "2026-10-17T10:25:42+00:00",
   "status": "open",
   "odd_laatst": 1.6,
-  "bijgewerkt": "2026-10-18T18:12:54+00:00"
+  "bijgewerkt": "2026-10-19T13:47:56+00:00"
  },
  "btts-luton-barnsley-2026-10-20": {
   "fid": "1564374",
@@ -432,7 +432,7 @@
   "gepubliceerd": "2026-10-17T10:25:44+00:00",
   "status": "open",
   "odd_laatst": 1.52,
-  "bijgewerkt": "2026-10-18T18:12:54+00:00"
+  "bijgewerkt": "2026-10-19T13:47:56+00:00"
  },
  "btts-botafogo-chapecoense-sc-2026-10-17": {
   "fid": "1492413",
@@ -538,5 +538,24 @@
   "bijgewerkt": "2026-10-17T17:54:24+00:00",
   "eindstand": "2-2",
   "afgesloten": "2026-10-17T22:16:44+00:00"
+ },
+ "1x2-oxford-united-wigan-2026-10-20": {
+  "fid": "1564376",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Oxford United wint",
+  "wedstrijd": "Oxford United - Wigan",
+  "competitie": "League One",
+  "aftrap": "2026-10-20T18:45:00+00:00",
+  "odd_publicatie": 1.91,
+  "bookmaker": "Circus",
+  "kans": 0.5465,
+  "kans_markt": 0.513,
+  "edge": 0.0438,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-19T13:48:26+00:00",
+  "status": "open",
+  "odd_laatst": 1.91,
+  "bijgewerkt": "2026-10-19T13:48:26+00:00"
  }
 }
