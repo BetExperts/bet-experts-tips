@@ -245,9 +245,11 @@
   "edge": 0.0416,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-16T18:52:44+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.85,
-  "bijgewerkt": "2026-10-19T13:47:56+00:00"
+  "bijgewerkt": "2026-10-19T13:47:56+00:00",
+  "eindstand": "1-2",
+  "afgesloten": "2026-10-20T00:18:52+00:00"
  },
  "btts-austria-lustenau-lask-linz-2026-10-17": {
   "fid": "1561942",

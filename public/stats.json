@@ -1,22 +1,22 @@
 {
- "bijgewerkt": "2026-10-19T21:02:05+00:00",
+ "bijgewerkt": "2026-10-20T00:18:55+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 23,
+  "tips": 24,
   "gewonnen": 10,
-  "verloren": 13,
-  "raak": 43,
-  "winst_eenheden": -5.72,
-  "rendement": -24.9,
+  "verloren": 14,
+  "raak": 42,
+  "winst_eenheden": -6.72,
+  "rendement": -28.0,
   "gem_odd": 1.8
  },
  "dertig_dagen": {
-  "tips": 23,
+  "tips": 24,
   "gewonnen": 10,
-  "verloren": 13,
-  "raak": 43,
-  "winst_eenheden": -5.72,
-  "rendement": -24.9,
+  "verloren": 14,
+  "raak": 42,
+  "winst_eenheden": -6.72,
+  "rendement": -28.0,
   "gem_odd": 1.8
  },
  "per_markt": {
@@ -62,22 +62,22 @@
   },
   "Under 2.5": {
    "totaal": {
-    "tips": 5,
+    "tips": 6,
     "gewonnen": 3,
-    "verloren": 2,
-    "raak": 60,
-    "winst_eenheden": 0.62,
-    "rendement": 12.4,
-    "gem_odd": 1.85
+    "verloren": 3,
+    "raak": 50,
+    "winst_eenheden": -0.38,
+    "rendement": -6.3,
+    "gem_odd": 1.84
    },
    "dertig_dagen": {
-    "tips": 5,
+    "tips": 6,
     "gewonnen": 3,
-    "verloren": 2,
-    "raak": 60,
-    "winst_eenheden": 0.62,
-    "rendement": 12.4,
-    "gem_odd": 1.85
+    "verloren": 3,
+    "raak": 50,
+    "winst_eenheden": -0.38,
+    "rendement": -6.3,
+    "gem_odd": 1.84
    }
   },
   "1X2": {
@@ -102,16 +102,25 @@
   }
  },
  "tip_van_de_dag": {
-  "tips": 4,
+  "tips": 5,
   "gewonnen": 2,
-  "verloren": 2,
-  "raak": 50,
-  "winst_eenheden": -0.5,
-  "rendement": -12.5,
+  "verloren": 3,
+  "raak": 40,
+  "winst_eenheden": -1.5,
+  "rendement": -30.0,
   "gem_odd": 1.78
  },
- "open": 4,
+ "open": 3,
  "laatste": [
+  {
+   "datum": "2026-10-19",
+   "wedstrijd": "SC Braga - GIL Vicente",
+   "markt": "Under 2.5",
+   "tip": "Minder dan 2.5 doelpunten",
+   "odd": 1.78,
+   "uitslag": "1-2",
+   "status": "verloren"
+  },
   {
    "datum": "2026-10-18",
    "wedstrijd": "Fluminense - Santos",
@@ -282,15 +291,6 @@
    "odd": 1.9,
    "uitslag": "2-0",
    "status": "gewonnen"
-  },
-  {
-   "datum": "2026-10-17",
-   "wedstrijd": "SpVgg Greuther Fürth - Eintracht Braunschweig",
-   "markt": "BTTS",
-   "tip": "Beide teams scoren",
-   "odd": 1.46,
-   "uitslag": "2-0",
-   "status": "verloren"
   }
  ]
 }
