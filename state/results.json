@@ -415,7 +415,7 @@
   "gepubliceerd": "2026-10-17T10:25:42+00:00",
   "status": "open",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-10-19T20:39:20+00:00"
+  "bijgewerkt": "2026-10-20T11:56:51+00:00"
  },
  "btts-luton-barnsley-2026-10-20": {
   "fid": "1564374",
@@ -433,8 +433,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-17T10:25:44+00:00",
   "status": "open",
-  "odd_laatst": 1.52,
-  "bijgewerkt": "2026-10-19T20:39:20+00:00"
+  "odd_laatst": 1.53,
+  "bijgewerkt": "2026-10-20T11:56:51+00:00"
  },
  "btts-botafogo-chapecoense-sc-2026-10-17": {
   "fid": "1492413",
@@ -557,7 +557,64 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-19T13:48:26+00:00",
   "status": "open",
-  "odd_laatst": 1.96,
-  "bijgewerkt": "2026-10-19T20:39:20+00:00"
+  "odd_laatst": 2.0,
+  "bijgewerkt": "2026-10-20T11:56:51+00:00"
+ },
+ "1x2-alaves-malaga-2026-10-23": {
+  "fid": "1570423",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Alaves wint",
+  "wedstrijd": "Alaves - Malaga",
+  "competitie": "La Liga",
+  "aftrap": "2026-10-23T19:00:00+00:00",
+  "odd_publicatie": 1.83,
+  "bookmaker": "Unibet",
+  "kans": 0.5773,
+  "kans_markt": 0.5294,
+  "edge": 0.0565,
+  "tip_van_de_dag": true,
+  "gepubliceerd": "2026-10-20T11:57:42+00:00",
+  "status": "open",
+  "odd_laatst": 1.83,
+  "bijgewerkt": "2026-10-20T11:57:42+00:00"
+ },
+ "btts-ipswich-nottingham-forest-2026-10-23": {
+  "fid": "1557443",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Ipswich - Nottingham Forest",
+  "competitie": "Premier League",
+  "aftrap": "2026-10-23T19:00:00+00:00",
+  "odd_publicatie": 1.85,
+  "bookmaker": "888Sports",
+  "kans": 0.5679,
+  "kans_markt": 0.5823,
+  "edge": 0.0507,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-20T11:57:43+00:00",
+  "status": "open",
+  "odd_laatst": 1.85,
+  "bijgewerkt": "2026-10-20T11:57:43+00:00"
+ },
+ "btts-go-ahead-eagles-telstar-2026-10-23": {
+  "fid": "1552198",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "GO Ahead Eagles - Telstar",
+  "competitie": "Eredivisie",
+  "aftrap": "2026-10-23T18:00:00+00:00",
+  "odd_publicatie": 1.5,
+  "bookmaker": "Bet365",
+  "kans": 0.6515,
+  "kans_markt": 0.6372,
+  "edge": -0.0227,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-20T11:57:44+00:00",
+  "status": "open",
+  "odd_laatst": 1.5,
+  "bijgewerkt": "2026-10-20T11:57:44+00:00"
  }
 }
