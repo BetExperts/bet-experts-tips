@@ -75,8 +75,8 @@ BOOKMAKERS = {
  "jacks":{"name":"Jacks.nl","link":"https://www.bet-experts.nl/go/jacks-registratie"},
  "vbet":{"name":"Vbet","link":"https://www.bet-experts.nl/go/vbet"},
  "starcasino":{"name":"StarCasino","link":"https://www.bet-experts.nl/go/starcasino"},
- # Oranje Palace (Kambi, offering hgtnl): key in tubeemate nog niet live op 22-10-2026; zolang de feed leeg is gebeurt er niets
- "oranjepalace":{"name":"Oranje Palace","link":"https://www.bet-experts.nl/go/oranjepalace"},
+ # Oranje Palace (Kambi, offering hgtnl): tubeemate-key 'goldrun' (oude naam), live sinds 22-10-2026
+ "goldrun":{"name":"Oranje Palace","link":"https://www.bet-experts.nl/go/oranjepalace"},
 }
 FEEDS = list(BOOKMAKERS.keys())
 
@@ -90,7 +90,7 @@ BOOKMAKER_REF = {
  "711sports":"66a8a87062108480763b7309","toto":"669ab9f5aceb8b717cea24c3",
  "jacks":"64ff0fbd5a8f205b05d5465c","vbet":"67c9acaf7db0b29e5b03370d",
  "starcasino":"6a7afdaa4a7453c17d31cab5",
- "oranjepalace":"6aad0c21a14e9435daf42e79",
+ "goldrun":"6aad0c21a14e9435daf42e79",
 }
 
 # --- Selectie-drempels ---
