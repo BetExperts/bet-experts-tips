@@ -71,7 +71,7 @@ BOOKMAKERS = {
  "comeon":{"name":"ComeOn!","link":"https://media.comeon.nl/tracking.php?tracking_code&aid=119973&mid=9234&sid=458851&pid=3459"},
  "bingoal":{"name":"Bingoal","link":"https://tinyurl.com/bingoal-betexperts-sport"},
  "711sports":{"name":"711","link":"https://media1.711affiliates.nl/redirect.aspx?pid=2395&bid=1505"},
- "toto":{"name":"TOTO","link":"https://partner.toto.nl/C.ashx?btag=a_375b_445c_&affid=184&siteid=375&adid=445&c="},
+ "toto":{"name":"TOTO","link":"https://www.bet-experts.nl/go/toto"},
  "jacks":{"name":"Jacks.nl","link":"https://media.friendsofjacks.eu/redirect.aspx?pid=2527&bid=2224"},
  "vbet":{"name":"Vbet","link":"https://www.vbet.nl/nl/affiliates/?btag=2343788_l356243"},
  "starcasino":{"name":"StarCasino","link":"https://media1.affiliates.starcasino.nl/redirect.aspx?pid=2170&bid=1478"},
