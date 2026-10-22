@@ -75,6 +75,8 @@ BOOKMAKERS = {
  "jacks":{"name":"Jacks.nl","link":"https://media.friendsofjacks.eu/redirect.aspx?pid=2527&bid=2224"},
  "vbet":{"name":"Vbet","link":"https://www.vbet.nl/nl/affiliates/?btag=2343788_l356243"},
  "starcasino":{"name":"StarCasino","link":"https://media1.affiliates.starcasino.nl/redirect.aspx?pid=2170&bid=1478"},
+ # Oranje Palace (Kambi, offering hgtnl): key in tubeemate nog niet live op 22-10-2026; zolang de feed leeg is gebeurt er niets
+ "oranjepalace":{"name":"Oranje Palace","link":"https://record.oranjepalaceaffiliates.nl/_uAsFg0X5kInUOsjNOfgKeWNd7ZgqdRLk/1/"},
 }
 FEEDS = list(BOOKMAKERS.keys())
 
@@ -88,6 +90,7 @@ BOOKMAKER_REF = {
  "711sports":"66a8a87062108480763b7309","toto":"669ab9f5aceb8b717cea24c3",
  "jacks":"64ff0fbd5a8f205b05d5465c","vbet":"67c9acaf7db0b29e5b03370d",
  "starcasino":"6a7afdaa4a7453c17d31cab5",
+ "oranjepalace":"6aad0c21a14e9435daf42e79",
 }
 
 # --- Selectie-drempels ---
