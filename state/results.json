@@ -582,8 +582,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-20T11:57:42+00:00",
   "status": "open",
-  "odd_laatst": 1.81,
-  "bijgewerkt": "2026-10-21T19:24:48+00:00"
+  "odd_laatst": 1.77,
+  "bijgewerkt": "2026-10-22T12:14:51+00:00"
  },
  "btts-ipswich-nottingham-forest-2026-10-23": {
   "fid": "1557443",
@@ -602,7 +602,7 @@
   "gepubliceerd": "2026-10-20T11:57:43+00:00",
   "status": "open",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-10-21T19:24:48+00:00"
+  "bijgewerkt": "2026-10-22T12:14:51+00:00"
  },
  "btts-go-ahead-eagles-telstar-2026-10-23": {
   "fid": "1552198",
@@ -621,7 +621,7 @@
   "gepubliceerd": "2026-10-20T11:57:44+00:00",
   "status": "open",
   "odd_laatst": 1.5,
-  "bijgewerkt": "2026-10-21T19:24:48+00:00"
+  "bijgewerkt": "2026-10-22T12:14:51+00:00"
  },
  "1x2-cf-montreal-nashville-sc-2026-10-24": {
   "fid": "1490557",
@@ -640,7 +640,7 @@
   "gepubliceerd": "2026-10-21T12:12:09+00:00",
   "status": "open",
   "odd_laatst": 1.68,
-  "bijgewerkt": "2026-10-21T19:24:48+00:00"
+  "bijgewerkt": "2026-10-22T12:14:51+00:00"
  },
  "1x2-estrela-casa-pia-2026-10-24": {
   "fid": "1575520",
@@ -658,8 +658,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-21T12:12:13+00:00",
   "status": "open",
-  "odd_laatst": 1.78,
-  "bijgewerkt": "2026-10-21T19:24:48+00:00"
+  "odd_laatst": 1.79,
+  "bijgewerkt": "2026-10-22T12:14:51+00:00"
  },
  "1x2-zlin-sigma-olomouc-2026-10-24": {
   "fid": "1560056",
@@ -678,7 +678,7 @@
   "gepubliceerd": "2026-10-21T12:12:14+00:00",
   "status": "open",
   "odd_laatst": 2.0,
-  "bijgewerkt": "2026-10-21T19:24:48+00:00"
+  "bijgewerkt": "2026-10-22T12:14:51+00:00"
  },
  "over-2-5-samsunspor-amed-2026-10-24": {
   "fid": "1584447",
@@ -697,7 +697,7 @@
   "gepubliceerd": "2026-10-21T12:12:16+00:00",
   "status": "open",
   "odd_laatst": 1.87,
-  "bijgewerkt": "2026-10-21T19:24:48+00:00"
+  "bijgewerkt": "2026-10-22T12:14:51+00:00"
  },
  "btts-dijon-rodez-2026-10-24": {
   "fid": "1552506",
@@ -716,7 +716,7 @@
   "gepubliceerd": "2026-10-21T12:12:17+00:00",
   "status": "open",
   "odd_laatst": 1.53,
-  "bijgewerkt": "2026-10-21T19:24:48+00:00"
+  "bijgewerkt": "2026-10-22T12:14:51+00:00"
  },
  "btts-utrecht-pec-zwolle-2026-10-24": {
   "fid": "1552199",
@@ -735,6 +735,158 @@
   "gepubliceerd": "2026-10-21T12:12:19+00:00",
   "status": "open",
   "odd_laatst": 1.53,
-  "bijgewerkt": "2026-10-21T19:24:48+00:00"
+  "bijgewerkt": "2026-10-22T12:14:51+00:00"
+ },
+ "1x2-marseille-le-havre-2026-10-25": {
+  "fid": "1552796",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Marseille wint",
+  "wedstrijd": "Marseille - Le Havre",
+  "competitie": "Ligue 1",
+  "aftrap": "2026-10-25T16:15:00+00:00",
+  "odd_publicatie": 1.65,
+  "bookmaker": "Bet365",
+  "kans": 0.6312,
+  "kans_markt": 0.5974,
+  "edge": 0.0414,
+  "tip_van_de_dag": true,
+  "gepubliceerd": "2026-10-22T12:15:46+00:00",
+  "status": "open",
+  "odd_laatst": 1.65,
+  "bijgewerkt": "2026-10-22T12:15:46+00:00"
+ },
+ "1x2-manchester-united-bournemouth-2026-10-25": {
+  "fid": "1557445",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Manchester United wint",
+  "wedstrijd": "Manchester United - Bournemouth",
+  "competitie": "Premier League",
+  "aftrap": "2026-10-25T14:00:00+00:00",
+  "odd_publicatie": 2.07,
+  "bookmaker": "711",
+  "kans": 0.5077,
+  "kans_markt": 0.4745,
+  "edge": 0.051,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-22T12:15:47+00:00",
+  "status": "open",
+  "odd_laatst": 2.07,
+  "bijgewerkt": "2026-10-22T12:15:47+00:00"
+ },
+ "1x2-toulouse-estac-troyes-2026-10-25": {
+  "fid": "1552799",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Toulouse wint",
+  "wedstrijd": "Toulouse - Estac Troyes",
+  "competitie": "Ligue 1",
+  "aftrap": "2026-10-25T16:15:00+00:00",
+  "odd_publicatie": 1.67,
+  "bookmaker": "711",
+  "kans": 0.6201,
+  "kans_markt": 0.5816,
+  "edge": 0.0356,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-22T12:15:48+00:00",
+  "status": "open",
+  "odd_laatst": 1.67,
+  "bijgewerkt": "2026-10-22T12:15:48+00:00"
+ },
+ "under-2-5-konyaspor-genclerbirligi-s-k-2026-10-25": {
+  "fid": "1584445",
+  "markt": "Under 2.5",
+  "pick": "under25",
+  "tip": "Minder dan 2.5 doelpunten",
+  "wedstrijd": "Konyaspor - Gençlerbirliği S.K.",
+  "competitie": "Super Lig",
+  "aftrap": "2026-10-25T13:00:00+00:00",
+  "odd_publicatie": 1.8,
+  "bookmaker": "Bet365",
+  "kans": 0.5765,
+  "kans_markt": 0.5304,
+  "edge": 0.0377,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-22T12:15:52+00:00",
+  "status": "open",
+  "odd_laatst": 1.8,
+  "bijgewerkt": "2026-10-22T12:15:52+00:00"
+ },
+ "btts-real-sociedad-levante-2026-10-25": {
+  "fid": "1570430",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Real Sociedad - Levante",
+  "competitie": "La Liga",
+  "aftrap": "2026-10-25T17:30:00+00:00",
+  "odd_publicatie": 1.62,
+  "bookmaker": "Circus",
+  "kans": 0.638,
+  "kans_markt": 0.5865,
+  "edge": 0.0336,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-22T12:15:53+00:00",
+  "status": "open",
+  "odd_laatst": 1.62,
+  "bijgewerkt": "2026-10-22T12:15:53+00:00"
+ },
+ "over-2-5-auxerre-le-mans-2026-10-25": {
+  "fid": "1552793",
+  "markt": "Over 2.5",
+  "pick": "over25",
+  "tip": "Meer dan 2.5 doelpunten",
+  "wedstrijd": "Auxerre - Le Mans",
+  "competitie": "Ligue 1",
+  "aftrap": "2026-10-25T16:15:00+00:00",
+  "odd_publicatie": 1.78,
+  "bookmaker": "711",
+  "kans": 0.5812,
+  "kans_markt": 0.5457,
+  "edge": 0.0346,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-22T12:15:54+00:00",
+  "status": "open",
+  "odd_laatst": 1.78,
+  "bijgewerkt": "2026-10-22T12:15:54+00:00"
+ },
+ "over-2-5-udinese-ac-milan-2026-10-25": {
+  "fid": "1550166",
+  "markt": "Over 2.5",
+  "pick": "over25",
+  "tip": "Meer dan 2.5 doelpunten",
+  "wedstrijd": "Udinese - AC Milan",
+  "competitie": "Serie A",
+  "aftrap": "2026-10-25T19:45:00+00:00",
+  "odd_publicatie": 1.87,
+  "bookmaker": "Circus",
+  "kans": 0.5519,
+  "kans_markt": 0.5158,
+  "edge": 0.0321,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-22T12:15:56+00:00",
+  "status": "open",
+  "odd_laatst": 1.87,
+  "bijgewerkt": "2026-10-22T12:15:56+00:00"
+ },
+ "btts-rennes-strasbourg-2026-10-25": {
+  "fid": "1552798",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Rennes - Strasbourg",
+  "competitie": "Ligue 1",
+  "aftrap": "2026-10-25T16:15:00+00:00",
+  "odd_publicatie": 1.47,
+  "bookmaker": "711",
+  "kans": 0.6878,
+  "kans_markt": 0.6383,
+  "edge": 0.0111,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-22T12:15:57+00:00",
+  "status": "open",
+  "odd_laatst": 1.47,
+  "bijgewerkt": "2026-10-22T12:15:57+00:00"
  }
 }
