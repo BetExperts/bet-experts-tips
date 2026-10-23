@@ -639,8 +639,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-21T12:12:09+00:00",
   "status": "open",
-  "odd_laatst": 1.62,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "odd_laatst": 1.68,
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
  },
  "1x2-estrela-casa-pia-2026-10-24": {
   "fid": "1575520",
@@ -658,8 +658,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-21T12:12:13+00:00",
   "status": "open",
-  "odd_laatst": 1.79,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "odd_laatst": 1.82,
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
  },
  "1x2-zlin-sigma-olomouc-2026-10-24": {
   "fid": "1560056",
@@ -677,8 +677,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-21T12:12:14+00:00",
   "status": "open",
-  "odd_laatst": 1.87,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "odd_laatst": 1.89,
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
  },
  "over-2-5-samsunspor-amed-2026-10-24": {
   "fid": "1584447",
@@ -697,7 +697,7 @@
   "gepubliceerd": "2026-10-21T12:12:16+00:00",
   "status": "open",
   "odd_laatst": 1.87,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
  },
  "btts-dijon-rodez-2026-10-24": {
   "fid": "1552506",
@@ -716,7 +716,7 @@
   "gepubliceerd": "2026-10-21T12:12:17+00:00",
   "status": "open",
   "odd_laatst": 1.57,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
  },
  "btts-utrecht-pec-zwolle-2026-10-24": {
   "fid": "1552199",
@@ -734,8 +734,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-21T12:12:19+00:00",
   "status": "open",
-  "odd_laatst": 1.53,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "odd_laatst": 1.55,
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
  },
  "1x2-marseille-le-havre-2026-10-25": {
   "fid": "1552796",
@@ -753,8 +753,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-22T12:15:46+00:00",
   "status": "open",
-  "odd_laatst": 1.59,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "odd_laatst": 1.58,
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
  },
  "1x2-manchester-united-bournemouth-2026-10-25": {
   "fid": "1557445",
@@ -772,8 +772,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-22T12:15:47+00:00",
   "status": "open",
-  "odd_laatst": 2.16,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "odd_laatst": 2.21,
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
  },
  "1x2-toulouse-estac-troyes-2026-10-25": {
   "fid": "1552799",
@@ -792,7 +792,7 @@
   "gepubliceerd": "2026-10-22T12:15:48+00:00",
   "status": "open",
   "odd_laatst": 1.61,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
  },
  "under-2-5-konyaspor-genclerbirligi-s-k-2026-10-25": {
   "fid": "1584445",
@@ -811,7 +811,7 @@
   "gepubliceerd": "2026-10-22T12:15:52+00:00",
   "status": "open",
   "odd_laatst": 1.78,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
  },
  "btts-real-sociedad-levante-2026-10-25": {
   "fid": "1570430",
@@ -829,8 +829,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-22T12:15:53+00:00",
   "status": "open",
-  "odd_laatst": 1.66,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "odd_laatst": 1.65,
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
  },
  "over-2-5-auxerre-le-mans-2026-10-25": {
   "fid": "1552793",
@@ -849,7 +849,7 @@
   "gepubliceerd": "2026-10-22T12:15:54+00:00",
   "status": "open",
   "odd_laatst": 1.73,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
  },
  "over-2-5-udinese-ac-milan-2026-10-25": {
   "fid": "1550166",
@@ -868,7 +868,7 @@
   "gepubliceerd": "2026-10-22T12:15:56+00:00",
   "status": "open",
   "odd_laatst": 1.91,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
  },
  "btts-rennes-strasbourg-2026-10-25": {
   "fid": "1552798",
@@ -886,8 +886,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-22T12:15:57+00:00",
   "status": "open",
-  "odd_laatst": 1.45,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "odd_laatst": 1.44,
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
  },
  "over-2-5-almere-city-fc-roda-2026-10-23": {
   "fid": "1551847",
@@ -965,7 +965,7 @@
   "gepubliceerd": "2026-10-23T11:57:12+00:00",
   "status": "open",
   "odd_laatst": 1.98,
-  "bijgewerkt": "2026-10-23T11:57:12+00:00"
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
  },
  "btts-besiktas-basaksehir-2026-10-26": {
   "fid": "1584440",
@@ -984,6 +984,44 @@
   "gepubliceerd": "2026-10-23T11:57:13+00:00",
   "status": "open",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-10-23T11:57:13+00:00"
+  "bijgewerkt": "2026-10-23T19:22:06+00:00"
+ },
+ "btts-rayo-vallecano-elche-2026-10-24": {
+  "fid": "1570429",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Rayo Vallecano - Elche",
+  "competitie": "La Liga",
+  "aftrap": "2026-10-24T12:00:00+00:00",
+  "odd_publicatie": 1.86,
+  "bookmaker": "StarCasino",
+  "kans": 0.5619,
+  "kans_markt": 0.5364,
+  "edge": 0.0451,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-23T19:23:43+00:00",
+  "status": "open",
+  "odd_laatst": 1.86,
+  "bijgewerkt": "2026-10-23T19:23:43+00:00"
+ },
+ "btts-galatasaray-fenerbahce-2026-10-26": {
+  "fid": "1584442",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Galatasaray - Fenerbahçe",
+  "competitie": "Super Lig",
+  "aftrap": "2026-10-26T18:30:00+00:00",
+  "odd_publicatie": 1.45,
+  "bookmaker": "StarCasino",
+  "kans": 0.6624,
+  "kans_markt": 0.6465,
+  "edge": -0.0395,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-23T19:23:44+00:00",
+  "status": "open",
+  "odd_laatst": 1.45,
+  "bijgewerkt": "2026-10-23T19:23:44+00:00"
  }
 }
