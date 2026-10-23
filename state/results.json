@@ -923,9 +923,11 @@
   "edge": 0.0305,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-22T19:19:30+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.81,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "bijgewerkt": "2026-10-23T11:55:58+00:00",
+  "eindstand": "4-0",
+  "afgesloten": "2026-10-23T19:11:02+00:00"
  },
  "btts-torino-monza-2026-10-23": {
   "fid": "1550165",

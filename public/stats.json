@@ -1,22 +1,22 @@
 {
- "bijgewerkt": "2026-10-23T15:03:02+00:00",
+ "bijgewerkt": "2026-10-23T19:11:15+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 27,
-  "gewonnen": 13,
+  "tips": 28,
+  "gewonnen": 14,
   "verloren": 14,
-  "raak": 48,
-  "winst_eenheden": -4.69,
-  "rendement": -17.4,
+  "raak": 50,
+  "winst_eenheden": -3.84,
+  "rendement": -13.7,
   "gem_odd": 1.79
  },
  "dertig_dagen": {
-  "tips": 27,
-  "gewonnen": 13,
+  "tips": 28,
+  "gewonnen": 14,
   "verloren": 14,
-  "raak": 48,
-  "winst_eenheden": -4.69,
-  "rendement": -17.4,
+  "raak": 50,
+  "winst_eenheden": -3.84,
+  "rendement": -13.7,
   "gem_odd": 1.79
  },
  "per_markt": {
@@ -42,22 +42,22 @@
   },
   "Over 2.5": {
    "totaal": {
-    "tips": 4,
-    "gewonnen": 2,
+    "tips": 5,
+    "gewonnen": 3,
     "verloren": 2,
-    "raak": 50,
-    "winst_eenheden": -0.52,
-    "rendement": -13.0,
-    "gem_odd": 1.79
+    "raak": 60,
+    "winst_eenheden": 0.33,
+    "rendement": 6.6,
+    "gem_odd": 1.8
    },
    "dertig_dagen": {
-    "tips": 4,
-    "gewonnen": 2,
+    "tips": 5,
+    "gewonnen": 3,
     "verloren": 2,
-    "raak": 50,
-    "winst_eenheden": -0.52,
-    "rendement": -13.0,
-    "gem_odd": 1.79
+    "raak": 60,
+    "winst_eenheden": 0.33,
+    "rendement": 6.6,
+    "gem_odd": 1.8
    }
   },
   "Under 2.5": {
@@ -110,8 +110,17 @@
   "rendement": -30.0,
   "gem_odd": 1.78
  },
- "open": 22,
+ "open": 21,
  "laatste": [
+  {
+   "datum": "2026-10-23",
+   "wedstrijd": "CSKA 1948 - Botev Plovdiv",
+   "markt": "Over 2.5",
+   "tip": "Meer dan 2.5 doelpunten",
+   "odd": 1.85,
+   "uitslag": "4-0",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-10-20",
    "wedstrijd": "Cambridge United - Wycombe",
@@ -282,15 +291,6 @@
    "odd": 1.87,
    "uitslag": "1-1",
    "status": "gewonnen"
-  },
-  {
-   "datum": "2026-10-17",
-   "wedstrijd": "Wigan - Reading",
-   "markt": "1X2",
-   "tip": "Reading wint",
-   "odd": 2.07,
-   "uitslag": "1-0",
-   "status": "verloren"
   }
  ]
 }
