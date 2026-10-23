@@ -581,9 +581,11 @@
   "edge": 0.0565,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-20T11:57:42+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.65,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "bijgewerkt": "2026-10-23T11:55:58+00:00",
+  "eindstand": "1-1",
+  "afgesloten": "2026-10-23T22:12:40+00:00"
  },
  "btts-ipswich-nottingham-forest-2026-10-23": {
   "fid": "1557443",
@@ -600,9 +602,11 @@
   "edge": 0.0507,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-20T11:57:43+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "bijgewerkt": "2026-10-23T11:55:58+00:00",
+  "eindstand": "1-1",
+  "afgesloten": "2026-10-23T22:12:40+00:00"
  },
  "btts-go-ahead-eagles-telstar-2026-10-23": {
   "fid": "1552198",
@@ -619,9 +623,11 @@
   "edge": -0.0227,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-20T11:57:44+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.5,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "bijgewerkt": "2026-10-23T11:55:58+00:00",
+  "eindstand": "3-2",
+  "afgesloten": "2026-10-23T22:12:40+00:00"
  },
  "1x2-cf-montreal-nashville-sc-2026-10-24": {
   "fid": "1490557",
@@ -904,9 +910,11 @@
   "edge": 0.0326,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-22T19:19:28+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.6,
-  "bijgewerkt": "2026-10-23T11:55:58+00:00"
+  "bijgewerkt": "2026-10-23T11:55:58+00:00",
+  "eindstand": "2-3",
+  "afgesloten": "2026-10-23T22:12:40+00:00"
  },
  "over-2-5-cska-1948-botev-plovdiv-2026-10-23": {
   "fid": "1551126",
@@ -944,9 +952,11 @@
   "edge": 0.0498,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-23T11:57:11+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.74,
-  "bijgewerkt": "2026-10-23T11:57:11+00:00"
+  "bijgewerkt": "2026-10-23T11:57:11+00:00",
+  "eindstand": "3-2",
+  "afgesloten": "2026-10-23T22:12:40+00:00"
  },
  "1x2-rizespor-trabzonspor-2026-10-26": {
   "fid": "1584446",
