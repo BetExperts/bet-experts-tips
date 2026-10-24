@@ -644,9 +644,11 @@
   "edge": 0.0502,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-21T12:12:09+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.55,
-  "bijgewerkt": "2026-10-24T11:25:32+00:00"
+  "bijgewerkt": "2026-10-24T11:25:32+00:00",
+  "eindstand": "0-2",
+  "afgesloten": "2026-10-24T20:45:46+00:00"
  },
  "1x2-estrela-casa-pia-2026-10-24": {
   "fid": "1575520",

@@ -1,23 +1,23 @@
 {
- "bijgewerkt": "2026-10-24T18:16:45+00:00",
+ "bijgewerkt": "2026-10-24T20:45:54+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 40,
-  "gewonnen": 22,
+  "tips": 41,
+  "gewonnen": 23,
   "verloren": 18,
-  "raak": 55,
-  "winst_eenheden": -2.32,
-  "rendement": -5.8,
-  "gem_odd": 1.78
+  "raak": 56,
+  "winst_eenheden": -1.64,
+  "rendement": -4.0,
+  "gem_odd": 1.77
  },
  "dertig_dagen": {
-  "tips": 40,
-  "gewonnen": 22,
+  "tips": 41,
+  "gewonnen": 23,
   "verloren": 18,
-  "raak": 55,
-  "winst_eenheden": -2.32,
-  "rendement": -5.8,
-  "gem_odd": 1.78
+  "raak": 56,
+  "winst_eenheden": -1.64,
+  "rendement": -4.0,
+  "gem_odd": 1.77
  },
  "per_markt": {
   "BTTS": {
@@ -82,36 +82,45 @@
   },
   "1X2": {
    "totaal": {
-    "tips": 12,
-    "gewonnen": 4,
+    "tips": 13,
+    "gewonnen": 5,
     "verloren": 8,
-    "raak": 33,
-    "winst_eenheden": -4.89,
-    "rendement": -40.7,
-    "gem_odd": 1.89
+    "raak": 38,
+    "winst_eenheden": -4.21,
+    "rendement": -32.4,
+    "gem_odd": 1.87
    },
    "dertig_dagen": {
-    "tips": 12,
-    "gewonnen": 4,
+    "tips": 13,
+    "gewonnen": 5,
     "verloren": 8,
-    "raak": 33,
-    "winst_eenheden": -4.89,
-    "rendement": -40.7,
-    "gem_odd": 1.89
+    "raak": 38,
+    "winst_eenheden": -4.21,
+    "rendement": -32.4,
+    "gem_odd": 1.87
    }
   }
  },
  "tip_van_de_dag": {
-  "tips": 6,
-  "gewonnen": 2,
+  "tips": 7,
+  "gewonnen": 3,
   "verloren": 4,
-  "raak": 33,
-  "winst_eenheden": -2.5,
-  "rendement": -41.7,
-  "gem_odd": 1.79
+  "raak": 43,
+  "winst_eenheden": -1.82,
+  "rendement": -26.0,
+  "gem_odd": 1.77
  },
- "open": 15,
+ "open": 14,
  "laatste": [
+  {
+   "datum": "2026-10-24",
+   "wedstrijd": "CF Montreal - Nashville SC",
+   "markt": "1X2",
+   "tip": "Nashville SC wint",
+   "odd": 1.68,
+   "uitslag": "0-2",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-10-24",
    "wedstrijd": "Samsunspor - Amed",
@@ -282,15 +291,6 @@
    "odd": 1.91,
    "uitslag": "0-3",
    "status": "verloren"
-  },
-  {
-   "datum": "2026-10-18",
-   "wedstrijd": "Lyon - Nice",
-   "markt": "1X2",
-   "tip": "Lyon wint",
-   "odd": 1.7,
-   "uitslag": "2-1",
-   "status": "gewonnen"
   }
  ]
 }
