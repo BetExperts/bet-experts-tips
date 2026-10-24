@@ -1,102 +1,102 @@
 {
- "bijgewerkt": "2026-10-24T14:30:45+00:00",
+ "bijgewerkt": "2026-10-24T18:07:22+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 35,
-  "gewonnen": 19,
-  "verloren": 16,
-  "raak": 54,
-  "winst_eenheden": -2.57,
-  "rendement": -7.3,
-  "gem_odd": 1.77
+  "tips": 40,
+  "gewonnen": 22,
+  "verloren": 18,
+  "raak": 55,
+  "winst_eenheden": -2.32,
+  "rendement": -5.8,
+  "gem_odd": 1.78
  },
  "dertig_dagen": {
-  "tips": 35,
-  "gewonnen": 19,
-  "verloren": 16,
-  "raak": 54,
-  "winst_eenheden": -2.57,
-  "rendement": -7.3,
-  "gem_odd": 1.77
+  "tips": 40,
+  "gewonnen": 22,
+  "verloren": 18,
+  "raak": 55,
+  "winst_eenheden": -2.32,
+  "rendement": -5.8,
+  "gem_odd": 1.78
  },
  "per_markt": {
   "BTTS": {
    "totaal": {
-    "tips": 13,
-    "gewonnen": 8,
+    "tips": 14,
+    "gewonnen": 9,
     "verloren": 5,
-    "raak": 62,
-    "winst_eenheden": -0.28,
-    "rendement": -2.2,
-    "gem_odd": 1.65
+    "raak": 64,
+    "winst_eenheden": 0.25,
+    "rendement": 1.8,
+    "gem_odd": 1.64
    },
    "dertig_dagen": {
-    "tips": 13,
-    "gewonnen": 8,
+    "tips": 14,
+    "gewonnen": 9,
     "verloren": 5,
-    "raak": 62,
-    "winst_eenheden": -0.28,
-    "rendement": -2.2,
-    "gem_odd": 1.65
+    "raak": 64,
+    "winst_eenheden": 0.25,
+    "rendement": 1.8,
+    "gem_odd": 1.64
    }
   },
   "Over 2.5": {
    "totaal": {
-    "tips": 6,
-    "gewonnen": 4,
+    "tips": 7,
+    "gewonnen": 5,
     "verloren": 2,
-    "raak": 67,
-    "winst_eenheden": 0.98,
-    "rendement": 16.3,
-    "gem_odd": 1.78
+    "raak": 71,
+    "winst_eenheden": 1.85,
+    "rendement": 26.4,
+    "gem_odd": 1.79
    },
    "dertig_dagen": {
-    "tips": 6,
-    "gewonnen": 4,
+    "tips": 7,
+    "gewonnen": 5,
     "verloren": 2,
-    "raak": 67,
-    "winst_eenheden": 0.98,
-    "rendement": 16.3,
-    "gem_odd": 1.78
+    "raak": 71,
+    "winst_eenheden": 1.85,
+    "rendement": 26.4,
+    "gem_odd": 1.79
    }
   },
   "Under 2.5": {
    "totaal": {
-    "tips": 6,
-    "gewonnen": 3,
+    "tips": 7,
+    "gewonnen": 4,
     "verloren": 3,
-    "raak": 50,
-    "winst_eenheden": -0.38,
-    "rendement": -6.3,
+    "raak": 57,
+    "winst_eenheden": 0.47,
+    "rendement": 6.7,
     "gem_odd": 1.84
    },
    "dertig_dagen": {
-    "tips": 6,
-    "gewonnen": 3,
+    "tips": 7,
+    "gewonnen": 4,
     "verloren": 3,
-    "raak": 50,
-    "winst_eenheden": -0.38,
-    "rendement": -6.3,
+    "raak": 57,
+    "winst_eenheden": 0.47,
+    "rendement": 6.7,
     "gem_odd": 1.84
    }
   },
   "1X2": {
    "totaal": {
-    "tips": 10,
+    "tips": 12,
     "gewonnen": 4,
-    "verloren": 6,
-    "raak": 40,
-    "winst_eenheden": -2.89,
-    "rendement": -28.9,
+    "verloren": 8,
+    "raak": 33,
+    "winst_eenheden": -4.89,
+    "rendement": -40.7,
     "gem_odd": 1.89
    },
    "dertig_dagen": {
-    "tips": 10,
+    "tips": 12,
     "gewonnen": 4,
-    "verloren": 6,
-    "raak": 40,
-    "winst_eenheden": -2.89,
-    "rendement": -28.9,
+    "verloren": 8,
+    "raak": 33,
+    "winst_eenheden": -4.89,
+    "rendement": -40.7,
     "gem_odd": 1.89
    }
   }
@@ -110,8 +110,53 @@
   "rendement": -41.7,
   "gem_odd": 1.79
  },
- "open": 18,
+ "open": 13,
  "laatste": [
+  {
+   "datum": "2026-10-24",
+   "wedstrijd": "Samsunspor - Amed",
+   "markt": "Over 2.5",
+   "tip": "Meer dan 2.5 doelpunten",
+   "odd": 1.87,
+   "uitslag": "1-2",
+   "status": "gewonnen"
+  },
+  {
+   "datum": "2026-10-24",
+   "wedstrijd": "Estrela - Casa Pia",
+   "markt": "1X2",
+   "tip": "Estrela wint",
+   "odd": 1.75,
+   "uitslag": "0-2",
+   "status": "verloren"
+  },
+  {
+   "datum": "2026-10-24",
+   "wedstrijd": "Utrecht - PEC Zwolle",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.53,
+   "uitslag": "1-1",
+   "status": "gewonnen"
+  },
+  {
+   "datum": "2026-10-24",
+   "wedstrijd": "Zlin - Sigma Olomouc",
+   "markt": "1X2",
+   "tip": "Sigma Olomouc wint",
+   "odd": 2.0,
+   "uitslag": "1-1",
+   "status": "verloren"
+  },
+  {
+   "datum": "2026-10-24",
+   "wedstrijd": "Cremonese - Juve Stabia",
+   "markt": "Under 2.5",
+   "tip": "Minder dan 2.5 doelpunten",
+   "odd": 1.85,
+   "uitslag": "0-1",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-10-24",
    "wedstrijd": "Dijon - Rodez",
@@ -246,51 +291,6 @@
    "odd": 1.7,
    "uitslag": "2-1",
    "status": "gewonnen"
-  },
-  {
-   "datum": "2026-10-18",
-   "wedstrijd": "Celta Vigo - Alaves",
-   "markt": "Under 2.5",
-   "tip": "Minder dan 2.5 doelpunten",
-   "odd": 1.73,
-   "uitslag": "2-1",
-   "status": "verloren"
-  },
-  {
-   "datum": "2026-10-18",
-   "wedstrijd": "Bayer Leverkusen - SC Freiburg",
-   "markt": "BTTS",
-   "tip": "Beide teams scoren",
-   "odd": 1.51,
-   "uitslag": "2-1",
-   "status": "gewonnen"
-  },
-  {
-   "datum": "2026-10-18",
-   "wedstrijd": "Dukla Banská Bystrica - Podbrezová",
-   "markt": "BTTS",
-   "tip": "Beide teams scoren",
-   "odd": 1.57,
-   "uitslag": "1-0",
-   "status": "verloren"
-  },
-  {
-   "datum": "2026-10-18",
-   "wedstrijd": "Brighton - Crystal Palace",
-   "markt": "1X2",
-   "tip": "Brighton wint",
-   "odd": 1.58,
-   "uitslag": "5-0",
-   "status": "gewonnen"
-  },
-  {
-   "datum": "2026-10-18",
-   "wedstrijd": "Osasuna - Racing Santander",
-   "markt": "Over 2.5",
-   "tip": "Meer dan 2.5 doelpunten",
-   "odd": 1.73,
-   "uitslag": "2-0",
-   "status": "verloren"
   }
  ]
 }
