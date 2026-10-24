@@ -1103,9 +1103,11 @@
   "edge": 0.0312,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-24T18:16:35+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.86,
-  "bijgewerkt": "2026-10-24T18:16:35+00:00"
+  "bijgewerkt": "2026-10-24T18:16:35+00:00",
+  "eindstand": "4-4",
+  "afgesloten": "2026-10-24T23:11:27+00:00"
  },
  "btts-philadelphia-union-new-england-revolution-2026-10-25": {
   "fid": "1490561",
