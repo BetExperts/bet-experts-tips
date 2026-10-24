@@ -720,9 +720,11 @@
   "edge": 0.0017,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-21T12:12:17+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.57,
-  "bijgewerkt": "2026-10-24T11:25:32+00:00"
+  "bijgewerkt": "2026-10-24T11:25:32+00:00",
+  "eindstand": "1-2",
+  "afgesloten": "2026-10-24T14:30:25+00:00"
  },
  "btts-utrecht-pec-zwolle-2026-10-24": {
   "fid": "1552199",
@@ -1011,9 +1013,11 @@
   "edge": 0.0451,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-23T19:23:43+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.75,
-  "bijgewerkt": "2026-10-24T11:25:32+00:00"
+  "bijgewerkt": "2026-10-24T11:25:32+00:00",
+  "eindstand": "0-3",
+  "afgesloten": "2026-10-24T14:30:25+00:00"
  },
  "btts-galatasaray-fenerbahce-2026-10-26": {
   "fid": "1584442",
