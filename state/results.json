@@ -770,9 +770,11 @@
   "edge": 0.0414,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-22T12:15:46+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.5,
-  "bijgewerkt": "2026-10-25T11:54:31+00:00"
+  "bijgewerkt": "2026-10-25T11:54:31+00:00",
+  "eindstand": "4-3",
+  "afgesloten": "2026-10-25T19:35:23+00:00"
  },
  "1x2-manchester-united-bournemouth-2026-10-25": {
   "fid": "1557445",
@@ -810,9 +812,11 @@
   "edge": 0.0356,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-22T12:15:48+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.54,
-  "bijgewerkt": "2026-10-25T11:54:31+00:00"
+  "bijgewerkt": "2026-10-25T11:54:31+00:00",
+  "eindstand": "0-0",
+  "afgesloten": "2026-10-25T19:35:23+00:00"
  },
  "under-2-5-konyaspor-genclerbirligi-s-k-2026-10-25": {
   "fid": "1584445",
@@ -850,9 +854,11 @@
   "edge": 0.0336,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-22T12:15:53+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.61,
-  "bijgewerkt": "2026-10-25T11:54:31+00:00"
+  "bijgewerkt": "2026-10-25T11:54:31+00:00",
+  "eindstand": "2-1",
+  "afgesloten": "2026-10-25T19:35:23+00:00"
  },
  "over-2-5-auxerre-le-mans-2026-10-25": {
   "fid": "1552793",
@@ -869,9 +875,11 @@
   "edge": 0.0346,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-22T12:15:54+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.75,
-  "bijgewerkt": "2026-10-25T11:54:31+00:00"
+  "bijgewerkt": "2026-10-25T11:54:31+00:00",
+  "eindstand": "1-1",
+  "afgesloten": "2026-10-25T19:35:23+00:00"
  },
  "over-2-5-udinese-ac-milan-2026-10-25": {
   "fid": "1550166",
@@ -907,9 +915,11 @@
   "edge": 0.0111,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-22T12:15:57+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.47,
-  "bijgewerkt": "2026-10-25T11:54:31+00:00"
+  "bijgewerkt": "2026-10-25T11:54:31+00:00",
+  "eindstand": "3-0",
+  "afgesloten": "2026-10-25T19:35:23+00:00"
  },
  "over-2-5-almere-city-fc-roda-2026-10-23": {
   "fid": "1551847",
