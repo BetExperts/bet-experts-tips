@@ -1,43 +1,43 @@
 {
- "bijgewerkt": "2026-10-25T01:12:01+00:00",
+ "bijgewerkt": "2026-10-25T06:10:34+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 42,
-  "gewonnen": 23,
+  "tips": 43,
+  "gewonnen": 24,
   "verloren": 19,
-  "raak": 55,
-  "winst_eenheden": -2.64,
-  "rendement": -6.3,
+  "raak": 56,
+  "winst_eenheden": -2.07,
+  "rendement": -4.8,
   "gem_odd": 1.77
  },
  "dertig_dagen": {
-  "tips": 42,
-  "gewonnen": 23,
+  "tips": 43,
+  "gewonnen": 24,
   "verloren": 19,
-  "raak": 55,
-  "winst_eenheden": -2.64,
-  "rendement": -6.3,
+  "raak": 56,
+  "winst_eenheden": -2.07,
+  "rendement": -4.8,
   "gem_odd": 1.77
  },
  "per_markt": {
   "BTTS": {
    "totaal": {
-    "tips": 14,
-    "gewonnen": 9,
+    "tips": 15,
+    "gewonnen": 10,
     "verloren": 5,
-    "raak": 64,
-    "winst_eenheden": 0.25,
-    "rendement": 1.8,
-    "gem_odd": 1.64
+    "raak": 67,
+    "winst_eenheden": 0.82,
+    "rendement": 5.5,
+    "gem_odd": 1.63
    },
    "dertig_dagen": {
-    "tips": 14,
-    "gewonnen": 9,
+    "tips": 15,
+    "gewonnen": 10,
     "verloren": 5,
-    "raak": 64,
-    "winst_eenheden": 0.25,
-    "rendement": 1.8,
-    "gem_odd": 1.64
+    "raak": 67,
+    "winst_eenheden": 0.82,
+    "rendement": 5.5,
+    "gem_odd": 1.63
    }
   },
   "Over 2.5": {
@@ -110,8 +110,17 @@
   "rendement": -35.2,
   "gem_odd": 1.78
  },
- "open": 13,
+ "open": 12,
  "laatste": [
+  {
+   "datum": "2026-10-24",
+   "wedstrijd": "Philadelphia Union - New England Revolution",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.57,
+   "uitslag": "1-2",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-10-24",
    "wedstrijd": "KVC Westerlo - SK Beveren",
@@ -280,15 +289,6 @@
    "markt": "Under 2.5",
    "tip": "Minder dan 2.5 doelpunten",
    "odd": 1.78,
-   "uitslag": "1-2",
-   "status": "verloren"
-  },
-  {
-   "datum": "2026-10-18",
-   "wedstrijd": "Fluminense - Santos",
-   "markt": "1X2",
-   "tip": "Fluminense wint",
-   "odd": 2.06,
    "uitslag": "1-2",
    "status": "verloren"
   }
