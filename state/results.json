@@ -896,9 +896,11 @@
   "edge": 0.0321,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-22T12:15:56+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.91,
-  "bijgewerkt": "2026-10-25T18:29:03+00:00"
+  "bijgewerkt": "2026-10-25T18:29:03+00:00",
+  "eindstand": "0-2",
+  "afgesloten": "2026-10-25T22:32:00+00:00"
  },
  "btts-rennes-strasbourg-2026-10-25": {
   "fid": "1552798",

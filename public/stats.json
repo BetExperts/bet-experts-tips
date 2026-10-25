@@ -1,23 +1,23 @@
 {
- "bijgewerkt": "2026-10-25T19:35:30+00:00",
+ "bijgewerkt": "2026-10-25T22:32:05+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 50,
+  "tips": 51,
   "gewonnen": 27,
-  "verloren": 23,
-  "raak": 54,
-  "winst_eenheden": -4.0,
-  "rendement": -8.0,
-  "gem_odd": 1.76
+  "verloren": 24,
+  "raak": 53,
+  "winst_eenheden": -5.0,
+  "rendement": -9.8,
+  "gem_odd": 1.77
  },
  "dertig_dagen": {
-  "tips": 50,
+  "tips": 51,
   "gewonnen": 27,
-  "verloren": 23,
-  "raak": 54,
-  "winst_eenheden": -4.0,
-  "rendement": -8.0,
-  "gem_odd": 1.76
+  "verloren": 24,
+  "raak": 53,
+  "winst_eenheden": -5.0,
+  "rendement": -9.8,
+  "gem_odd": 1.77
  },
  "per_markt": {
   "BTTS": {
@@ -42,22 +42,22 @@
   },
   "Over 2.5": {
    "totaal": {
-    "tips": 8,
+    "tips": 9,
     "gewonnen": 5,
-    "verloren": 3,
-    "raak": 62,
-    "winst_eenheden": 0.85,
-    "rendement": 10.6,
-    "gem_odd": 1.79
+    "verloren": 4,
+    "raak": 56,
+    "winst_eenheden": -0.15,
+    "rendement": -1.7,
+    "gem_odd": 1.8
    },
    "dertig_dagen": {
-    "tips": 8,
+    "tips": 9,
     "gewonnen": 5,
-    "verloren": 3,
-    "raak": 62,
-    "winst_eenheden": 0.85,
-    "rendement": 10.6,
-    "gem_odd": 1.79
+    "verloren": 4,
+    "raak": 56,
+    "winst_eenheden": -0.15,
+    "rendement": -1.7,
+    "gem_odd": 1.8
    }
   },
   "Under 2.5": {
@@ -110,8 +110,17 @@
   "rendement": -24.1,
   "gem_odd": 1.77
  },
- "open": 8,
+ "open": 7,
  "laatste": [
+  {
+   "datum": "2026-10-25",
+   "wedstrijd": "Udinese - AC Milan",
+   "markt": "Over 2.5",
+   "tip": "Meer dan 2.5 doelpunten",
+   "odd": 1.87,
+   "uitslag": "0-2",
+   "status": "verloren"
+  },
   {
    "datum": "2026-10-25",
    "wedstrijd": "Real Sociedad - Levante",
@@ -281,15 +290,6 @@
    "tip": "Beide teams scoren",
    "odd": 1.85,
    "uitslag": "1-1",
-   "status": "gewonnen"
-  },
-  {
-   "datum": "2026-10-23",
-   "wedstrijd": "Torino - Monza",
-   "markt": "BTTS",
-   "tip": "Beide teams scoren",
-   "odd": 1.74,
-   "uitslag": "3-2",
    "status": "gewonnen"
   }
  ]
