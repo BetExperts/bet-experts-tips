@@ -1001,9 +1001,11 @@
   "edge": 0.052,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-23T11:57:12+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.9,
-  "bijgewerkt": "2026-10-26T13:26:36+00:00"
+  "bijgewerkt": "2026-10-26T13:26:36+00:00",
+  "eindstand": "3-4",
+  "afgesloten": "2026-10-26T19:16:47+00:00"
  },
  "btts-besiktas-basaksehir-2026-10-26": {
   "fid": "1584440",
@@ -1020,9 +1022,11 @@
   "edge": -0.032,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-23T11:57:13+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.67,
-  "bijgewerkt": "2026-10-26T13:26:36+00:00"
+  "bijgewerkt": "2026-10-26T13:26:36+00:00",
+  "eindstand": "2-0",
+  "afgesloten": "2026-10-26T19:16:47+00:00"
  },
  "btts-rayo-vallecano-elche-2026-10-24": {
   "fid": "1570429",
