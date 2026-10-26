@@ -1106,7 +1106,7 @@
   "gepubliceerd": "2026-10-24T11:26:36+00:00",
   "status": "open",
   "odd_laatst": 1.47,
-  "bijgewerkt": "2026-10-26T13:26:36+00:00"
+  "bijgewerkt": "2026-10-26T20:38:25+00:00"
  },
  "1x2-kvc-westerlo-sk-beveren-2026-10-24": {
   "fid": "1558661",
@@ -1166,8 +1166,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-25T11:55:51+00:00",
   "status": "open",
-  "odd_laatst": 1.75,
-  "bijgewerkt": "2026-10-26T13:26:36+00:00"
+  "odd_laatst": 1.73,
+  "bijgewerkt": "2026-10-26T20:38:25+00:00"
  },
  "btts-if-brommapojkarna-bk-hacken-2026-10-28": {
   "fid": "1494314",
@@ -1186,7 +1186,7 @@
   "gepubliceerd": "2026-10-25T11:55:52+00:00",
   "status": "open",
   "odd_laatst": 1.57,
-  "bijgewerkt": "2026-10-26T13:26:36+00:00"
+  "bijgewerkt": "2026-10-26T20:38:25+00:00"
  },
  "btts-pisa-palermo-2026-10-28": {
   "fid": "1601582",
@@ -1205,7 +1205,7 @@
   "gepubliceerd": "2026-10-25T18:29:26+00:00",
   "status": "open",
   "odd_laatst": 1.6,
-  "bijgewerkt": "2026-10-26T13:26:36+00:00"
+  "bijgewerkt": "2026-10-26T20:38:25+00:00"
  },
  "1x2-ifk-goteborg-djurgardens-if-2026-10-28": {
   "fid": "1494316",
@@ -1223,8 +1223,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-26T13:27:23+00:00",
   "status": "open",
-  "odd_laatst": 2.02,
-  "bijgewerkt": "2026-10-26T13:27:23+00:00"
+  "odd_laatst": 2.03,
+  "bijgewerkt": "2026-10-26T20:38:25+00:00"
  },
  "1x2-vasco-da-gama-flamengo-2026-10-30": {
   "fid": "1492439",
@@ -1243,7 +1243,7 @@
   "gepubliceerd": "2026-10-26T13:27:24+00:00",
   "status": "open",
   "odd_laatst": 2.05,
-  "bijgewerkt": "2026-10-26T13:27:24+00:00"
+  "bijgewerkt": "2026-10-26T20:38:25+00:00"
  },
  "btts-minnesota-united-fc-sporting-kansas-city-2026-10-29": {
   "fid": "1490579",
@@ -1261,8 +1261,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-26T13:27:25+00:00",
   "status": "open",
-  "odd_laatst": 1.53,
-  "bijgewerkt": "2026-10-26T13:27:25+00:00"
+  "odd_laatst": 1.5,
+  "bijgewerkt": "2026-10-26T20:38:25+00:00"
  },
  "btts-fiorentina-atalanta-2026-10-29": {
   "fid": "1550169",
@@ -1281,6 +1281,25 @@
   "gepubliceerd": "2026-10-26T13:27:26+00:00",
   "status": "open",
   "odd_laatst": 1.55,
-  "bijgewerkt": "2026-10-26T13:27:26+00:00"
+  "bijgewerkt": "2026-10-26T20:38:25+00:00"
+ },
+ "1x2-benevento-catanzaro-2026-10-27": {
+  "fid": "1601574",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Benevento wint",
+  "wedstrijd": "Benevento - Catanzaro",
+  "competitie": "Serie B",
+  "aftrap": "2026-10-27T18:00:00+00:00",
+  "odd_publicatie": 1.78,
+  "bookmaker": "Circus",
+  "kans": 0.5787,
+  "kans_markt": 0.5479,
+  "edge": 0.03,
+  "tip_van_de_dag": true,
+  "gepubliceerd": "2026-10-26T20:38:55+00:00",
+  "status": "open",
+  "odd_laatst": 1.78,
+  "bijgewerkt": "2026-10-26T20:38:55+00:00"
  }
 }
