@@ -1,43 +1,43 @@
 {
- "bijgewerkt": "2026-10-26T20:38:58+00:00",
+ "bijgewerkt": "2026-10-26T23:51:22+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 53,
-  "gewonnen": 28,
+  "tips": 54,
+  "gewonnen": 29,
   "verloren": 25,
-  "raak": 53,
-  "winst_eenheden": -5.02,
-  "rendement": -9.5,
-  "gem_odd": 1.77
+  "raak": 54,
+  "winst_eenheden": -4.57,
+  "rendement": -8.5,
+  "gem_odd": 1.76
  },
  "dertig_dagen": {
-  "tips": 53,
-  "gewonnen": 28,
+  "tips": 54,
+  "gewonnen": 29,
   "verloren": 25,
-  "raak": 53,
-  "winst_eenheden": -5.02,
-  "rendement": -9.5,
-  "gem_odd": 1.77
+  "raak": 54,
+  "winst_eenheden": -4.57,
+  "rendement": -8.5,
+  "gem_odd": 1.76
  },
  "per_markt": {
   "BTTS": {
    "totaal": {
-    "tips": 18,
-    "gewonnen": 11,
+    "tips": 19,
+    "gewonnen": 12,
     "verloren": 7,
-    "raak": 61,
-    "winst_eenheden": -0.56,
-    "rendement": -3.1,
-    "gem_odd": 1.62
+    "raak": 63,
+    "winst_eenheden": -0.11,
+    "rendement": -0.6,
+    "gem_odd": 1.61
    },
    "dertig_dagen": {
-    "tips": 18,
-    "gewonnen": 11,
+    "tips": 19,
+    "gewonnen": 12,
     "verloren": 7,
-    "raak": 61,
-    "winst_eenheden": -0.56,
-    "rendement": -3.1,
-    "gem_odd": 1.62
+    "raak": 63,
+    "winst_eenheden": -0.11,
+    "rendement": -0.6,
+    "gem_odd": 1.61
    }
   },
   "Over 2.5": {
@@ -110,8 +110,17 @@
   "rendement": -24.1,
   "gem_odd": 1.77
  },
- "open": 10,
+ "open": 9,
  "laatste": [
+  {
+   "datum": "2026-10-26",
+   "wedstrijd": "Galatasaray - Fenerbahçe",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.45,
+   "uitslag": "2-1",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-10-26",
    "wedstrijd": "Rizespor - Trabzonspor",
@@ -282,15 +291,6 @@
    "odd": 1.53,
    "uitslag": "1-2",
    "status": "gewonnen"
-  },
-  {
-   "datum": "2026-10-24",
-   "wedstrijd": "Rayo Vallecano - Elche",
-   "markt": "BTTS",
-   "tip": "Beide teams scoren",
-   "odd": 1.86,
-   "uitslag": "0-3",
-   "status": "verloren"
   }
  ]
 }
