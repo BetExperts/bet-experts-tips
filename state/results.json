@@ -1107,8 +1107,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-24T11:26:36+00:00",
   "status": "open",
-  "odd_laatst": 1.47,
-  "bijgewerkt": "2026-10-26T20:38:25+00:00"
+  "odd_laatst": 1.5,
+  "bijgewerkt": "2026-10-27T12:33:37+00:00"
  },
  "1x2-kvc-westerlo-sk-beveren-2026-10-24": {
   "fid": "1558661",
@@ -1168,8 +1168,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-25T11:55:51+00:00",
   "status": "open",
-  "odd_laatst": 1.73,
-  "bijgewerkt": "2026-10-26T20:38:25+00:00"
+  "odd_laatst": 1.7,
+  "bijgewerkt": "2026-10-27T12:33:37+00:00"
  },
  "btts-if-brommapojkarna-bk-hacken-2026-10-28": {
   "fid": "1494314",
@@ -1187,8 +1187,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-25T11:55:52+00:00",
   "status": "open",
-  "odd_laatst": 1.57,
-  "bijgewerkt": "2026-10-26T20:38:25+00:00"
+  "odd_laatst": 1.54,
+  "bijgewerkt": "2026-10-27T12:33:37+00:00"
  },
  "btts-pisa-palermo-2026-10-28": {
   "fid": "1601582",
@@ -1207,7 +1207,7 @@
   "gepubliceerd": "2026-10-25T18:29:26+00:00",
   "status": "open",
   "odd_laatst": 1.6,
-  "bijgewerkt": "2026-10-26T20:38:25+00:00"
+  "bijgewerkt": "2026-10-27T12:33:37+00:00"
  },
  "1x2-ifk-goteborg-djurgardens-if-2026-10-28": {
   "fid": "1494316",
@@ -1225,8 +1225,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-26T13:27:23+00:00",
   "status": "open",
-  "odd_laatst": 2.03,
-  "bijgewerkt": "2026-10-26T20:38:25+00:00"
+  "odd_laatst": 2.02,
+  "bijgewerkt": "2026-10-27T12:33:37+00:00"
  },
  "1x2-vasco-da-gama-flamengo-2026-10-30": {
   "fid": "1492439",
@@ -1244,8 +1244,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-26T13:27:24+00:00",
   "status": "open",
-  "odd_laatst": 2.05,
-  "bijgewerkt": "2026-10-26T20:38:25+00:00"
+  "odd_laatst": 1.87,
+  "bijgewerkt": "2026-10-27T12:33:37+00:00"
  },
  "btts-minnesota-united-fc-sporting-kansas-city-2026-10-29": {
   "fid": "1490579",
@@ -1263,8 +1263,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-26T13:27:25+00:00",
   "status": "open",
-  "odd_laatst": 1.5,
-  "bijgewerkt": "2026-10-26T20:38:25+00:00"
+  "odd_laatst": 1.52,
+  "bijgewerkt": "2026-10-27T12:33:37+00:00"
  },
  "btts-fiorentina-atalanta-2026-10-29": {
   "fid": "1550169",
@@ -1283,7 +1283,7 @@
   "gepubliceerd": "2026-10-26T13:27:26+00:00",
   "status": "open",
   "odd_laatst": 1.55,
-  "bijgewerkt": "2026-10-26T20:38:25+00:00"
+  "bijgewerkt": "2026-10-27T12:33:37+00:00"
  },
  "1x2-benevento-catanzaro-2026-10-27": {
   "fid": "1601574",
@@ -1301,7 +1301,102 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-26T20:38:55+00:00",
   "status": "open",
-  "odd_laatst": 1.78,
-  "bijgewerkt": "2026-10-26T20:38:55+00:00"
+  "odd_laatst": 1.68,
+  "bijgewerkt": "2026-10-27T12:33:37+00:00"
+ },
+ "1x2-sassuolo-lazio-2026-10-27": {
+  "fid": "1550174",
+  "markt": "1X2",
+  "pick": "away",
+  "tip": "Lazio wint",
+  "wedstrijd": "Sassuolo - Lazio",
+  "competitie": "Serie A",
+  "aftrap": "2026-10-27T17:30:00+00:00",
+  "odd_publicatie": 2.1,
+  "bookmaker": "Circus",
+  "kans": 0.508,
+  "kans_markt": 0.4624,
+  "edge": 0.0669,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-27T12:34:48+00:00",
+  "status": "open",
+  "odd_laatst": 2.1,
+  "bijgewerkt": "2026-10-27T12:34:48+00:00"
+ },
+ "btts-oxford-united-stockport-county-2026-10-27": {
+  "fid": "1564338",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Oxford United - Stockport County",
+  "competitie": "League One",
+  "aftrap": "2026-10-27T19:45:00+00:00",
+  "odd_publicatie": 1.62,
+  "bookmaker": "StarCasino",
+  "kans": 0.5946,
+  "kans_markt": 0.5963,
+  "edge": -0.0368,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-27T12:34:49+00:00",
+  "status": "open",
+  "odd_laatst": 1.62,
+  "bijgewerkt": "2026-10-27T12:34:49+00:00"
+ },
+ "1x2-nashville-sc-philadelphia-union-2026-10-29": {
+  "fid": "1490576",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Nashville SC wint",
+  "wedstrijd": "Nashville SC - Philadelphia Union",
+  "competitie": "MLS",
+  "aftrap": "2026-10-29T00:30:00+00:00",
+  "odd_publicatie": 1.89,
+  "bookmaker": "Circus",
+  "kans": 0.5535,
+  "kans_markt": 0.5037,
+  "edge": 0.0462,
+  "tip_van_de_dag": true,
+  "gepubliceerd": "2026-10-27T12:34:50+00:00",
+  "status": "open",
+  "odd_laatst": 1.89,
+  "bijgewerkt": "2026-10-27T12:34:50+00:00"
+ },
+ "btts-rodez-dunkerque-2026-10-30": {
+  "fid": "1552521",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Rodez - Dunkerque",
+  "competitie": "Ligue 2",
+  "aftrap": "2026-10-30T19:00:00+00:00",
+  "odd_publicatie": 1.5,
+  "bookmaker": "Bet365",
+  "kans": 0.6552,
+  "kans_markt": 0.6242,
+  "edge": -0.0171,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-27T12:34:51+00:00",
+  "status": "open",
+  "odd_laatst": 1.5,
+  "bijgewerkt": "2026-10-27T12:34:51+00:00"
+ },
+ "btts-lokomotiv-sofia-botev-plovdiv-2026-10-30": {
+  "fid": "1551144",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Lokomotiv Sofia - Botev Plovdiv",
+  "competitie": "Bulgarian First League",
+  "aftrap": "2026-10-30T17:30:00+00:00",
+  "odd_publicatie": 1.6,
+  "bookmaker": "Circus",
+  "kans": 0.6056,
+  "kans_markt": 0.588,
+  "edge": -0.0311,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-27T12:34:52+00:00",
+  "status": "open",
+  "odd_laatst": 1.6,
+  "bijgewerkt": "2026-10-27T12:34:52+00:00"
  }
 }
