@@ -1168,8 +1168,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-25T11:55:51+00:00",
   "status": "open",
-  "odd_laatst": 1.7,
-  "bijgewerkt": "2026-10-27T12:33:37+00:00"
+  "odd_laatst": 1.75,
+  "bijgewerkt": "2026-10-27T20:09:16+00:00"
  },
  "btts-if-brommapojkarna-bk-hacken-2026-10-28": {
   "fid": "1494314",
@@ -1187,8 +1187,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-25T11:55:52+00:00",
   "status": "open",
-  "odd_laatst": 1.54,
-  "bijgewerkt": "2026-10-27T12:33:37+00:00"
+  "odd_laatst": 1.53,
+  "bijgewerkt": "2026-10-27T20:09:16+00:00"
  },
  "btts-pisa-palermo-2026-10-28": {
   "fid": "1601582",
@@ -1207,7 +1207,7 @@
   "gepubliceerd": "2026-10-25T18:29:26+00:00",
   "status": "open",
   "odd_laatst": 1.6,
-  "bijgewerkt": "2026-10-27T12:33:37+00:00"
+  "bijgewerkt": "2026-10-27T20:09:16+00:00"
  },
  "1x2-ifk-goteborg-djurgardens-if-2026-10-28": {
   "fid": "1494316",
@@ -1225,8 +1225,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-26T13:27:23+00:00",
   "status": "open",
-  "odd_laatst": 2.02,
-  "bijgewerkt": "2026-10-27T12:33:37+00:00"
+  "odd_laatst": 2.03,
+  "bijgewerkt": "2026-10-27T20:09:16+00:00"
  },
  "1x2-vasco-da-gama-flamengo-2026-10-30": {
   "fid": "1492439",
@@ -1245,7 +1245,7 @@
   "gepubliceerd": "2026-10-26T13:27:24+00:00",
   "status": "open",
   "odd_laatst": 1.87,
-  "bijgewerkt": "2026-10-27T12:33:37+00:00"
+  "bijgewerkt": "2026-10-27T20:09:16+00:00"
  },
  "btts-minnesota-united-fc-sporting-kansas-city-2026-10-29": {
   "fid": "1490579",
@@ -1263,8 +1263,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-26T13:27:25+00:00",
   "status": "open",
-  "odd_laatst": 1.52,
-  "bijgewerkt": "2026-10-27T12:33:37+00:00"
+  "odd_laatst": 1.5,
+  "bijgewerkt": "2026-10-27T20:09:16+00:00"
  },
  "btts-fiorentina-atalanta-2026-10-29": {
   "fid": "1550169",
@@ -1283,7 +1283,7 @@
   "gepubliceerd": "2026-10-26T13:27:26+00:00",
   "status": "open",
   "odd_laatst": 1.55,
-  "bijgewerkt": "2026-10-27T12:33:37+00:00"
+  "bijgewerkt": "2026-10-27T20:09:16+00:00"
  },
  "1x2-benevento-catanzaro-2026-10-27": {
   "fid": "1601574",
@@ -1359,7 +1359,7 @@
   "gepubliceerd": "2026-10-27T12:34:50+00:00",
   "status": "open",
   "odd_laatst": 1.89,
-  "bijgewerkt": "2026-10-27T12:34:50+00:00"
+  "bijgewerkt": "2026-10-27T20:09:16+00:00"
  },
  "btts-rodez-dunkerque-2026-10-30": {
   "fid": "1552521",
@@ -1378,7 +1378,7 @@
   "gepubliceerd": "2026-10-27T12:34:51+00:00",
   "status": "open",
   "odd_laatst": 1.5,
-  "bijgewerkt": "2026-10-27T12:34:51+00:00"
+  "bijgewerkt": "2026-10-27T20:09:16+00:00"
  },
  "btts-lokomotiv-sofia-botev-plovdiv-2026-10-30": {
   "fid": "1551144",
@@ -1397,6 +1397,6 @@
   "gepubliceerd": "2026-10-27T12:34:52+00:00",
   "status": "open",
   "odd_laatst": 1.6,
-  "bijgewerkt": "2026-10-27T12:34:52+00:00"
+  "bijgewerkt": "2026-10-27T20:09:16+00:00"
  }
 }
