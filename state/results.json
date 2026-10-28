@@ -1247,7 +1247,7 @@
   "gepubliceerd": "2026-10-26T13:27:24+00:00",
   "status": "open",
   "odd_laatst": 1.87,
-  "bijgewerkt": "2026-10-28T13:21:38+00:00"
+  "bijgewerkt": "2026-10-28T20:24:08+00:00"
  },
  "btts-minnesota-united-fc-sporting-kansas-city-2026-10-29": {
   "fid": "1490579",
@@ -1265,8 +1265,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-26T13:27:25+00:00",
   "status": "open",
-  "odd_laatst": 1.49,
-  "bijgewerkt": "2026-10-28T13:21:38+00:00"
+  "odd_laatst": 1.52,
+  "bijgewerkt": "2026-10-28T20:24:08+00:00"
  },
  "btts-fiorentina-atalanta-2026-10-29": {
   "fid": "1550169",
@@ -1284,8 +1284,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-26T13:27:26+00:00",
   "status": "open",
-  "odd_laatst": 1.55,
-  "bijgewerkt": "2026-10-28T13:21:38+00:00"
+  "odd_laatst": 1.56,
+  "bijgewerkt": "2026-10-28T20:24:08+00:00"
  },
  "1x2-benevento-catanzaro-2026-10-27": {
   "fid": "1601574",
@@ -1367,7 +1367,7 @@
   "gepubliceerd": "2026-10-27T12:34:50+00:00",
   "status": "open",
   "odd_laatst": 1.87,
-  "bijgewerkt": "2026-10-28T13:21:38+00:00"
+  "bijgewerkt": "2026-10-28T20:24:08+00:00"
  },
  "btts-rodez-dunkerque-2026-10-30": {
   "fid": "1552521",
@@ -1386,7 +1386,7 @@
   "gepubliceerd": "2026-10-27T12:34:51+00:00",
   "status": "open",
   "odd_laatst": 1.5,
-  "bijgewerkt": "2026-10-28T13:21:38+00:00"
+  "bijgewerkt": "2026-10-28T20:24:08+00:00"
  },
  "btts-lokomotiv-sofia-botev-plovdiv-2026-10-30": {
   "fid": "1551144",
@@ -1405,7 +1405,7 @@
   "gepubliceerd": "2026-10-27T12:34:52+00:00",
   "status": "open",
   "odd_laatst": 1.6,
-  "bijgewerkt": "2026-10-28T13:21:38+00:00"
+  "bijgewerkt": "2026-10-28T20:24:08+00:00"
  },
  "1x2-new-england-revolution-new-york-red-bulls-2026-10-29": {
   "fid": "1490573",
@@ -1423,8 +1423,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-28T13:22:30+00:00",
   "status": "open",
-  "odd_laatst": 2.05,
-  "bijgewerkt": "2026-10-28T13:22:30+00:00"
+  "odd_laatst": 2.1,
+  "bijgewerkt": "2026-10-28T20:24:08+00:00"
  },
  "1x2-dundee-kilmarnock-2026-10-28": {
   "fid": "1556690",
@@ -1462,7 +1462,7 @@
   "gepubliceerd": "2026-10-28T13:22:32+00:00",
   "status": "open",
   "odd_laatst": 1.55,
-  "bijgewerkt": "2026-10-28T13:22:32+00:00"
+  "bijgewerkt": "2026-10-28T20:24:08+00:00"
  },
  "under-2-5-port-vale-rochdale-2026-10-31": {
   "fid": "1563846",
@@ -1481,7 +1481,7 @@
   "gepubliceerd": "2026-10-28T13:22:33+00:00",
   "status": "open",
   "odd_laatst": 1.85,
-  "bijgewerkt": "2026-10-28T13:22:33+00:00"
+  "bijgewerkt": "2026-10-28T20:24:08+00:00"
  },
  "over-2-5-chelsea-manchester-united-2026-10-31": {
   "fid": "1557450",
@@ -1500,7 +1500,7 @@
   "gepubliceerd": "2026-10-28T13:22:34+00:00",
   "status": "open",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-10-28T13:22:34+00:00"
+  "bijgewerkt": "2026-10-28T20:24:08+00:00"
  },
  "btts-feyenoord-fortuna-sittard-2026-10-31": {
   "fid": "1552207",
@@ -1519,7 +1519,7 @@
   "gepubliceerd": "2026-10-28T13:22:37+00:00",
   "status": "open",
   "odd_laatst": 1.85,
-  "bijgewerkt": "2026-10-28T13:22:37+00:00"
+  "bijgewerkt": "2026-10-28T20:24:08+00:00"
  },
  "btts-manisa-f-k-batman-petrolspor-2026-10-31": {
   "fid": "1585816",
@@ -1538,6 +1538,25 @@
   "gepubliceerd": "2026-10-28T13:22:39+00:00",
   "status": "open",
   "odd_laatst": 1.53,
-  "bijgewerkt": "2026-10-28T13:22:39+00:00"
+  "bijgewerkt": "2026-10-28T20:24:08+00:00"
+ },
+ "under-2-5-coventry-sunderland-2026-10-31": {
+  "fid": "1557451",
+  "markt": "Under 2.5",
+  "pick": "under25",
+  "tip": "Minder dan 2.5 doelpunten",
+  "wedstrijd": "Coventry - Sunderland",
+  "competitie": "Premier League",
+  "aftrap": "2026-10-31T15:00:00+00:00",
+  "odd_publicatie": 1.91,
+  "bookmaker": "Bet365",
+  "kans": 0.5524,
+  "kans_markt": 0.515,
+  "edge": 0.0551,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-28T20:24:48+00:00",
+  "status": "open",
+  "odd_laatst": 1.91,
+  "bijgewerkt": "2026-10-28T20:24:48+00:00"
  }
 }
