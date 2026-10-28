@@ -1170,8 +1170,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-25T11:55:51+00:00",
   "status": "open",
-  "odd_laatst": 1.75,
-  "bijgewerkt": "2026-10-27T20:09:16+00:00"
+  "odd_laatst": 1.73,
+  "bijgewerkt": "2026-10-28T13:21:38+00:00"
  },
  "btts-if-brommapojkarna-bk-hacken-2026-10-28": {
   "fid": "1494314",
@@ -1189,8 +1189,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-25T11:55:52+00:00",
   "status": "open",
-  "odd_laatst": 1.53,
-  "bijgewerkt": "2026-10-27T20:09:16+00:00"
+  "odd_laatst": 1.57,
+  "bijgewerkt": "2026-10-28T13:21:38+00:00"
  },
  "btts-pisa-palermo-2026-10-28": {
   "fid": "1601582",
@@ -1209,7 +1209,7 @@
   "gepubliceerd": "2026-10-25T18:29:26+00:00",
   "status": "open",
   "odd_laatst": 1.6,
-  "bijgewerkt": "2026-10-27T20:09:16+00:00"
+  "bijgewerkt": "2026-10-28T13:21:38+00:00"
  },
  "1x2-ifk-goteborg-djurgardens-if-2026-10-28": {
   "fid": "1494316",
@@ -1227,8 +1227,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-26T13:27:23+00:00",
   "status": "open",
-  "odd_laatst": 2.03,
-  "bijgewerkt": "2026-10-27T20:09:16+00:00"
+  "odd_laatst": 2.06,
+  "bijgewerkt": "2026-10-28T13:21:38+00:00"
  },
  "1x2-vasco-da-gama-flamengo-2026-10-30": {
   "fid": "1492439",
@@ -1247,7 +1247,7 @@
   "gepubliceerd": "2026-10-26T13:27:24+00:00",
   "status": "open",
   "odd_laatst": 1.87,
-  "bijgewerkt": "2026-10-27T20:09:16+00:00"
+  "bijgewerkt": "2026-10-28T13:21:38+00:00"
  },
  "btts-minnesota-united-fc-sporting-kansas-city-2026-10-29": {
   "fid": "1490579",
@@ -1265,8 +1265,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-26T13:27:25+00:00",
   "status": "open",
-  "odd_laatst": 1.5,
-  "bijgewerkt": "2026-10-27T20:09:16+00:00"
+  "odd_laatst": 1.49,
+  "bijgewerkt": "2026-10-28T13:21:38+00:00"
  },
  "btts-fiorentina-atalanta-2026-10-29": {
   "fid": "1550169",
@@ -1285,7 +1285,7 @@
   "gepubliceerd": "2026-10-26T13:27:26+00:00",
   "status": "open",
   "odd_laatst": 1.55,
-  "bijgewerkt": "2026-10-27T20:09:16+00:00"
+  "bijgewerkt": "2026-10-28T13:21:38+00:00"
  },
  "1x2-benevento-catanzaro-2026-10-27": {
   "fid": "1601574",
@@ -1366,8 +1366,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-27T12:34:50+00:00",
   "status": "open",
-  "odd_laatst": 1.89,
-  "bijgewerkt": "2026-10-27T20:09:16+00:00"
+  "odd_laatst": 1.87,
+  "bijgewerkt": "2026-10-28T13:21:38+00:00"
  },
  "btts-rodez-dunkerque-2026-10-30": {
   "fid": "1552521",
@@ -1386,7 +1386,7 @@
   "gepubliceerd": "2026-10-27T12:34:51+00:00",
   "status": "open",
   "odd_laatst": 1.5,
-  "bijgewerkt": "2026-10-27T20:09:16+00:00"
+  "bijgewerkt": "2026-10-28T13:21:38+00:00"
  },
  "btts-lokomotiv-sofia-botev-plovdiv-2026-10-30": {
   "fid": "1551144",
@@ -1405,6 +1405,139 @@
   "gepubliceerd": "2026-10-27T12:34:52+00:00",
   "status": "open",
   "odd_laatst": 1.6,
-  "bijgewerkt": "2026-10-27T20:09:16+00:00"
+  "bijgewerkt": "2026-10-28T13:21:38+00:00"
+ },
+ "1x2-new-england-revolution-new-york-red-bulls-2026-10-29": {
+  "fid": "1490573",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "New England Revolution wint",
+  "wedstrijd": "New England Revolution - New York Red Bulls",
+  "competitie": "MLS",
+  "aftrap": "2026-10-28T23:30:00+00:00",
+  "odd_publicatie": 2.05,
+  "bookmaker": "StarCasino",
+  "kans": 0.5059,
+  "kans_markt": 0.4722,
+  "edge": 0.0372,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-28T13:22:30+00:00",
+  "status": "open",
+  "odd_laatst": 2.05,
+  "bijgewerkt": "2026-10-28T13:22:30+00:00"
+ },
+ "1x2-dundee-kilmarnock-2026-10-28": {
+  "fid": "1556690",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Dundee wint",
+  "wedstrijd": "Dundee - Kilmarnock",
+  "competitie": "Scottish Premiership",
+  "aftrap": "2026-10-28T19:45:00+00:00",
+  "odd_publicatie": 1.93,
+  "bookmaker": "Tonybet",
+  "kans": 0.5342,
+  "kans_markt": 0.4843,
+  "edge": 0.031,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-28T13:22:31+00:00",
+  "status": "open",
+  "odd_laatst": 1.93,
+  "bijgewerkt": "2026-10-28T13:22:31+00:00"
+ },
+ "over-2-5-werder-bremen-1899-hoffenheim-2026-10-31": {
+  "fid": "1575209",
+  "markt": "Over 2.5",
+  "pick": "over25",
+  "tip": "Meer dan 2.5 doelpunten",
+  "wedstrijd": "Werder Bremen - 1899 Hoffenheim",
+  "competitie": "Bundesliga",
+  "aftrap": "2026-10-31T14:30:00+00:00",
+  "odd_publicatie": 1.55,
+  "bookmaker": "888Sports",
+  "kans": 0.6802,
+  "kans_markt": 0.6496,
+  "edge": 0.0544,
+  "tip_van_de_dag": true,
+  "gepubliceerd": "2026-10-28T13:22:32+00:00",
+  "status": "open",
+  "odd_laatst": 1.55,
+  "bijgewerkt": "2026-10-28T13:22:32+00:00"
+ },
+ "under-2-5-port-vale-rochdale-2026-10-31": {
+  "fid": "1563846",
+  "markt": "Under 2.5",
+  "pick": "under25",
+  "tip": "Minder dan 2.5 doelpunten",
+  "wedstrijd": "Port Vale - Rochdale",
+  "competitie": "League Two",
+  "aftrap": "2026-10-31T12:30:00+00:00",
+  "odd_publicatie": 1.85,
+  "bookmaker": "Bet365",
+  "kans": 0.5645,
+  "kans_markt": 0.5132,
+  "edge": 0.0443,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-28T13:22:33+00:00",
+  "status": "open",
+  "odd_laatst": 1.85,
+  "bijgewerkt": "2026-10-28T13:22:33+00:00"
+ },
+ "over-2-5-chelsea-manchester-united-2026-10-31": {
+  "fid": "1557450",
+  "markt": "Over 2.5",
+  "pick": "over25",
+  "tip": "Meer dan 2.5 doelpunten",
+  "wedstrijd": "Chelsea - Manchester United",
+  "competitie": "Premier League",
+  "aftrap": "2026-10-31T12:30:00+00:00",
+  "odd_publicatie": 1.62,
+  "bookmaker": "StarCasino",
+  "kans": 0.6385,
+  "kans_markt": 0.5913,
+  "edge": 0.0344,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-28T13:22:34+00:00",
+  "status": "open",
+  "odd_laatst": 1.62,
+  "bijgewerkt": "2026-10-28T13:22:34+00:00"
+ },
+ "btts-feyenoord-fortuna-sittard-2026-10-31": {
+  "fid": "1552207",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Feyenoord - Fortuna Sittard",
+  "competitie": "Eredivisie",
+  "aftrap": "2026-10-31T15:30:00+00:00",
+  "odd_publicatie": 1.85,
+  "bookmaker": "Circus",
+  "kans": 0.5584,
+  "kans_markt": 0.5238,
+  "edge": 0.0331,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-28T13:22:37+00:00",
+  "status": "open",
+  "odd_laatst": 1.85,
+  "bijgewerkt": "2026-10-28T13:22:37+00:00"
+ },
+ "btts-manisa-f-k-batman-petrolspor-2026-10-31": {
+  "fid": "1585816",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Manisa F.K. - Batman Petrolspor",
+  "competitie": "1. Lig",
+  "aftrap": "2026-10-31T16:00:00+00:00",
+  "odd_publicatie": 1.53,
+  "bookmaker": "Circus",
+  "kans": 0.6562,
+  "kans_markt": 0.6153,
+  "edge": 0.004,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-28T13:22:39+00:00",
+  "status": "open",
+  "odd_laatst": 1.53,
+  "bijgewerkt": "2026-10-28T13:22:39+00:00"
  }
 }
