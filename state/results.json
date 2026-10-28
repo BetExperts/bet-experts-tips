@@ -1106,9 +1106,11 @@
   "edge": -0.0377,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-24T11:26:36+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.5,
-  "bijgewerkt": "2026-10-27T12:33:37+00:00"
+  "bijgewerkt": "2026-10-27T12:33:37+00:00",
+  "eindstand": "3-1",
+  "afgesloten": "2026-10-28T01:18:59+00:00"
  },
  "1x2-kvc-westerlo-sk-beveren-2026-10-24": {
   "fid": "1558661",
@@ -1342,9 +1344,11 @@
   "edge": -0.0368,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-27T12:34:49+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-10-27T12:34:49+00:00"
+  "bijgewerkt": "2026-10-27T12:34:49+00:00",
+  "eindstand": "1-0",
+  "afgesloten": "2026-10-28T01:18:59+00:00"
  },
  "1x2-nashville-sc-philadelphia-union-2026-10-29": {
   "fid": "1490576",

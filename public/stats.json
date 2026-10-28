@@ -1,42 +1,42 @@
 {
- "bijgewerkt": "2026-10-27T21:17:36+00:00",
+ "bijgewerkt": "2026-10-28T01:19:05+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 56,
-  "gewonnen": 30,
-  "verloren": 26,
-  "raak": 54,
-  "winst_eenheden": -4.47,
-  "rendement": -8.0,
-  "gem_odd": 1.77
+  "tips": 58,
+  "gewonnen": 31,
+  "verloren": 27,
+  "raak": 53,
+  "winst_eenheden": -4.97,
+  "rendement": -8.6,
+  "gem_odd": 1.76
  },
  "dertig_dagen": {
-  "tips": 56,
-  "gewonnen": 30,
-  "verloren": 26,
-  "raak": 54,
-  "winst_eenheden": -4.47,
-  "rendement": -8.0,
-  "gem_odd": 1.77
+  "tips": 58,
+  "gewonnen": 31,
+  "verloren": 27,
+  "raak": 53,
+  "winst_eenheden": -4.97,
+  "rendement": -8.6,
+  "gem_odd": 1.76
  },
  "per_markt": {
   "BTTS": {
    "totaal": {
-    "tips": 19,
-    "gewonnen": 12,
-    "verloren": 7,
-    "raak": 63,
-    "winst_eenheden": -0.11,
-    "rendement": -0.6,
+    "tips": 21,
+    "gewonnen": 13,
+    "verloren": 8,
+    "raak": 62,
+    "winst_eenheden": -0.61,
+    "rendement": -2.9,
     "gem_odd": 1.61
    },
    "dertig_dagen": {
-    "tips": 19,
-    "gewonnen": 12,
-    "verloren": 7,
-    "raak": 63,
-    "winst_eenheden": -0.11,
-    "rendement": -0.6,
+    "tips": 21,
+    "gewonnen": 13,
+    "verloren": 8,
+    "raak": 62,
+    "winst_eenheden": -0.61,
+    "rendement": -2.9,
     "gem_odd": 1.61
    }
   },
@@ -110,8 +110,26 @@
   "rendement": -31.7,
   "gem_odd": 1.77
  },
- "open": 12,
+ "open": 10,
  "laatste": [
+  {
+   "datum": "2026-10-27",
+   "wedstrijd": "Barnet - York",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.5,
+   "uitslag": "3-1",
+   "status": "gewonnen"
+  },
+  {
+   "datum": "2026-10-27",
+   "wedstrijd": "Oxford United - Stockport County",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.62,
+   "uitslag": "1-0",
+   "status": "verloren"
+  },
   {
    "datum": "2026-10-27",
    "wedstrijd": "Benevento - Catanzaro",
@@ -272,24 +290,6 @@
    "tip": "Estrela wint",
    "odd": 1.75,
    "uitslag": "0-2",
-   "status": "verloren"
-  },
-  {
-   "datum": "2026-10-24",
-   "wedstrijd": "Utrecht - PEC Zwolle",
-   "markt": "BTTS",
-   "tip": "Beide teams scoren",
-   "odd": 1.53,
-   "uitslag": "1-1",
-   "status": "gewonnen"
-  },
-  {
-   "datum": "2026-10-24",
-   "wedstrijd": "Zlin - Sigma Olomouc",
-   "markt": "1X2",
-   "tip": "Sigma Olomouc wint",
-   "odd": 2.0,
-   "uitslag": "1-1",
    "status": "verloren"
   }
  ]
