@@ -1,43 +1,43 @@
 {
- "bijgewerkt": "2026-10-29T14:15:31+00:00",
+ "bijgewerkt": "2026-10-29T20:16:15+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 66,
-  "gewonnen": 36,
+  "tips": 67,
+  "gewonnen": 37,
   "verloren": 30,
   "raak": 55,
-  "winst_eenheden": -4.11,
-  "rendement": -6.2,
+  "winst_eenheden": -3.44,
+  "rendement": -5.1,
   "gem_odd": 1.76
  },
  "dertig_dagen": {
-  "tips": 66,
-  "gewonnen": 36,
+  "tips": 67,
+  "gewonnen": 37,
   "verloren": 30,
   "raak": 55,
-  "winst_eenheden": -4.11,
-  "rendement": -6.2,
+  "winst_eenheden": -3.44,
+  "rendement": -5.1,
   "gem_odd": 1.76
  },
  "per_markt": {
   "BTTS": {
    "totaal": {
-    "tips": 24,
-    "gewonnen": 15,
+    "tips": 25,
+    "gewonnen": 16,
     "verloren": 9,
-    "raak": 62,
-    "winst_eenheden": -0.46,
-    "rendement": -1.9,
-    "gem_odd": 1.6
+    "raak": 64,
+    "winst_eenheden": 0.21,
+    "rendement": 0.8,
+    "gem_odd": 1.61
    },
    "dertig_dagen": {
-    "tips": 24,
-    "gewonnen": 15,
+    "tips": 25,
+    "gewonnen": 16,
     "verloren": 9,
-    "raak": 62,
-    "winst_eenheden": -0.46,
-    "rendement": -1.9,
-    "gem_odd": 1.6
+    "raak": 64,
+    "winst_eenheden": 0.21,
+    "rendement": 0.8,
+    "gem_odd": 1.61
    }
   },
   "Over 2.5": {
@@ -110,8 +110,17 @@
   "rendement": -28.7,
   "gem_odd": 1.78
  },
- "open": 18,
+ "open": 17,
  "laatste": [
+  {
+   "datum": "2026-10-29",
+   "wedstrijd": "Orgryte IS - Mjallby AIF",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.67,
+   "uitslag": "1-2",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-10-29",
    "wedstrijd": "Minnesota United FC - Sporting Kansas City",
@@ -281,15 +290,6 @@
    "tip": "Toulouse wint",
    "odd": 1.67,
    "uitslag": "0-0",
-   "status": "verloren"
-  },
-  {
-   "datum": "2026-10-25",
-   "wedstrijd": "Auxerre - Le Mans",
-   "markt": "Over 2.5",
-   "tip": "Meer dan 2.5 doelpunten",
-   "odd": 1.78,
-   "uitslag": "1-1",
    "status": "verloren"
   }
  ]
