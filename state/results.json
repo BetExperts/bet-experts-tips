@@ -1272,9 +1272,11 @@
   "edge": -0.0223,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-26T13:27:25+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.52,
-  "bijgewerkt": "2026-10-28T20:24:08+00:00"
+  "bijgewerkt": "2026-10-28T20:24:08+00:00",
+  "eindstand": "3-1",
+  "afgesloten": "2026-10-29T07:02:04+00:00"
  },
  "btts-fiorentina-atalanta-2026-10-29": {
   "fid": "1550169",
@@ -1373,9 +1375,11 @@
   "edge": 0.0462,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-27T12:34:50+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.87,
-  "bijgewerkt": "2026-10-28T20:24:08+00:00"
+  "bijgewerkt": "2026-10-28T20:24:08+00:00",
+  "eindstand": "0-0",
+  "afgesloten": "2026-10-29T07:02:04+00:00"
  },
  "btts-rodez-dunkerque-2026-10-30": {
   "fid": "1552521",
@@ -1430,9 +1434,11 @@
   "edge": 0.0372,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-28T13:22:30+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 2.1,
-  "bijgewerkt": "2026-10-28T20:24:08+00:00"
+  "bijgewerkt": "2026-10-28T20:24:08+00:00",
+  "eindstand": "3-2",
+  "afgesloten": "2026-10-29T07:02:04+00:00"
  },
  "1x2-dundee-kilmarnock-2026-10-28": {
   "fid": "1556690",
