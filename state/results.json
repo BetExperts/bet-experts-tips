@@ -1169,9 +1169,11 @@
   "edge": 0.0374,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-25T11:55:51+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.73,
-  "bijgewerkt": "2026-10-28T13:21:38+00:00"
+  "bijgewerkt": "2026-10-28T13:21:38+00:00",
+  "eindstand": "1-4",
+  "afgesloten": "2026-10-29T00:53:41+00:00"
  },
  "btts-if-brommapojkarna-bk-hacken-2026-10-28": {
   "fid": "1494314",
@@ -1447,9 +1449,11 @@
   "edge": 0.031,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-28T13:22:31+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.93,
-  "bijgewerkt": "2026-10-28T13:22:31+00:00"
+  "bijgewerkt": "2026-10-28T13:22:31+00:00",
+  "eindstand": "3-1",
+  "afgesloten": "2026-10-29T00:53:41+00:00"
  },
  "over-2-5-werder-bremen-1899-hoffenheim-2026-10-31": {
   "fid": "1575209",
