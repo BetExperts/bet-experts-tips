@@ -1,43 +1,43 @@
 {
- "bijgewerkt": "2026-10-29T20:23:58+00:00",
+ "bijgewerkt": "2026-10-30T00:57:48+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 67,
-  "gewonnen": 37,
+  "tips": 68,
+  "gewonnen": 38,
   "verloren": 30,
-  "raak": 55,
-  "winst_eenheden": -3.44,
-  "rendement": -5.1,
+  "raak": 56,
+  "winst_eenheden": -2.89,
+  "rendement": -4.2,
   "gem_odd": 1.76
  },
  "dertig_dagen": {
-  "tips": 67,
-  "gewonnen": 37,
+  "tips": 68,
+  "gewonnen": 38,
   "verloren": 30,
-  "raak": 55,
-  "winst_eenheden": -3.44,
-  "rendement": -5.1,
+  "raak": 56,
+  "winst_eenheden": -2.89,
+  "rendement": -4.2,
   "gem_odd": 1.76
  },
  "per_markt": {
   "BTTS": {
    "totaal": {
-    "tips": 25,
-    "gewonnen": 16,
+    "tips": 26,
+    "gewonnen": 17,
     "verloren": 9,
-    "raak": 64,
-    "winst_eenheden": 0.21,
-    "rendement": 0.8,
-    "gem_odd": 1.61
+    "raak": 65,
+    "winst_eenheden": 0.76,
+    "rendement": 2.9,
+    "gem_odd": 1.6
    },
    "dertig_dagen": {
-    "tips": 25,
-    "gewonnen": 16,
+    "tips": 26,
+    "gewonnen": 17,
     "verloren": 9,
-    "raak": 64,
-    "winst_eenheden": 0.21,
-    "rendement": 0.8,
-    "gem_odd": 1.61
+    "raak": 65,
+    "winst_eenheden": 0.76,
+    "rendement": 2.9,
+    "gem_odd": 1.6
    }
   },
   "Over 2.5": {
@@ -110,8 +110,17 @@
   "rendement": -28.7,
   "gem_odd": 1.78
  },
- "open": 18,
+ "open": 17,
  "laatste": [
+  {
+   "datum": "2026-10-29",
+   "wedstrijd": "Fiorentina - Atalanta",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.55,
+   "uitslag": "2-2",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-10-29",
    "wedstrijd": "Orgryte IS - Mjallby AIF",
@@ -282,15 +291,6 @@
    "odd": 1.65,
    "uitslag": "4-3",
    "status": "gewonnen"
-  },
-  {
-   "datum": "2026-10-25",
-   "wedstrijd": "Toulouse - Estac Troyes",
-   "markt": "1X2",
-   "tip": "Toulouse wint",
-   "odd": 1.67,
-   "uitslag": "0-0",
-   "status": "verloren"
   }
  ]
 }
