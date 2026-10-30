@@ -1400,9 +1400,11 @@
   "edge": -0.0171,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-27T12:34:51+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.55,
-  "bijgewerkt": "2026-10-30T13:19:52+00:00"
+  "bijgewerkt": "2026-10-30T13:19:52+00:00",
+  "eindstand": "1-0",
+  "afgesloten": "2026-10-30T23:44:11+00:00"
  },
  "btts-lokomotiv-sofia-botev-plovdiv-2026-10-30": {
   "fid": "1551144",
@@ -1419,9 +1421,11 @@
   "edge": -0.0311,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-27T12:34:52+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.64,
-  "bijgewerkt": "2026-10-30T13:19:52+00:00"
+  "bijgewerkt": "2026-10-30T13:19:52+00:00",
+  "eindstand": "2-5",
+  "afgesloten": "2026-10-30T23:44:11+00:00"
  },
  "1x2-new-england-revolution-new-york-red-bulls-2026-10-29": {
   "fid": "1490573",
