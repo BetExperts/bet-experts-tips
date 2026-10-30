@@ -1,22 +1,22 @@
 {
- "bijgewerkt": "2026-10-30T00:57:48+00:00",
+ "bijgewerkt": "2026-10-30T07:04:50+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 68,
-  "gewonnen": 38,
+  "tips": 69,
+  "gewonnen": 39,
   "verloren": 30,
-  "raak": 56,
-  "winst_eenheden": -2.89,
-  "rendement": -4.2,
+  "raak": 57,
+  "winst_eenheden": -1.84,
+  "rendement": -2.7,
   "gem_odd": 1.76
  },
  "dertig_dagen": {
-  "tips": 68,
-  "gewonnen": 38,
+  "tips": 69,
+  "gewonnen": 39,
   "verloren": 30,
-  "raak": 56,
-  "winst_eenheden": -2.89,
-  "rendement": -4.2,
+  "raak": 57,
+  "winst_eenheden": -1.84,
+  "rendement": -2.7,
   "gem_odd": 1.76
  },
  "per_markt": {
@@ -82,22 +82,22 @@
   },
   "1X2": {
    "totaal": {
-    "tips": 24,
-    "gewonnen": 10,
+    "tips": 25,
+    "gewonnen": 11,
     "verloren": 14,
-    "raak": 42,
-    "winst_eenheden": -5.5,
-    "rendement": -22.9,
-    "gem_odd": 1.89
+    "raak": 44,
+    "winst_eenheden": -4.45,
+    "rendement": -17.8,
+    "gem_odd": 1.9
    },
    "dertig_dagen": {
-    "tips": 24,
-    "gewonnen": 10,
+    "tips": 25,
+    "gewonnen": 11,
     "verloren": 14,
-    "raak": 42,
-    "winst_eenheden": -5.5,
-    "rendement": -22.9,
-    "gem_odd": 1.89
+    "raak": 44,
+    "winst_eenheden": -4.45,
+    "rendement": -17.8,
+    "gem_odd": 1.9
    }
   }
  },
@@ -110,8 +110,17 @@
   "rendement": -28.7,
   "gem_odd": 1.78
  },
- "open": 17,
+ "open": 16,
  "laatste": [
+  {
+   "datum": "2026-10-29",
+   "wedstrijd": "Vasco DA Gama - Flamengo",
+   "markt": "1X2",
+   "tip": "Flamengo wint",
+   "odd": 2.05,
+   "uitslag": "1-4",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-10-29",
    "wedstrijd": "Fiorentina - Atalanta",
@@ -281,15 +290,6 @@
    "tip": "Beide teams scoren",
    "odd": 1.62,
    "uitslag": "2-1",
-   "status": "gewonnen"
-  },
-  {
-   "datum": "2026-10-25",
-   "wedstrijd": "Marseille - Le Havre",
-   "markt": "1X2",
-   "tip": "Marseille wint",
-   "odd": 1.65,
-   "uitslag": "4-3",
    "status": "gewonnen"
   }
  ]
