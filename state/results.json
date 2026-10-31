@@ -1484,9 +1484,11 @@
   "edge": 0.0544,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-28T13:22:32+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.41,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "bijgewerkt": "2026-10-31T12:56:10+00:00",
+  "eindstand": "2-0",
+  "afgesloten": "2026-10-31T17:42:10+00:00"
  },
  "under-2-5-port-vale-rochdale-2026-10-31": {
   "fid": "1563846",
@@ -1503,9 +1505,11 @@
   "edge": 0.0443,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-28T13:22:33+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.85,
-  "bijgewerkt": "2026-10-30T19:57:45+00:00"
+  "bijgewerkt": "2026-10-30T19:57:45+00:00",
+  "eindstand": "4-2",
+  "afgesloten": "2026-10-31T17:42:10+00:00"
  },
  "over-2-5-chelsea-manchester-united-2026-10-31": {
   "fid": "1557450",
@@ -1522,9 +1526,11 @@
   "edge": 0.0344,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-28T13:22:34+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.64,
-  "bijgewerkt": "2026-10-30T19:57:45+00:00"
+  "bijgewerkt": "2026-10-30T19:57:45+00:00",
+  "eindstand": "2-0",
+  "afgesloten": "2026-10-31T17:42:10+00:00"
  },
  "btts-feyenoord-fortuna-sittard-2026-10-31": {
   "fid": "1552207",
@@ -1541,9 +1547,11 @@
   "edge": 0.0331,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-28T13:22:37+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.84,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "bijgewerkt": "2026-10-31T12:56:10+00:00",
+  "eindstand": "1-1",
+  "afgesloten": "2026-10-31T17:42:10+00:00"
  },
  "btts-manisa-f-k-batman-petrolspor-2026-10-31": {
   "fid": "1585816",
@@ -1579,9 +1587,11 @@
   "edge": 0.0551,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-28T20:24:48+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.9,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "bijgewerkt": "2026-10-31T12:56:10+00:00",
+  "eindstand": "3-1",
+  "afgesloten": "2026-10-31T17:42:10+00:00"
  },
  "btts-orgryte-is-mjallby-aif-2026-10-29": {
   "fid": "1494320",
@@ -1619,9 +1629,11 @@
   "edge": 0.0599,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-29T13:32:44+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.8,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "bijgewerkt": "2026-10-31T12:56:10+00:00",
+  "eindstand": "2-1",
+  "afgesloten": "2026-10-31T17:42:10+00:00"
  },
  "1x2-udinese-as-roma-2026-10-31": {
   "fid": "1550186",
@@ -1847,9 +1859,11 @@
   "edge": 0.0775,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-31T12:57:13+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 2.11,
-  "bijgewerkt": "2026-10-31T12:57:13+00:00"
+  "bijgewerkt": "2026-10-31T12:57:13+00:00",
+  "eindstand": "0-5",
+  "afgesloten": "2026-10-31T17:42:10+00:00"
  },
  "1x2-modena-mantova-2026-10-31": {
   "fid": "1601588",
@@ -1866,9 +1880,11 @@
   "edge": 0.0534,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-31T12:57:14+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 2.07,
-  "bijgewerkt": "2026-10-31T12:57:14+00:00"
+  "bijgewerkt": "2026-10-31T12:57:14+00:00",
+  "eindstand": "1-1",
+  "afgesloten": "2026-10-31T17:42:10+00:00"
  },
  "btts-derby-norwich-2026-11-03": {
   "fid": "1563241",
