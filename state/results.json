@@ -1671,7 +1671,7 @@
   "gepubliceerd": "2026-10-29T13:32:50+00:00",
   "status": "open",
   "odd_laatst": 1.85,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "bijgewerkt": "2026-10-31T19:23:47+00:00"
  },
  "1x2-nashville-sc-new-york-red-bulls-2026-11-01": {
   "fid": "1490586",
@@ -1689,8 +1689,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-29T13:32:52+00:00",
   "status": "open",
-  "odd_laatst": 1.48,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "odd_laatst": 1.52,
+  "bijgewerkt": "2026-10-31T19:23:47+00:00"
  },
  "1x2-groningen-sparta-rotterdam-2026-11-01": {
   "fid": "1552215",
@@ -1708,8 +1708,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-29T13:32:54+00:00",
   "status": "open",
-  "odd_laatst": 1.78,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "odd_laatst": 1.81,
+  "bijgewerkt": "2026-10-31T19:23:47+00:00"
  },
  "1x2-basaksehir-samsunspor-2026-11-01": {
   "fid": "1584449",
@@ -1727,8 +1727,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-29T13:32:55+00:00",
   "status": "open",
-  "odd_laatst": 1.83,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "odd_laatst": 1.85,
+  "bijgewerkt": "2026-10-31T19:23:47+00:00"
  },
  "btts-bsc-young-boys-fc-zurich-2026-11-01": {
   "fid": "1555418",
@@ -1747,7 +1747,7 @@
   "gepubliceerd": "2026-10-29T13:32:57+00:00",
   "status": "open",
   "odd_laatst": 1.47,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "bijgewerkt": "2026-10-31T19:23:47+00:00"
  },
  "over-2-5-palermo-vicenza-virtus-2026-11-01": {
   "fid": "1601589",
@@ -1766,7 +1766,7 @@
   "gepubliceerd": "2026-10-29T20:23:49+00:00",
   "status": "open",
   "odd_laatst": 1.57,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "bijgewerkt": "2026-10-31T19:23:47+00:00"
  },
  "under-2-5-gil-vicente-vitoria-sc-2026-11-02": {
   "fid": "1575533",
@@ -1785,7 +1785,7 @@
   "gepubliceerd": "2026-10-30T13:21:13+00:00",
   "status": "open",
   "odd_laatst": 1.65,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "bijgewerkt": "2026-10-31T19:23:47+00:00"
  },
  "btts-sassuolo-fiorentina-2026-11-02": {
   "fid": "1550185",
@@ -1804,7 +1804,7 @@
   "gepubliceerd": "2026-10-30T13:21:14+00:00",
   "status": "open",
   "odd_laatst": 1.48,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "bijgewerkt": "2026-10-31T19:23:47+00:00"
  },
  "under-2-5-empoli-juve-stabia-2026-11-01": {
   "fid": "1601587",
@@ -1823,7 +1823,7 @@
   "gepubliceerd": "2026-10-30T19:58:45+00:00",
   "status": "open",
   "odd_laatst": 1.85,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "bijgewerkt": "2026-10-31T19:23:47+00:00"
  },
  "btts-sonderjyske-fc-copenhagen-2026-11-02": {
   "fid": "1549050",
@@ -1842,7 +1842,7 @@
   "gepubliceerd": "2026-10-30T19:58:46+00:00",
   "status": "open",
   "odd_laatst": 1.67,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "bijgewerkt": "2026-10-31T19:23:47+00:00"
  },
  "1x2-as-trencin-fk-kosice-2026-10-31": {
   "fid": "1551590",
@@ -1903,6 +1903,63 @@
   "gepubliceerd": "2026-10-31T12:57:15+00:00",
   "status": "open",
   "odd_laatst": 1.6,
-  "bijgewerkt": "2026-10-31T12:57:15+00:00"
+  "bijgewerkt": "2026-10-31T19:23:47+00:00"
+ },
+ "over-2-5-ac-milan-inter-2026-10-31": {
+  "fid": "1550177",
+  "markt": "Over 2.5",
+  "pick": "over25",
+  "tip": "Meer dan 2.5 doelpunten",
+  "wedstrijd": "AC Milan - Inter",
+  "competitie": "Serie A",
+  "aftrap": "2026-10-31T19:45:00+00:00",
+  "odd_publicatie": 1.82,
+  "bookmaker": "Circus",
+  "kans": 0.5864,
+  "kans_markt": 0.537,
+  "edge": 0.0673,
+  "tip_van_de_dag": true,
+  "gepubliceerd": "2026-10-31T19:24:43+00:00",
+  "status": "open",
+  "odd_laatst": 1.82,
+  "bijgewerkt": "2026-10-31T19:24:43+00:00"
+ },
+ "btts-anderlecht-kvc-westerlo-2026-10-31": {
+  "fid": "1558662",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Anderlecht - KVC Westerlo",
+  "competitie": "Jupiler Pro League",
+  "aftrap": "2026-10-31T19:45:00+00:00",
+  "odd_publicatie": 1.53,
+  "bookmaker": "Bet365",
+  "kans": 0.6423,
+  "kans_markt": 0.6235,
+  "edge": -0.0173,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-10-31T19:24:44+00:00",
+  "status": "open",
+  "odd_laatst": 1.53,
+  "bijgewerkt": "2026-10-31T19:24:44+00:00"
+ },
+ "under-2-5-portsmouth-swansea-2026-11-03": {
+  "fid": "1563242",
+  "markt": "Under 2.5",
+  "pick": "under25",
+  "tip": "Minder dan 2.5 doelpunten",
+  "wedstrijd": "Portsmouth - Swansea",
+  "competitie": "Championship",
+  "aftrap": "2026-11-03T19:45:00+00:00",
+  "odd_publicatie": 1.87,
+  "bookmaker": "Circus",
+  "kans": 0.5528,
+  "kans_markt": 0.5236,
+  "edge": 0.0336,
+  "tip_van_de_dag": true,
+  "gepubliceerd": "2026-10-31T19:24:45+00:00",
+  "status": "open",
+  "odd_laatst": 1.87,
+  "bijgewerkt": "2026-10-31T19:24:45+00:00"
  }
 }
