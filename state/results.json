@@ -1568,9 +1568,11 @@
   "edge": 0.004,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-28T13:22:39+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.5,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "bijgewerkt": "2026-10-31T12:56:10+00:00",
+  "eindstand": "2-1",
+  "afgesloten": "2026-10-31T21:30:27+00:00"
  },
  "under-2-5-coventry-sunderland-2026-10-31": {
   "fid": "1557451",
@@ -1650,9 +1652,11 @@
   "edge": 0.0504,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-29T13:32:46+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.58,
-  "bijgewerkt": "2026-10-31T12:56:10+00:00"
+  "bijgewerkt": "2026-10-31T12:56:10+00:00",
+  "eindstand": "2-5",
+  "afgesloten": "2026-10-31T21:30:27+00:00"
  },
  "btts-panetolikos-ofi-2026-11-01": {
   "fid": "1593350",
