@@ -1673,9 +1673,11 @@
   "edge": 0.0578,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-29T13:32:50+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.8,
-  "bijgewerkt": "2026-11-01T13:41:09+00:00"
+  "bijgewerkt": "2026-11-01T13:41:09+00:00",
+  "eindstand": "0-1",
+  "afgesloten": "2026-11-01T19:38:17+00:00"
  },
  "1x2-nashville-sc-new-york-red-bulls-2026-11-01": {
   "fid": "1490586",
@@ -1711,9 +1713,11 @@
   "edge": 0.0365,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-29T13:32:54+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.81,
-  "bijgewerkt": "2026-11-01T13:41:09+00:00"
+  "bijgewerkt": "2026-11-01T13:41:09+00:00",
+  "eindstand": "2-3",
+  "afgesloten": "2026-11-01T19:38:17+00:00"
  },
  "1x2-basaksehir-samsunspor-2026-11-01": {
   "fid": "1584449",
@@ -1829,9 +1833,11 @@
   "edge": 0.0319,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-30T19:58:45+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.8,
-  "bijgewerkt": "2026-11-01T13:41:09+00:00"
+  "bijgewerkt": "2026-11-01T13:41:09+00:00",
+  "eindstand": "2-2",
+  "afgesloten": "2026-11-01T19:38:17+00:00"
  },
  "btts-sonderjyske-fc-copenhagen-2026-11-02": {
   "fid": "1549050",
@@ -2008,9 +2014,11 @@
   "edge": -0.0008,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-01T13:41:53+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.57,
-  "bijgewerkt": "2026-11-01T13:41:53+00:00"
+  "bijgewerkt": "2026-11-01T13:41:53+00:00",
+  "eindstand": "5-1",
+  "afgesloten": "2026-11-01T19:38:17+00:00"
  },
  "under-2-5-red-star-fc-93-nancy-2026-11-02": {
   "fid": "1552519",
