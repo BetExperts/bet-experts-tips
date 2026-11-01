@@ -1674,8 +1674,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-29T13:32:50+00:00",
   "status": "open",
-  "odd_laatst": 1.85,
-  "bijgewerkt": "2026-10-31T19:23:47+00:00"
+  "odd_laatst": 1.8,
+  "bijgewerkt": "2026-11-01T13:41:09+00:00"
  },
  "1x2-nashville-sc-new-york-red-bulls-2026-11-01": {
   "fid": "1490586",
@@ -1694,7 +1694,7 @@
   "gepubliceerd": "2026-10-29T13:32:52+00:00",
   "status": "open",
   "odd_laatst": 1.52,
-  "bijgewerkt": "2026-10-31T19:23:47+00:00"
+  "bijgewerkt": "2026-11-01T13:41:09+00:00"
  },
  "1x2-groningen-sparta-rotterdam-2026-11-01": {
   "fid": "1552215",
@@ -1713,7 +1713,7 @@
   "gepubliceerd": "2026-10-29T13:32:54+00:00",
   "status": "open",
   "odd_laatst": 1.81,
-  "bijgewerkt": "2026-10-31T19:23:47+00:00"
+  "bijgewerkt": "2026-11-01T13:41:09+00:00"
  },
  "1x2-basaksehir-samsunspor-2026-11-01": {
   "fid": "1584449",
@@ -1769,8 +1769,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-29T20:23:49+00:00",
   "status": "open",
-  "odd_laatst": 1.57,
-  "bijgewerkt": "2026-10-31T19:23:47+00:00"
+  "odd_laatst": 1.58,
+  "bijgewerkt": "2026-11-01T13:41:09+00:00"
  },
  "under-2-5-gil-vicente-vitoria-sc-2026-11-02": {
   "fid": "1575533",
@@ -1789,7 +1789,7 @@
   "gepubliceerd": "2026-10-30T13:21:13+00:00",
   "status": "open",
   "odd_laatst": 1.65,
-  "bijgewerkt": "2026-10-31T19:23:47+00:00"
+  "bijgewerkt": "2026-11-01T13:41:09+00:00"
  },
  "btts-sassuolo-fiorentina-2026-11-02": {
   "fid": "1550185",
@@ -1808,7 +1808,7 @@
   "gepubliceerd": "2026-10-30T13:21:14+00:00",
   "status": "open",
   "odd_laatst": 1.48,
-  "bijgewerkt": "2026-10-31T19:23:47+00:00"
+  "bijgewerkt": "2026-11-01T13:41:09+00:00"
  },
  "under-2-5-empoli-juve-stabia-2026-11-01": {
   "fid": "1601587",
@@ -1826,8 +1826,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-30T19:58:45+00:00",
   "status": "open",
-  "odd_laatst": 1.85,
-  "bijgewerkt": "2026-10-31T19:23:47+00:00"
+  "odd_laatst": 1.8,
+  "bijgewerkt": "2026-11-01T13:41:09+00:00"
  },
  "btts-sonderjyske-fc-copenhagen-2026-11-02": {
   "fid": "1549050",
@@ -1846,7 +1846,7 @@
   "gepubliceerd": "2026-10-30T19:58:46+00:00",
   "status": "open",
   "odd_laatst": 1.67,
-  "bijgewerkt": "2026-10-31T19:23:47+00:00"
+  "bijgewerkt": "2026-11-01T13:41:09+00:00"
  },
  "1x2-as-trencin-fk-kosice-2026-10-31": {
   "fid": "1551590",
@@ -1906,8 +1906,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-31T12:57:15+00:00",
   "status": "open",
-  "odd_laatst": 1.6,
-  "bijgewerkt": "2026-10-31T19:23:47+00:00"
+  "odd_laatst": 1.62,
+  "bijgewerkt": "2026-11-01T13:41:09+00:00"
  },
  "over-2-5-ac-milan-inter-2026-10-31": {
   "fid": "1550177",
@@ -1968,6 +1968,82 @@
   "gepubliceerd": "2026-10-31T19:24:45+00:00",
   "status": "open",
   "odd_laatst": 1.87,
-  "bijgewerkt": "2026-10-31T19:24:45+00:00"
+  "bijgewerkt": "2026-11-01T13:41:09+00:00"
+ },
+ "1x2-academico-viseu-rio-ave-2026-11-01": {
+  "fid": "1575527",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Academico Viseu wint",
+  "wedstrijd": "Academico Viseu - Rio Ave",
+  "competitie": "Primeira Liga",
+  "aftrap": "2026-11-01T18:00:00+00:00",
+  "odd_publicatie": 1.88,
+  "bookmaker": "Tonybet",
+  "kans": 0.5571,
+  "kans_markt": 0.5099,
+  "edge": 0.0474,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-01T13:41:52+00:00",
+  "status": "open",
+  "odd_laatst": 1.88,
+  "bijgewerkt": "2026-11-01T13:41:52+00:00"
+ },
+ "btts-strasbourg-auxerre-2026-11-01": {
+  "fid": "1552808",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Strasbourg - Auxerre",
+  "competitie": "Ligue 1",
+  "aftrap": "2026-11-01T14:00:00+00:00",
+  "odd_publicatie": 1.57,
+  "bookmaker": "StarCasino",
+  "kans": 0.6364,
+  "kans_markt": 0.6145,
+  "edge": -0.0008,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-01T13:41:53+00:00",
+  "status": "open",
+  "odd_laatst": 1.57,
+  "bijgewerkt": "2026-11-01T13:41:53+00:00"
+ },
+ "under-2-5-red-star-fc-93-nancy-2026-11-02": {
+  "fid": "1552519",
+  "markt": "Under 2.5",
+  "pick": "under25",
+  "tip": "Minder dan 2.5 doelpunten",
+  "wedstrijd": "RED Star FC 93 - Nancy",
+  "competitie": "Ligue 2",
+  "aftrap": "2026-11-02T19:45:00+00:00",
+  "odd_publicatie": 1.85,
+  "bookmaker": "Bet365",
+  "kans": 0.5602,
+  "kans_markt": 0.5208,
+  "edge": 0.0364,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-01T13:41:54+00:00",
+  "status": "open",
+  "odd_laatst": 1.85,
+  "bijgewerkt": "2026-11-01T13:41:54+00:00"
+ },
+ "btts-wrexham-middlesbrough-2026-11-04": {
+  "fid": "1563250",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Wrexham - Middlesbrough",
+  "competitie": "Championship",
+  "aftrap": "2026-11-04T19:45:00+00:00",
+  "odd_publicatie": 1.67,
+  "bookmaker": "Bet365",
+  "kans": 0.585,
+  "kans_markt": 0.5636,
+  "edge": -0.0231,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-01T13:41:55+00:00",
+  "status": "open",
+  "odd_laatst": 1.67,
+  "bijgewerkt": "2026-11-01T13:41:55+00:00"
  }
 }
