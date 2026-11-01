@@ -1,42 +1,42 @@
 {
- "bijgewerkt": "2026-11-01T13:42:03+00:00",
+ "bijgewerkt": "2026-11-01T15:05:40+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 83,
-  "gewonnen": 47,
+  "tips": 85,
+  "gewonnen": 49,
   "verloren": 36,
-  "raak": 57,
-  "winst_eenheden": -1.97,
-  "rendement": -2.4,
+  "raak": 58,
+  "winst_eenheden": -0.68,
+  "rendement": -0.8,
   "gem_odd": 1.76
  },
  "dertig_dagen": {
-  "tips": 83,
-  "gewonnen": 47,
+  "tips": 85,
+  "gewonnen": 49,
   "verloren": 36,
-  "raak": 57,
-  "winst_eenheden": -1.97,
-  "rendement": -2.4,
+  "raak": 58,
+  "winst_eenheden": -0.68,
+  "rendement": -0.8,
   "gem_odd": 1.76
  },
  "per_markt": {
   "BTTS": {
    "totaal": {
-    "tips": 32,
-    "gewonnen": 22,
+    "tips": 33,
+    "gewonnen": 23,
     "verloren": 10,
-    "raak": 69,
-    "winst_eenheden": 3.12,
-    "rendement": 9.8,
+    "raak": 70,
+    "winst_eenheden": 3.59,
+    "rendement": 10.9,
     "gem_odd": 1.61
    },
    "dertig_dagen": {
-    "tips": 32,
-    "gewonnen": 22,
+    "tips": 33,
+    "gewonnen": 23,
     "verloren": 10,
-    "raak": 69,
-    "winst_eenheden": 3.12,
-    "rendement": 9.8,
+    "raak": 70,
+    "winst_eenheden": 3.59,
+    "rendement": 10.9,
     "gem_odd": 1.61
    }
   },
@@ -82,21 +82,21 @@
   },
   "1X2": {
    "totaal": {
-    "tips": 28,
-    "gewonnen": 13,
+    "tips": 29,
+    "gewonnen": 14,
     "verloren": 15,
-    "raak": 46,
-    "winst_eenheden": -3.76,
-    "rendement": -13.4,
+    "raak": 48,
+    "winst_eenheden": -2.94,
+    "rendement": -10.1,
     "gem_odd": 1.9
    },
    "dertig_dagen": {
-    "tips": 28,
-    "gewonnen": 13,
+    "tips": 29,
+    "gewonnen": 14,
     "verloren": 15,
-    "raak": 46,
-    "winst_eenheden": -3.76,
-    "rendement": -13.4,
+    "raak": 48,
+    "winst_eenheden": -2.94,
+    "rendement": -10.1,
     "gem_odd": 1.9
    }
   }
@@ -110,8 +110,26 @@
   "rendement": -25.9,
   "gem_odd": 1.76
  },
- "open": 16,
+ "open": 14,
  "laatste": [
+  {
+   "datum": "2026-11-01",
+   "wedstrijd": "Başakşehir - Samsunspor",
+   "markt": "1X2",
+   "tip": "Başakşehir wint",
+   "odd": 1.82,
+   "uitslag": "5-2",
+   "status": "gewonnen"
+  },
+  {
+   "datum": "2026-11-01",
+   "wedstrijd": "BSC Young Boys - FC Zurich",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.47,
+   "uitslag": "3-5",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-10-31",
    "wedstrijd": "AC Milan - Inter",
@@ -272,24 +290,6 @@
    "tip": "Beide teams scoren",
    "odd": 1.53,
    "uitslag": "3-1",
-   "status": "gewonnen"
-  },
-  {
-   "datum": "2026-10-29",
-   "wedstrijd": "Nashville SC - Philadelphia Union",
-   "markt": "1X2",
-   "tip": "Nashville SC wint",
-   "odd": 1.89,
-   "uitslag": "0-0",
-   "status": "verloren"
-  },
-  {
-   "datum": "2026-10-28",
-   "wedstrijd": "New England Revolution - New York Red Bulls",
-   "markt": "1X2",
-   "tip": "New England Revolution wint",
-   "odd": 2.05,
-   "uitslag": "3-2",
    "status": "gewonnen"
   }
  ]

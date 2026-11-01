@@ -1730,9 +1730,11 @@
   "edge": 0.0344,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-29T13:32:55+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.85,
-  "bijgewerkt": "2026-10-31T19:23:47+00:00"
+  "bijgewerkt": "2026-10-31T19:23:47+00:00",
+  "eindstand": "5-2",
+  "afgesloten": "2026-11-01T15:05:31+00:00"
  },
  "btts-bsc-young-boys-fc-zurich-2026-11-01": {
   "fid": "1555418",
@@ -1749,9 +1751,11 @@
   "edge": -0.0032,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-29T13:32:57+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.47,
-  "bijgewerkt": "2026-10-31T19:23:47+00:00"
+  "bijgewerkt": "2026-10-31T19:23:47+00:00",
+  "eindstand": "3-5",
+  "afgesloten": "2026-11-01T15:05:31+00:00"
  },
  "over-2-5-palermo-vicenza-virtus-2026-11-01": {
   "fid": "1601589",
