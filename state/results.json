@@ -1776,9 +1776,11 @@
   "edge": 0.0309,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-29T20:23:49+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.58,
-  "bijgewerkt": "2026-11-01T13:41:09+00:00"
+  "bijgewerkt": "2026-11-01T13:41:09+00:00",
+  "eindstand": "3-1",
+  "afgesloten": "2026-11-01T23:34:02+00:00"
  },
  "under-2-5-gil-vicente-vitoria-sc-2026-11-02": {
   "fid": "1575533",
@@ -1995,9 +1997,11 @@
   "edge": 0.0474,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-01T13:41:52+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.88,
-  "bijgewerkt": "2026-11-01T13:41:52+00:00"
+  "bijgewerkt": "2026-11-01T13:41:52+00:00",
+  "eindstand": "2-1",
+  "afgesloten": "2026-11-01T23:34:02+00:00"
  },
  "btts-strasbourg-auxerre-2026-11-01": {
   "fid": "1552808",
@@ -2073,9 +2077,11 @@
   "edge": 0.058,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-01T19:49:55+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.92,
-  "bijgewerkt": "2026-11-01T19:49:55+00:00"
+  "bijgewerkt": "2026-11-01T19:49:55+00:00",
+  "eindstand": "3-0",
+  "afgesloten": "2026-11-01T23:34:02+00:00"
  },
  "1x2-vancouver-whitecaps-seattle-sounders-2026-11-01": {
   "fid": "1490591",
@@ -2092,9 +2098,11 @@
   "edge": 0.0332,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-01T19:49:56+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.8,
-  "bijgewerkt": "2026-11-01T19:49:56+00:00"
+  "bijgewerkt": "2026-11-01T19:49:56+00:00",
+  "eindstand": "5-1",
+  "afgesloten": "2026-11-01T23:34:02+00:00"
  },
  "btts-athletic-club-real-sociedad-2026-11-01": {
   "fid": "1570433",
@@ -2111,8 +2119,10 @@
   "edge": -0.0044,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-01T19:49:57+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.71,
-  "bijgewerkt": "2026-11-01T19:49:57+00:00"
+  "bijgewerkt": "2026-11-01T19:49:57+00:00",
+  "eindstand": "2-1",
+  "afgesloten": "2026-11-01T23:34:02+00:00"
  }
 }
