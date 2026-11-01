@@ -1924,9 +1924,11 @@
   "edge": 0.0673,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-31T19:24:43+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.82,
-  "bijgewerkt": "2026-10-31T19:24:43+00:00"
+  "bijgewerkt": "2026-10-31T19:24:43+00:00",
+  "eindstand": "3-1",
+  "afgesloten": "2026-11-01T01:07:54+00:00"
  },
  "btts-anderlecht-kvc-westerlo-2026-10-31": {
   "fid": "1558662",
@@ -1943,9 +1945,11 @@
   "edge": -0.0173,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-31T19:24:44+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.53,
-  "bijgewerkt": "2026-10-31T19:24:44+00:00"
+  "bijgewerkt": "2026-10-31T19:24:44+00:00",
+  "eindstand": "4-1",
+  "afgesloten": "2026-11-01T01:07:54+00:00"
  },
  "under-2-5-portsmouth-swansea-2026-11-03": {
   "fid": "1563242",
