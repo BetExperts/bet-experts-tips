@@ -1694,9 +1694,11 @@
   "edge": 0.043,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-29T13:32:52+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.52,
-  "bijgewerkt": "2026-11-01T19:48:56+00:00"
+  "bijgewerkt": "2026-11-01T19:48:56+00:00",
+  "eindstand": "3-2",
+  "afgesloten": "2026-11-02T05:57:45+00:00"
  },
  "1x2-groningen-sparta-rotterdam-2026-11-01": {
   "fid": "1552215",

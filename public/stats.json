@@ -1,22 +1,22 @@
 {
- "bijgewerkt": "2026-11-01T23:34:08+00:00",
+ "bijgewerkt": "2026-11-02T05:57:48+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 94,
-  "gewonnen": 54,
+  "tips": 95,
+  "gewonnen": 55,
   "verloren": 40,
-  "raak": 57,
-  "winst_eenheden": -1.12,
-  "rendement": -1.2,
+  "raak": 58,
+  "winst_eenheden": -0.59,
+  "rendement": -0.6,
   "gem_odd": 1.76
  },
  "dertig_dagen": {
-  "tips": 94,
-  "gewonnen": 54,
+  "tips": 95,
+  "gewonnen": 55,
   "verloren": 40,
-  "raak": 57,
-  "winst_eenheden": -1.12,
-  "rendement": -1.2,
+  "raak": 58,
+  "winst_eenheden": -0.59,
+  "rendement": -0.6,
   "gem_odd": 1.76
  },
  "per_markt": {
@@ -82,36 +82,45 @@
   },
   "1X2": {
    "totaal": {
-    "tips": 32,
-    "gewonnen": 16,
+    "tips": 33,
+    "gewonnen": 17,
     "verloren": 16,
-    "raak": 50,
-    "winst_eenheden": -2.26,
-    "rendement": -7.1,
-    "gem_odd": 1.89
+    "raak": 52,
+    "winst_eenheden": -1.73,
+    "rendement": -5.2,
+    "gem_odd": 1.88
    },
    "dertig_dagen": {
-    "tips": 32,
-    "gewonnen": 16,
+    "tips": 33,
+    "gewonnen": 17,
     "verloren": 16,
-    "raak": 50,
-    "winst_eenheden": -2.26,
-    "rendement": -7.1,
-    "gem_odd": 1.89
+    "raak": 52,
+    "winst_eenheden": -1.73,
+    "rendement": -5.2,
+    "gem_odd": 1.88
    }
   }
  },
  "tip_van_de_dag": {
-  "tips": 14,
-  "gewonnen": 6,
+  "tips": 15,
+  "gewonnen": 7,
   "verloren": 8,
-  "raak": 43,
-  "winst_eenheden": -3.62,
-  "rendement": -25.9,
-  "gem_odd": 1.76
+  "raak": 47,
+  "winst_eenheden": -3.09,
+  "rendement": -20.6,
+  "gem_odd": 1.75
  },
- "open": 8,
+ "open": 7,
  "laatste": [
+  {
+   "datum": "2026-11-01",
+   "wedstrijd": "Nashville SC - New York Red Bulls",
+   "markt": "1X2",
+   "tip": "Nashville SC wint",
+   "odd": 1.53,
+   "uitslag": "3-2",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-11-01",
    "wedstrijd": "SC Braga - Famalicao",
@@ -281,15 +290,6 @@
    "tip": "FK Košice wint",
    "odd": 2.11,
    "uitslag": "0-5",
-   "status": "gewonnen"
-  },
-  {
-   "datum": "2026-10-31",
-   "wedstrijd": "Bologna - Monza",
-   "markt": "BTTS",
-   "tip": "Beide teams scoren",
-   "odd": 1.85,
-   "uitslag": "2-1",
    "status": "gewonnen"
   }
  ]
