@@ -1799,9 +1799,11 @@
   "edge": 0.0392,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-30T13:21:13+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.72,
-  "bijgewerkt": "2026-11-02T16:25:58+00:00"
+  "bijgewerkt": "2026-11-02T16:25:58+00:00",
+  "eindstand": "0-0",
+  "afgesloten": "2026-11-02T23:28:45+00:00"
  },
  "btts-sassuolo-fiorentina-2026-11-02": {
   "fid": "1550185",
@@ -1818,9 +1820,11 @@
   "edge": -0.0058,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-30T13:21:14+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.47,
-  "bijgewerkt": "2026-11-02T16:25:58+00:00"
+  "bijgewerkt": "2026-11-02T16:25:58+00:00",
+  "eindstand": "2-4",
+  "afgesloten": "2026-11-02T23:28:45+00:00"
  },
  "under-2-5-empoli-juve-stabia-2026-11-01": {
   "fid": "1601587",
@@ -1858,9 +1862,11 @@
   "edge": -0.0209,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-30T19:58:46+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.75,
-  "bijgewerkt": "2026-11-02T16:25:58+00:00"
+  "bijgewerkt": "2026-11-02T16:25:58+00:00",
+  "eindstand": "0-2",
+  "afgesloten": "2026-11-02T23:28:45+00:00"
  },
  "1x2-as-trencin-fk-kosice-2026-10-31": {
   "fid": "1551590",
@@ -2041,9 +2047,11 @@
   "edge": 0.0364,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-01T13:41:54+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.83,
-  "bijgewerkt": "2026-11-02T16:25:58+00:00"
+  "bijgewerkt": "2026-11-02T16:25:58+00:00",
+  "eindstand": "1-4",
+  "afgesloten": "2026-11-02T23:28:45+00:00"
  },
  "btts-wrexham-middlesbrough-2026-11-04": {
   "fid": "1563250",
@@ -2142,9 +2150,11 @@
   "edge": 0.0584,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-02T16:26:34+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.87,
-  "bijgewerkt": "2026-11-02T16:26:34+00:00"
+  "bijgewerkt": "2026-11-02T16:26:34+00:00",
+  "eindstand": "5-0",
+  "afgesloten": "2026-11-02T23:28:45+00:00"
  },
  "btts-al-kholood-al-khaleej-saihat-2026-11-05": {
   "fid": "1603087",
