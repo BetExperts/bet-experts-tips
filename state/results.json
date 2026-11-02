@@ -1921,7 +1921,7 @@
   "gepubliceerd": "2026-10-31T12:57:15+00:00",
   "status": "open",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-11-02T16:25:58+00:00"
+  "bijgewerkt": "2026-11-02T23:09:13+00:00"
  },
  "over-2-5-ac-milan-inter-2026-10-31": {
   "fid": "1550177",
@@ -1981,8 +1981,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-31T19:24:45+00:00",
   "status": "open",
-  "odd_laatst": 1.87,
-  "bijgewerkt": "2026-11-02T16:25:58+00:00"
+  "odd_laatst": 1.82,
+  "bijgewerkt": "2026-11-02T23:09:13+00:00"
  },
  "1x2-academico-viseu-rio-ave-2026-11-01": {
   "fid": "1575527",
@@ -2062,7 +2062,7 @@
   "gepubliceerd": "2026-11-01T13:41:55+00:00",
   "status": "open",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-11-02T16:25:58+00:00"
+  "bijgewerkt": "2026-11-02T23:09:13+00:00"
  },
  "under-2-5-sc-braga-famalicao-2026-11-01": {
   "fid": "1575530",
@@ -2162,7 +2162,102 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-02T16:26:35+00:00",
   "status": "open",
-  "odd_laatst": 1.73,
-  "bijgewerkt": "2026-11-02T16:26:35+00:00"
+  "odd_laatst": 1.7,
+  "bijgewerkt": "2026-11-02T23:09:13+00:00"
+ },
+ "1x2-atletico-paranaense-vasco-da-gama-2026-11-04": {
+  "fid": "1492440",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Atletico Paranaense wint",
+  "wedstrijd": "Atletico Paranaense - Vasco DA Gama",
+  "competitie": "Brasileirao",
+  "aftrap": "2026-11-04T22:30:00+00:00",
+  "odd_publicatie": 2.12,
+  "bookmaker": "TOTO",
+  "kans": 0.5006,
+  "kans_markt": 0.4502,
+  "edge": 0.0613,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-02T23:09:48+00:00",
+  "status": "open",
+  "odd_laatst": 2.12,
+  "bijgewerkt": "2026-11-02T23:09:48+00:00"
+ },
+ "1x2-montpellier-metz-2026-11-06": {
+  "fid": "1552527",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Montpellier wint",
+  "wedstrijd": "Montpellier - Metz",
+  "competitie": "Ligue 2",
+  "aftrap": "2026-11-06T19:00:00+00:00",
+  "odd_publicatie": 2.1,
+  "bookmaker": "Unibet",
+  "kans": 0.5002,
+  "kans_markt": 0.4552,
+  "edge": 0.0504,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-02T23:09:49+00:00",
+  "status": "open",
+  "odd_laatst": 2.1,
+  "bijgewerkt": "2026-11-02T23:09:49+00:00"
+ },
+ "under-2-5-nancy-sochaux-2026-11-06": {
+  "fid": "1552528",
+  "markt": "Under 2.5",
+  "pick": "under25",
+  "tip": "Minder dan 2.5 doelpunten",
+  "wedstrijd": "Nancy - Sochaux",
+  "competitie": "Ligue 2",
+  "aftrap": "2026-11-06T19:00:00+00:00",
+  "odd_publicatie": 1.85,
+  "bookmaker": "Bet365",
+  "kans": 0.5609,
+  "kans_markt": 0.5173,
+  "edge": 0.0376,
+  "tip_van_de_dag": true,
+  "gepubliceerd": "2026-11-02T23:09:50+00:00",
+  "status": "open",
+  "odd_laatst": 1.85,
+  "bijgewerkt": "2026-11-02T23:09:50+00:00"
+ },
+ "btts-willem-ii-pec-zwolle-2026-11-06": {
+  "fid": "1552216",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Willem II - PEC Zwolle",
+  "competitie": "Eredivisie",
+  "aftrap": "2026-11-06T19:00:00+00:00",
+  "odd_publicatie": 1.5,
+  "bookmaker": "Bet365",
+  "kans": 0.6496,
+  "kans_markt": 0.6401,
+  "edge": -0.0257,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-02T23:09:52+00:00",
+  "status": "open",
+  "odd_laatst": 1.5,
+  "bijgewerkt": "2026-11-02T23:09:52+00:00"
+ },
+ "btts-silkeborg-lyngby-2026-11-06": {
+  "fid": "1549057",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Silkeborg - Lyngby",
+  "competitie": "Superliga",
+  "aftrap": "2026-11-06T18:00:00+00:00",
+  "odd_publicatie": 1.5,
+  "bookmaker": "Bet365",
+  "kans": 0.6433,
+  "kans_markt": 0.6262,
+  "edge": -0.035,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-02T23:09:52+00:00",
+  "status": "open",
+  "odd_laatst": 1.5,
+  "bijgewerkt": "2026-11-02T23:09:52+00:00"
  }
 }
