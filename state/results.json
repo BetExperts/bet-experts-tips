@@ -1800,8 +1800,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-30T13:21:13+00:00",
   "status": "open",
-  "odd_laatst": 1.65,
-  "bijgewerkt": "2026-11-01T19:48:56+00:00"
+  "odd_laatst": 1.72,
+  "bijgewerkt": "2026-11-02T16:25:58+00:00"
  },
  "btts-sassuolo-fiorentina-2026-11-02": {
   "fid": "1550185",
@@ -1819,8 +1819,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-30T13:21:14+00:00",
   "status": "open",
-  "odd_laatst": 1.48,
-  "bijgewerkt": "2026-11-01T19:48:56+00:00"
+  "odd_laatst": 1.47,
+  "bijgewerkt": "2026-11-02T16:25:58+00:00"
  },
  "under-2-5-empoli-juve-stabia-2026-11-01": {
   "fid": "1601587",
@@ -1859,8 +1859,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-30T19:58:46+00:00",
   "status": "open",
-  "odd_laatst": 1.67,
-  "bijgewerkt": "2026-11-01T19:48:56+00:00"
+  "odd_laatst": 1.75,
+  "bijgewerkt": "2026-11-02T16:25:58+00:00"
  },
  "1x2-as-trencin-fk-kosice-2026-10-31": {
   "fid": "1551590",
@@ -1921,7 +1921,7 @@
   "gepubliceerd": "2026-10-31T12:57:15+00:00",
   "status": "open",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-11-01T19:48:56+00:00"
+  "bijgewerkt": "2026-11-02T16:25:58+00:00"
  },
  "over-2-5-ac-milan-inter-2026-10-31": {
   "fid": "1550177",
@@ -1982,7 +1982,7 @@
   "gepubliceerd": "2026-10-31T19:24:45+00:00",
   "status": "open",
   "odd_laatst": 1.87,
-  "bijgewerkt": "2026-11-01T19:48:56+00:00"
+  "bijgewerkt": "2026-11-02T16:25:58+00:00"
  },
  "1x2-academico-viseu-rio-ave-2026-11-01": {
   "fid": "1575527",
@@ -2042,8 +2042,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-01T13:41:54+00:00",
   "status": "open",
-  "odd_laatst": 1.8,
-  "bijgewerkt": "2026-11-01T19:48:56+00:00"
+  "odd_laatst": 1.83,
+  "bijgewerkt": "2026-11-02T16:25:58+00:00"
  },
  "btts-wrexham-middlesbrough-2026-11-04": {
   "fid": "1563250",
@@ -2061,8 +2061,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-01T13:41:55+00:00",
   "status": "open",
-  "odd_laatst": 1.67,
-  "bijgewerkt": "2026-11-01T19:48:56+00:00"
+  "odd_laatst": 1.62,
+  "bijgewerkt": "2026-11-02T16:25:58+00:00"
  },
  "under-2-5-sc-braga-famalicao-2026-11-01": {
   "fid": "1575530",
@@ -2126,5 +2126,43 @@
   "bijgewerkt": "2026-11-01T19:49:57+00:00",
   "eindstand": "2-1",
   "afgesloten": "2026-11-01T23:34:02+00:00"
+ },
+ "under-2-5-genclerbirligi-s-k-alanyaspor-2026-11-02": {
+  "fid": "1584452",
+  "markt": "Under 2.5",
+  "pick": "under25",
+  "tip": "Minder dan 2.5 doelpunten",
+  "wedstrijd": "Gençlerbirliği S.K. - Alanyaspor",
+  "competitie": "Super Lig",
+  "aftrap": "2026-11-02T17:00:00+00:00",
+  "odd_publicatie": 1.87,
+  "bookmaker": "Circus",
+  "kans": 0.566,
+  "kans_markt": 0.5252,
+  "edge": 0.0584,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-02T16:26:34+00:00",
+  "status": "open",
+  "odd_laatst": 1.87,
+  "bijgewerkt": "2026-11-02T16:26:34+00:00"
+ },
+ "btts-al-kholood-al-khaleej-saihat-2026-11-05": {
+  "fid": "1603087",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Al Kholood - Al Khaleej Saihat",
+  "competitie": "Saudi Pro League",
+  "aftrap": "2026-11-05T13:25:00+00:00",
+  "odd_publicatie": 1.73,
+  "bookmaker": "Bet365",
+  "kans": 0.5885,
+  "kans_markt": 0.5424,
+  "edge": 0.0181,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-02T16:26:35+00:00",
+  "status": "open",
+  "odd_laatst": 1.73,
+  "bijgewerkt": "2026-11-02T16:26:35+00:00"
  }
 }
