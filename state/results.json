@@ -2070,7 +2070,7 @@
   "gepubliceerd": "2026-11-01T13:41:55+00:00",
   "status": "open",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-11-03T14:32:05+00:00"
+  "bijgewerkt": "2026-11-03T21:08:59+00:00"
  },
  "under-2-5-sc-braga-famalicao-2026-11-01": {
   "fid": "1575530",
@@ -2172,8 +2172,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-02T16:26:35+00:00",
   "status": "open",
-  "odd_laatst": 1.7,
-  "bijgewerkt": "2026-11-03T14:32:05+00:00"
+  "odd_laatst": 1.68,
+  "bijgewerkt": "2026-11-03T21:08:59+00:00"
  },
  "1x2-atletico-paranaense-vasco-da-gama-2026-11-04": {
   "fid": "1492440",
@@ -2191,8 +2191,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-02T23:09:48+00:00",
   "status": "open",
-  "odd_laatst": 2.09,
-  "bijgewerkt": "2026-11-03T14:32:05+00:00"
+  "odd_laatst": 2.14,
+  "bijgewerkt": "2026-11-03T21:08:59+00:00"
  },
  "1x2-montpellier-metz-2026-11-06": {
   "fid": "1552527",
@@ -2211,7 +2211,7 @@
   "gepubliceerd": "2026-11-02T23:09:49+00:00",
   "status": "open",
   "odd_laatst": 2.1,
-  "bijgewerkt": "2026-11-03T14:32:05+00:00"
+  "bijgewerkt": "2026-11-03T21:08:59+00:00"
  },
  "under-2-5-nancy-sochaux-2026-11-06": {
   "fid": "1552528",
@@ -2230,7 +2230,7 @@
   "gepubliceerd": "2026-11-02T23:09:50+00:00",
   "status": "open",
   "odd_laatst": 1.85,
-  "bijgewerkt": "2026-11-03T14:32:05+00:00"
+  "bijgewerkt": "2026-11-03T21:08:59+00:00"
  },
  "btts-willem-ii-pec-zwolle-2026-11-06": {
   "fid": "1552216",
@@ -2249,7 +2249,7 @@
   "gepubliceerd": "2026-11-02T23:09:52+00:00",
   "status": "open",
   "odd_laatst": 1.5,
-  "bijgewerkt": "2026-11-03T14:32:05+00:00"
+  "bijgewerkt": "2026-11-03T21:08:59+00:00"
  },
  "btts-silkeborg-lyngby-2026-11-06": {
   "fid": "1549057",
@@ -2268,6 +2268,25 @@
   "gepubliceerd": "2026-11-02T23:09:52+00:00",
   "status": "open",
   "odd_laatst": 1.5,
-  "bijgewerkt": "2026-11-03T14:32:05+00:00"
+  "bijgewerkt": "2026-11-03T21:08:59+00:00"
+ },
+ "btts-septemvri-sofia-lokomotiv-sofia-2026-11-06": {
+  "fid": "1551135",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Septemvri Sofia - Lokomotiv Sofia",
+  "competitie": "Bulgarian First League",
+  "aftrap": "2026-11-06T15:00:00+00:00",
+  "odd_publicatie": 1.91,
+  "bookmaker": "Circus",
+  "kans": 0.5577,
+  "kans_markt": 0.5288,
+  "edge": 0.0651,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-03T21:09:51+00:00",
+  "status": "open",
+  "odd_laatst": 1.91,
+  "bijgewerkt": "2026-11-03T21:09:51+00:00"
  }
 }
