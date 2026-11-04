@@ -2072,9 +2072,11 @@
   "edge": -0.0231,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-01T13:41:55+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.66,
-  "bijgewerkt": "2026-11-04T14:46:47+00:00"
+  "bijgewerkt": "2026-11-04T14:46:47+00:00",
+  "eindstand": "2-0",
+  "afgesloten": "2026-11-04T22:39:07+00:00"
  },
  "under-2-5-sc-braga-famalicao-2026-11-01": {
   "fid": "1575530",
