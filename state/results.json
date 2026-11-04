@@ -2073,8 +2073,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-01T13:41:55+00:00",
   "status": "open",
-  "odd_laatst": 1.62,
-  "bijgewerkt": "2026-11-03T21:08:59+00:00"
+  "odd_laatst": 1.66,
+  "bijgewerkt": "2026-11-04T14:46:47+00:00"
  },
  "under-2-5-sc-braga-famalicao-2026-11-01": {
   "fid": "1575530",
@@ -2177,7 +2177,7 @@
   "gepubliceerd": "2026-11-02T16:26:35+00:00",
   "status": "open",
   "odd_laatst": 1.68,
-  "bijgewerkt": "2026-11-03T21:08:59+00:00"
+  "bijgewerkt": "2026-11-04T14:46:47+00:00"
  },
  "1x2-atletico-paranaense-vasco-da-gama-2026-11-04": {
   "fid": "1492440",
@@ -2196,7 +2196,7 @@
   "gepubliceerd": "2026-11-02T23:09:48+00:00",
   "status": "open",
   "odd_laatst": 2.14,
-  "bijgewerkt": "2026-11-03T21:08:59+00:00"
+  "bijgewerkt": "2026-11-04T14:46:47+00:00"
  },
  "1x2-montpellier-metz-2026-11-06": {
   "fid": "1552527",
@@ -2215,7 +2215,7 @@
   "gepubliceerd": "2026-11-02T23:09:49+00:00",
   "status": "open",
   "odd_laatst": 2.1,
-  "bijgewerkt": "2026-11-03T21:08:59+00:00"
+  "bijgewerkt": "2026-11-04T14:46:47+00:00"
  },
  "under-2-5-nancy-sochaux-2026-11-06": {
   "fid": "1552528",
@@ -2234,7 +2234,7 @@
   "gepubliceerd": "2026-11-02T23:09:50+00:00",
   "status": "open",
   "odd_laatst": 1.85,
-  "bijgewerkt": "2026-11-03T21:08:59+00:00"
+  "bijgewerkt": "2026-11-04T14:46:47+00:00"
  },
  "btts-willem-ii-pec-zwolle-2026-11-06": {
   "fid": "1552216",
@@ -2252,8 +2252,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-02T23:09:52+00:00",
   "status": "open",
-  "odd_laatst": 1.5,
-  "bijgewerkt": "2026-11-03T21:08:59+00:00"
+  "odd_laatst": 1.48,
+  "bijgewerkt": "2026-11-04T14:46:47+00:00"
  },
  "btts-silkeborg-lyngby-2026-11-06": {
   "fid": "1549057",
@@ -2271,8 +2271,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-02T23:09:52+00:00",
   "status": "open",
-  "odd_laatst": 1.5,
-  "bijgewerkt": "2026-11-03T21:08:59+00:00"
+  "odd_laatst": 1.52,
+  "bijgewerkt": "2026-11-04T14:46:47+00:00"
  },
  "btts-septemvri-sofia-lokomotiv-sofia-2026-11-06": {
   "fid": "1551135",
@@ -2291,6 +2291,139 @@
   "gepubliceerd": "2026-11-03T21:09:51+00:00",
   "status": "open",
   "odd_laatst": 1.91,
-  "bijgewerkt": "2026-11-03T21:09:51+00:00"
+  "bijgewerkt": "2026-11-04T14:46:47+00:00"
+ },
+ "1x2-eyupspor-kocaelispor-2026-11-07": {
+  "fid": "1584460",
+  "markt": "1X2",
+  "pick": "away",
+  "tip": "Kocaelispor wint",
+  "wedstrijd": "Eyüpspor - Kocaelispor",
+  "competitie": "Super Lig",
+  "aftrap": "2026-11-07T10:30:00+00:00",
+  "odd_publicatie": 2.09,
+  "bookmaker": "Tonybet",
+  "kans": 0.5066,
+  "kans_markt": 0.4672,
+  "edge": 0.0588,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-04T14:48:11+00:00",
+  "status": "open",
+  "odd_laatst": 2.09,
+  "bijgewerkt": "2026-11-04T14:48:11+00:00"
+ },
+ "over-2-5-raal-la-louviere-cercle-brugge-2026-11-07": {
+  "fid": "1558675",
+  "markt": "Over 2.5",
+  "pick": "over25",
+  "tip": "Meer dan 2.5 doelpunten",
+  "wedstrijd": "RAAL La Louvière - Cercle Brugge",
+  "competitie": "Jupiler Pro League",
+  "aftrap": "2026-11-07T19:45:00+00:00",
+  "odd_publicatie": 1.87,
+  "bookmaker": "Circus",
+  "kans": 0.5621,
+  "kans_markt": 0.5159,
+  "edge": 0.0511,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-04T14:48:12+00:00",
+  "status": "open",
+  "odd_laatst": 1.87,
+  "bijgewerkt": "2026-11-04T14:48:12+00:00"
+ },
+ "1x2-hertha-bsc-vfl-wolfsburg-2026-11-07": {
+  "fid": "1576227",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Hertha BSC wint",
+  "wedstrijd": "Hertha BSC - VfL Wolfsburg",
+  "competitie": "2. Bundesliga",
+  "aftrap": "2026-11-07T19:30:00+00:00",
+  "odd_publicatie": 2.08,
+  "bookmaker": "Unibet",
+  "kans": 0.5047,
+  "kans_markt": 0.4531,
+  "edge": 0.0497,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-04T14:48:13+00:00",
+  "status": "open",
+  "odd_laatst": 2.08,
+  "bijgewerkt": "2026-11-04T14:48:13+00:00"
+ },
+ "over-2-5-excelsior-go-ahead-eagles-2026-11-07": {
+  "fid": "1552218",
+  "markt": "Over 2.5",
+  "pick": "over25",
+  "tip": "Meer dan 2.5 doelpunten",
+  "wedstrijd": "Excelsior - GO Ahead Eagles",
+  "competitie": "Eredivisie",
+  "aftrap": "2026-11-07T20:00:00+00:00",
+  "odd_publicatie": 1.52,
+  "bookmaker": "711",
+  "kans": 0.6798,
+  "kans_markt": 0.6281,
+  "edge": 0.0333,
+  "tip_van_de_dag": true,
+  "gepubliceerd": "2026-11-04T14:48:15+00:00",
+  "status": "open",
+  "odd_laatst": 1.52,
+  "bijgewerkt": "2026-11-04T14:48:15+00:00"
+ },
+ "1x2-zbrojovka-brno-banik-ostrava-2026-11-07": {
+  "fid": "1560065",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Zbrojovka Brno wint",
+  "wedstrijd": "Zbrojovka Brno - Baník Ostrava",
+  "competitie": "Czech Liga",
+  "aftrap": "2026-11-07T17:00:00+00:00",
+  "odd_publicatie": 2.07,
+  "bookmaker": "Unibet",
+  "kans": 0.5014,
+  "kans_markt": 0.4613,
+  "edge": 0.038,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-04T14:48:17+00:00",
+  "status": "open",
+  "odd_laatst": 2.07,
+  "bijgewerkt": "2026-11-04T14:48:17+00:00"
+ },
+ "btts-kvc-westerlo-charleroi-2026-11-07": {
+  "fid": "1558679",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "KVC Westerlo - Charleroi",
+  "competitie": "Jupiler Pro League",
+  "aftrap": "2026-11-07T15:00:00+00:00",
+  "odd_publicatie": 1.5,
+  "bookmaker": "Circus",
+  "kans": 0.6831,
+  "kans_markt": 0.6379,
+  "edge": 0.0247,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-04T14:48:18+00:00",
+  "status": "open",
+  "odd_laatst": 1.5,
+  "bijgewerkt": "2026-11-04T14:48:18+00:00"
+ },
+ "btts-ado-den-haag-sparta-rotterdam-2026-11-07": {
+  "fid": "1552220",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "ADO Den Haag - Sparta Rotterdam",
+  "competitie": "Eredivisie",
+  "aftrap": "2026-11-07T17:45:00+00:00",
+  "odd_publicatie": 1.5,
+  "bookmaker": "Circus",
+  "kans": 0.6596,
+  "kans_markt": 0.6402,
+  "edge": -0.0106,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-04T14:48:19+00:00",
+  "status": "open",
+  "odd_laatst": 1.5,
+  "bijgewerkt": "2026-11-04T14:48:19+00:00"
  }
 }
