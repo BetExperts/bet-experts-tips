@@ -1925,9 +1925,11 @@
   "edge": -0.0306,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-10-31T12:57:15+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-11-03T14:32:05+00:00"
+  "bijgewerkt": "2026-11-03T14:32:05+00:00",
+  "eindstand": "0-4",
+  "afgesloten": "2026-11-04T01:19:23+00:00"
  },
  "over-2-5-ac-milan-inter-2026-10-31": {
   "fid": "1550177",
@@ -1986,9 +1988,11 @@
   "edge": 0.0336,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-10-31T19:24:45+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.7,
-  "bijgewerkt": "2026-11-03T14:32:05+00:00"
+  "bijgewerkt": "2026-11-03T14:32:05+00:00",
+  "eindstand": "3-1",
+  "afgesloten": "2026-11-04T01:19:23+00:00"
  },
  "1x2-academico-viseu-rio-ave-2026-11-01": {
   "fid": "1575527",

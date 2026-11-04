@@ -1,42 +1,42 @@
 {
- "bijgewerkt": "2026-11-03T21:09:55+00:00",
+ "bijgewerkt": "2026-11-04T01:19:29+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 100,
+  "tips": 102,
   "gewonnen": 57,
-  "verloren": 43,
-  "raak": 57,
-  "winst_eenheden": -2.41,
-  "rendement": -2.4,
+  "verloren": 45,
+  "raak": 56,
+  "winst_eenheden": -4.41,
+  "rendement": -4.3,
   "gem_odd": 1.75
  },
  "dertig_dagen": {
-  "tips": 100,
+  "tips": 102,
   "gewonnen": 57,
-  "verloren": 43,
-  "raak": 57,
-  "winst_eenheden": -2.41,
-  "rendement": -2.4,
+  "verloren": 45,
+  "raak": 56,
+  "winst_eenheden": -4.41,
+  "rendement": -4.3,
   "gem_odd": 1.75
  },
  "per_markt": {
   "BTTS": {
    "totaal": {
-    "tips": 38,
+    "tips": 39,
     "gewonnen": 26,
-    "verloren": 12,
-    "raak": 68,
-    "winst_eenheden": 3.37,
-    "rendement": 8.9,
+    "verloren": 13,
+    "raak": 67,
+    "winst_eenheden": 2.37,
+    "rendement": 6.1,
     "gem_odd": 1.62
    },
    "dertig_dagen": {
-    "tips": 38,
+    "tips": 39,
     "gewonnen": 26,
-    "verloren": 12,
-    "raak": 68,
-    "winst_eenheden": 3.37,
-    "rendement": 8.9,
+    "verloren": 13,
+    "raak": 67,
+    "winst_eenheden": 2.37,
+    "rendement": 6.1,
     "gem_odd": 1.62
    }
   },
@@ -62,21 +62,21 @@
   },
   "Under 2.5": {
    "totaal": {
-    "tips": 15,
+    "tips": 16,
     "gewonnen": 6,
-    "verloren": 9,
-    "raak": 40,
-    "winst_eenheden": -4.05,
-    "rendement": -27.0,
+    "verloren": 10,
+    "raak": 38,
+    "winst_eenheden": -5.05,
+    "rendement": -31.6,
     "gem_odd": 1.84
    },
    "dertig_dagen": {
-    "tips": 15,
+    "tips": 16,
     "gewonnen": 6,
-    "verloren": 9,
-    "raak": 40,
-    "winst_eenheden": -4.05,
-    "rendement": -27.0,
+    "verloren": 10,
+    "raak": 38,
+    "winst_eenheden": -5.05,
+    "rendement": -31.6,
     "gem_odd": 1.84
    }
   },
@@ -102,16 +102,34 @@
   }
  },
  "tip_van_de_dag": {
-  "tips": 16,
+  "tips": 17,
   "gewonnen": 8,
-  "verloren": 8,
-  "raak": 50,
-  "winst_eenheden": -2.41,
-  "rendement": -15.1,
-  "gem_odd": 1.74
+  "verloren": 9,
+  "raak": 47,
+  "winst_eenheden": -3.41,
+  "rendement": -20.1,
+  "gem_odd": 1.75
  },
- "open": 10,
+ "open": 8,
  "laatste": [
+  {
+   "datum": "2026-11-03",
+   "wedstrijd": "Derby - Norwich",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.6,
+   "uitslag": "0-4",
+   "status": "verloren"
+  },
+  {
+   "datum": "2026-11-03",
+   "wedstrijd": "Portsmouth - Swansea",
+   "markt": "Under 2.5",
+   "tip": "Minder dan 2.5 doelpunten",
+   "odd": 1.87,
+   "uitslag": "3-1",
+   "status": "verloren"
+  },
   {
    "datum": "2026-11-02",
    "wedstrijd": "GIL Vicente - Vitória SC",
@@ -272,24 +290,6 @@
    "tip": "Meer dan 2.5 doelpunten",
    "odd": 1.82,
    "uitslag": "3-1",
-   "status": "gewonnen"
-  },
-  {
-   "datum": "2026-10-31",
-   "wedstrijd": "Anderlecht - KVC Westerlo",
-   "markt": "BTTS",
-   "tip": "Beide teams scoren",
-   "odd": 1.53,
-   "uitslag": "4-1",
-   "status": "gewonnen"
-  },
-  {
-   "datum": "2026-10-31",
-   "wedstrijd": "Udinese - AS Roma",
-   "markt": "1X2",
-   "tip": "AS Roma wint",
-   "odd": 1.58,
-   "uitslag": "2-5",
    "status": "gewonnen"
   }
  ]
