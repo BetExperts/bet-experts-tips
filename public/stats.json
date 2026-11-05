@@ -1,23 +1,23 @@
 {
- "bijgewerkt": "2026-11-04T22:39:12+00:00",
+ "bijgewerkt": "2026-11-05T03:28:19+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 103,
+  "tips": 104,
   "gewonnen": 57,
-  "verloren": 46,
+  "verloren": 47,
   "raak": 55,
-  "winst_eenheden": -5.41,
-  "rendement": -5.3,
-  "gem_odd": 1.75
+  "winst_eenheden": -6.41,
+  "rendement": -6.2,
+  "gem_odd": 1.76
  },
  "dertig_dagen": {
-  "tips": 103,
+  "tips": 104,
   "gewonnen": 57,
-  "verloren": 46,
+  "verloren": 47,
   "raak": 55,
-  "winst_eenheden": -5.41,
-  "rendement": -5.3,
-  "gem_odd": 1.75
+  "winst_eenheden": -6.41,
+  "rendement": -6.2,
+  "gem_odd": 1.76
  },
  "per_markt": {
   "BTTS": {
@@ -82,21 +82,21 @@
   },
   "1X2": {
    "totaal": {
-    "tips": 33,
+    "tips": 34,
     "gewonnen": 17,
-    "verloren": 16,
-    "raak": 52,
-    "winst_eenheden": -1.73,
-    "rendement": -5.2,
+    "verloren": 17,
+    "raak": 50,
+    "winst_eenheden": -2.73,
+    "rendement": -8.0,
     "gem_odd": 1.88
    },
    "dertig_dagen": {
-    "tips": 33,
+    "tips": 34,
     "gewonnen": 17,
-    "verloren": 16,
-    "raak": 52,
-    "winst_eenheden": -1.73,
-    "rendement": -5.2,
+    "verloren": 17,
+    "raak": 50,
+    "winst_eenheden": -2.73,
+    "rendement": -8.0,
     "gem_odd": 1.88
    }
   }
@@ -110,8 +110,17 @@
   "rendement": -20.1,
   "gem_odd": 1.75
  },
- "open": 14,
+ "open": 13,
  "laatste": [
+  {
+   "datum": "2026-11-04",
+   "wedstrijd": "Atletico Paranaense - Vasco DA Gama",
+   "markt": "1X2",
+   "tip": "Atletico Paranaense wint",
+   "odd": 2.12,
+   "uitslag": "1-3",
+   "status": "verloren"
+  },
   {
    "datum": "2026-11-04",
    "wedstrijd": "Wrexham - Middlesbrough",
@@ -281,15 +290,6 @@
    "tip": "Başakşehir wint",
    "odd": 1.82,
    "uitslag": "5-2",
-   "status": "gewonnen"
-  },
-  {
-   "datum": "2026-11-01",
-   "wedstrijd": "BSC Young Boys - FC Zurich",
-   "markt": "BTTS",
-   "tip": "Beide teams scoren",
-   "odd": 1.47,
-   "uitslag": "3-5",
    "status": "gewonnen"
   }
  ]
