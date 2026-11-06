@@ -1,42 +1,42 @@
 {
- "bijgewerkt": "2026-11-06T14:31:18+00:00",
+ "bijgewerkt": "2026-11-06T17:28:32+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 104,
+  "tips": 105,
   "gewonnen": 57,
-  "verloren": 47,
-  "raak": 55,
-  "winst_eenheden": -6.41,
-  "rendement": -6.2,
+  "verloren": 48,
+  "raak": 54,
+  "winst_eenheden": -7.41,
+  "rendement": -7.1,
   "gem_odd": 1.76
  },
  "dertig_dagen": {
-  "tips": 104,
+  "tips": 105,
   "gewonnen": 57,
-  "verloren": 47,
-  "raak": 55,
-  "winst_eenheden": -6.41,
-  "rendement": -6.2,
+  "verloren": 48,
+  "raak": 54,
+  "winst_eenheden": -7.41,
+  "rendement": -7.1,
   "gem_odd": 1.76
  },
  "per_markt": {
   "BTTS": {
    "totaal": {
-    "tips": 40,
+    "tips": 41,
     "gewonnen": 26,
-    "verloren": 14,
-    "raak": 65,
-    "winst_eenheden": 1.37,
-    "rendement": 3.4,
+    "verloren": 15,
+    "raak": 63,
+    "winst_eenheden": 0.37,
+    "rendement": 0.9,
     "gem_odd": 1.62
    },
    "dertig_dagen": {
-    "tips": 40,
+    "tips": 41,
     "gewonnen": 26,
-    "verloren": 14,
-    "raak": 65,
-    "winst_eenheden": 1.37,
-    "rendement": 3.4,
+    "verloren": 15,
+    "raak": 63,
+    "winst_eenheden": 0.37,
+    "rendement": 0.9,
     "gem_odd": 1.62
    }
   },
@@ -110,8 +110,17 @@
   "rendement": -20.1,
   "gem_odd": 1.75
  },
- "open": 21,
+ "open": 20,
  "laatste": [
+  {
+   "datum": "2026-11-06",
+   "wedstrijd": "Septemvri Sofia - Lokomotiv Sofia",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.91,
+   "uitslag": "1-0",
+   "status": "verloren"
+  },
   {
    "datum": "2026-11-04",
    "wedstrijd": "Atletico Paranaense - Vasco DA Gama",
@@ -281,15 +290,6 @@
    "tip": "Beide teams scoren",
    "odd": 1.57,
    "uitslag": "5-1",
-   "status": "gewonnen"
-  },
-  {
-   "datum": "2026-11-01",
-   "wedstrijd": "Başakşehir - Samsunspor",
-   "markt": "1X2",
-   "tip": "Başakşehir wint",
-   "odd": 1.82,
-   "uitslag": "5-2",
    "status": "gewonnen"
   }
  ]
