@@ -2217,9 +2217,11 @@
   "edge": 0.0504,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-02T23:09:49+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.88,
-  "bijgewerkt": "2026-11-06T14:29:37+00:00"
+  "bijgewerkt": "2026-11-06T14:29:37+00:00",
+  "eindstand": "2-3",
+  "afgesloten": "2026-11-06T23:06:02+00:00"
  },
  "under-2-5-nancy-sochaux-2026-11-06": {
   "fid": "1552528",
@@ -2236,9 +2238,11 @@
   "edge": 0.0376,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-11-02T23:09:50+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.9,
-  "bijgewerkt": "2026-11-06T14:29:37+00:00"
+  "bijgewerkt": "2026-11-06T14:29:37+00:00",
+  "eindstand": "1-0",
+  "afgesloten": "2026-11-06T23:06:02+00:00"
  },
  "btts-willem-ii-pec-zwolle-2026-11-06": {
   "fid": "1552216",
@@ -2255,9 +2259,11 @@
   "edge": -0.0257,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-02T23:09:52+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.6,
-  "bijgewerkt": "2026-11-06T14:29:37+00:00"
+  "bijgewerkt": "2026-11-06T14:29:37+00:00",
+  "eindstand": "1-1",
+  "afgesloten": "2026-11-06T23:06:02+00:00"
  },
  "btts-silkeborg-lyngby-2026-11-06": {
   "fid": "1549057",
@@ -2274,9 +2280,11 @@
   "edge": -0.035,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-02T23:09:52+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.54,
-  "bijgewerkt": "2026-11-06T14:29:37+00:00"
+  "bijgewerkt": "2026-11-06T14:29:37+00:00",
+  "eindstand": "1-0",
+  "afgesloten": "2026-11-06T23:06:02+00:00"
  },
  "btts-septemvri-sofia-lokomotiv-sofia-2026-11-06": {
   "fid": "1551135",
