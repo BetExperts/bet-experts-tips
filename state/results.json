@@ -2490,9 +2490,11 @@
   "edge": 0.081,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-05T14:52:38+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.7,
-  "bijgewerkt": "2026-11-08T13:45:07+00:00"
+  "bijgewerkt": "2026-11-08T13:45:07+00:00",
+  "eindstand": "0-3",
+  "afgesloten": "2026-11-08T19:41:14+00:00"
  },
  "under-2-5-le-havre-lorient-2026-11-08": {
   "fid": "1552813",
@@ -2509,9 +2511,11 @@
   "edge": 0.0547,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-05T14:52:39+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.8,
-  "bijgewerkt": "2026-11-08T13:45:07+00:00"
+  "bijgewerkt": "2026-11-08T13:45:07+00:00",
+  "eindstand": "0-2",
+  "afgesloten": "2026-11-08T19:41:14+00:00"
  },
  "1x2-fiorentina-juventus-2026-11-08": {
   "fid": "1550189",
@@ -2547,9 +2551,11 @@
   "edge": 0.0369,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-11-05T14:52:41+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.48,
-  "bijgewerkt": "2026-11-08T13:45:07+00:00"
+  "bijgewerkt": "2026-11-08T13:45:07+00:00",
+  "eindstand": "2-0",
+  "afgesloten": "2026-11-08T19:41:14+00:00"
  },
  "over-2-5-corum-fk-fenerbahce-2026-11-08": {
   "fid": "1584459",
@@ -2587,9 +2593,11 @@
   "edge": 0.031,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-05T14:52:43+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.75,
-  "bijgewerkt": "2026-11-08T13:45:07+00:00"
+  "bijgewerkt": "2026-11-08T13:45:07+00:00",
+  "eindstand": "1-1",
+  "afgesloten": "2026-11-08T19:41:14+00:00"
  },
  "btts-monza-atalanta-2026-11-08": {
   "fid": "1550192",
@@ -2606,9 +2614,11 @@
   "edge": -0.0015,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-05T14:52:44+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.5,
-  "bijgewerkt": "2026-11-08T13:45:07+00:00"
+  "bijgewerkt": "2026-11-08T13:45:07+00:00",
+  "eindstand": "0-1",
+  "afgesloten": "2026-11-08T19:41:14+00:00"
  },
  "btts-cambuur-psv-eindhoven-2026-11-08": {
   "fid": "1552219",
@@ -2625,9 +2635,11 @@
   "edge": -0.0076,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-05T14:52:45+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.45,
-  "bijgewerkt": "2026-11-08T13:45:07+00:00"
+  "bijgewerkt": "2026-11-08T13:45:07+00:00",
+  "eindstand": "2-5",
+  "afgesloten": "2026-11-08T19:41:14+00:00"
  },
  "1x2-cf-montreal-vancouver-whitecaps-2026-11-07": {
   "fid": "1490604",
@@ -2686,8 +2698,10 @@
   "edge": 0.0374,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-08T13:45:54+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-11-08T13:45:54+00:00"
+  "bijgewerkt": "2026-11-08T13:45:54+00:00",
+  "eindstand": "1-0",
+  "afgesloten": "2026-11-08T19:41:14+00:00"
  }
 }
