@@ -1,22 +1,22 @@
 {
- "bijgewerkt": "2026-11-08T13:45:57+00:00",
+ "bijgewerkt": "2026-11-08T15:09:55+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 119,
-  "gewonnen": 66,
+  "tips": 120,
+  "gewonnen": 67,
   "verloren": 53,
-  "raak": 55,
-  "winst_eenheden": -5.67,
-  "rendement": -4.8,
+  "raak": 56,
+  "winst_eenheden": -5.07,
+  "rendement": -4.2,
   "gem_odd": 1.76
  },
  "dertig_dagen": {
-  "tips": 119,
-  "gewonnen": 66,
+  "tips": 120,
+  "gewonnen": 67,
   "verloren": 53,
-  "raak": 55,
-  "winst_eenheden": -5.67,
-  "rendement": -4.8,
+  "raak": 56,
+  "winst_eenheden": -5.07,
+  "rendement": -4.2,
   "gem_odd": 1.76
  },
  "per_markt": {
@@ -42,22 +42,22 @@
   },
   "Over 2.5": {
    "totaal": {
-    "tips": 16,
-    "gewonnen": 8,
+    "tips": 17,
+    "gewonnen": 9,
     "verloren": 8,
-    "raak": 50,
-    "winst_eenheden": -2.0,
-    "rendement": -12.5,
-    "gem_odd": 1.74
+    "raak": 53,
+    "winst_eenheden": -1.4,
+    "rendement": -8.2,
+    "gem_odd": 1.73
    },
    "dertig_dagen": {
-    "tips": 16,
-    "gewonnen": 8,
+    "tips": 17,
+    "gewonnen": 9,
     "verloren": 8,
-    "raak": 50,
-    "winst_eenheden": -2.0,
-    "rendement": -12.5,
-    "gem_odd": 1.74
+    "raak": 53,
+    "winst_eenheden": -1.4,
+    "rendement": -8.2,
+    "gem_odd": 1.73
    }
   },
   "Under 2.5": {
@@ -110,8 +110,17 @@
   "rendement": -18.7,
   "gem_odd": 1.74
  },
- "open": 9,
+ "open": 8,
  "laatste": [
+  {
+   "datum": "2026-11-08",
+   "wedstrijd": "Çorum FK - Fenerbahçe",
+   "markt": "Over 2.5",
+   "tip": "Meer dan 2.5 doelpunten",
+   "odd": 1.6,
+   "uitslag": "0-5",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-11-07",
    "wedstrijd": "CF Montreal - Vancouver Whitecaps",
@@ -282,15 +291,6 @@
    "odd": 1.87,
    "uitslag": "3-1",
    "status": "verloren"
-  },
-  {
-   "datum": "2026-11-02",
-   "wedstrijd": "GIL Vicente - Vitória SC",
-   "markt": "Under 2.5",
-   "tip": "Minder dan 2.5 doelpunten",
-   "odd": 1.68,
-   "uitslag": "0-0",
-   "status": "gewonnen"
   }
  ]
 }

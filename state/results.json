@@ -2566,9 +2566,11 @@
   "edge": 0.0353,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-05T14:52:42+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.6,
-  "bijgewerkt": "2026-11-07T19:29:47+00:00"
+  "bijgewerkt": "2026-11-07T19:29:47+00:00",
+  "eindstand": "0-5",
+  "afgesloten": "2026-11-08T15:09:51+00:00"
  },
  "over-2-5-plzen-sparta-praha-2026-11-08": {
   "fid": "1560069",
