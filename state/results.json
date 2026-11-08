@@ -2343,9 +2343,11 @@
   "edge": 0.0511,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-04T14:48:12+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.95,
-  "bijgewerkt": "2026-11-07T19:29:47+00:00"
+  "bijgewerkt": "2026-11-07T19:29:47+00:00",
+  "eindstand": "0-1",
+  "afgesloten": "2026-11-08T00:32:57+00:00"
  },
  "1x2-hertha-bsc-vfl-wolfsburg-2026-11-07": {
   "fid": "1576227",
@@ -2362,9 +2364,11 @@
   "edge": 0.0497,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-04T14:48:13+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 2.08,
-  "bijgewerkt": "2026-11-07T19:29:47+00:00"
+  "bijgewerkt": "2026-11-07T19:29:47+00:00",
+  "eindstand": "2-1",
+  "afgesloten": "2026-11-08T00:32:57+00:00"
  },
  "over-2-5-excelsior-go-ahead-eagles-2026-11-07": {
   "fid": "1552218",
@@ -2381,9 +2385,11 @@
   "edge": 0.0333,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-11-04T14:48:15+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.6,
-  "bijgewerkt": "2026-11-07T19:29:47+00:00"
+  "bijgewerkt": "2026-11-07T19:29:47+00:00",
+  "eindstand": "0-1",
+  "afgesloten": "2026-11-08T00:32:57+00:00"
  },
  "1x2-zbrojovka-brno-banik-ostrava-2026-11-07": {
   "fid": "1560065",
@@ -2636,9 +2642,11 @@
   "edge": 0.0574,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-07T13:28:27+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.66,
-  "bijgewerkt": "2026-11-07T19:29:47+00:00"
+  "bijgewerkt": "2026-11-07T19:29:47+00:00",
+  "eindstand": "0-2",
+  "afgesloten": "2026-11-08T00:32:57+00:00"
  },
  "btts-philadelphia-union-toronto-fc-2026-11-07": {
   "fid": "1490602",
@@ -2655,8 +2663,10 @@
   "edge": -0.0182,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-07T19:30:51+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-11-07T19:30:51+00:00"
+  "bijgewerkt": "2026-11-07T19:30:51+00:00",
+  "eindstand": "4-1",
+  "afgesloten": "2026-11-08T00:32:57+00:00"
  }
 }
