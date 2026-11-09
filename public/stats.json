@@ -1,23 +1,23 @@
 {
- "bijgewerkt": "2026-11-08T23:41:26+00:00",
+ "bijgewerkt": "2026-11-09T06:21:02+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 127,
+  "tips": 128,
   "gewonnen": 70,
-  "verloren": 57,
+  "verloren": 58,
   "raak": 55,
-  "winst_eenheden": -7.22,
-  "rendement": -5.7,
-  "gem_odd": 1.75
+  "winst_eenheden": -8.22,
+  "rendement": -6.4,
+  "gem_odd": 1.76
  },
  "dertig_dagen": {
-  "tips": 127,
+  "tips": 128,
   "gewonnen": 70,
-  "verloren": 57,
+  "verloren": 58,
   "raak": 55,
-  "winst_eenheden": -7.22,
-  "rendement": -5.7,
-  "gem_odd": 1.75
+  "winst_eenheden": -8.22,
+  "rendement": -6.4,
+  "gem_odd": 1.76
  },
  "per_markt": {
   "BTTS": {
@@ -82,22 +82,22 @@
   },
   "1X2": {
    "totaal": {
-    "tips": 40,
+    "tips": 41,
     "gewonnen": 21,
-    "verloren": 19,
-    "raak": 52,
-    "winst_eenheden": -1.32,
-    "rendement": -3.3,
-    "gem_odd": 1.89
+    "verloren": 20,
+    "raak": 51,
+    "winst_eenheden": -2.32,
+    "rendement": -5.7,
+    "gem_odd": 1.9
    },
    "dertig_dagen": {
-    "tips": 40,
+    "tips": 41,
     "gewonnen": 21,
-    "verloren": 19,
-    "raak": 52,
-    "winst_eenheden": -1.32,
-    "rendement": -3.3,
-    "gem_odd": 1.89
+    "verloren": 20,
+    "raak": 51,
+    "winst_eenheden": -2.32,
+    "rendement": -5.7,
+    "gem_odd": 1.9
    }
   }
  },
@@ -110,8 +110,17 @@
   "rendement": -15.1,
   "gem_odd": 1.73
  },
- "open": 1,
+ "open": 0,
  "laatste": [
+  {
+   "datum": "2026-11-08",
+   "wedstrijd": "Fiorentina - Juventus",
+   "markt": "1X2",
+   "tip": "Juventus wint",
+   "odd": 2.07,
+   "uitslag": "2-2",
+   "status": "verloren"
+  },
   {
    "datum": "2026-11-08",
    "wedstrijd": "Plzen - Sparta Praha",
@@ -282,15 +291,6 @@
    "odd": 2.1,
    "uitslag": "2-3",
    "status": "verloren"
-  },
-  {
-   "datum": "2026-11-06",
-   "wedstrijd": "Nancy - Sochaux",
-   "markt": "Under 2.5",
-   "tip": "Minder dan 2.5 doelpunten",
-   "odd": 1.85,
-   "uitslag": "1-0",
-   "status": "gewonnen"
   }
  ]
 }
