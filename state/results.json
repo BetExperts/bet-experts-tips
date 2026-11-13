@@ -2723,7 +2723,7 @@
   "gepubliceerd": "2026-11-11T14:39:01+00:00",
   "status": "open",
   "odd_laatst": 1.85,
-  "bijgewerkt": "2026-11-13T14:48:17+00:00"
+  "bijgewerkt": "2026-11-13T21:28:10+00:00"
  },
  "btts-wycombe-huddersfield-2026-11-14": {
   "fid": "1564414",
@@ -2741,8 +2741,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-11T14:39:02+00:00",
   "status": "open",
-  "odd_laatst": 1.57,
-  "bijgewerkt": "2026-11-13T14:48:17+00:00"
+  "odd_laatst": 1.54,
+  "bijgewerkt": "2026-11-13T21:28:10+00:00"
  },
  "btts-rochdale-york-2026-11-14": {
   "fid": "1563857",
@@ -2761,7 +2761,7 @@
   "gepubliceerd": "2026-11-11T14:39:04+00:00",
   "status": "open",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-11-13T14:48:17+00:00"
+  "bijgewerkt": "2026-11-13T21:28:10+00:00"
  },
  "btts-albacete-celta-de-vigo-ii-2026-11-16": {
   "fid": "1570014",
@@ -2780,6 +2780,25 @@
   "gepubliceerd": "2026-11-13T14:48:46+00:00",
   "status": "open",
   "odd_laatst": 1.66,
-  "bijgewerkt": "2026-11-13T14:48:46+00:00"
+  "bijgewerkt": "2026-11-13T21:28:10+00:00"
+ },
+ "1x2-almeria-fc-andorra-2026-11-14": {
+  "fid": "1570015",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Almeria wint",
+  "wedstrijd": "Almeria - FC Andorra",
+  "competitie": "La Liga 2",
+  "aftrap": "2026-11-14T17:30:00+00:00",
+  "odd_publicatie": 1.71,
+  "bookmaker": "Tonybet",
+  "kans": 0.6096,
+  "kans_markt": 0.5613,
+  "edge": 0.0424,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-13T21:28:31+00:00",
+  "status": "open",
+  "odd_laatst": 1.71,
+  "bijgewerkt": "2026-11-13T21:28:31+00:00"
  }
 }
