@@ -1,22 +1,22 @@
 {
- "bijgewerkt": "2026-11-14T19:59:29+00:00",
+ "bijgewerkt": "2026-11-14T21:27:33+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 130,
-  "gewonnen": 71,
+  "tips": 131,
+  "gewonnen": 72,
   "verloren": 59,
   "raak": 55,
-  "winst_eenheden": -8.37,
-  "rendement": -6.4,
+  "winst_eenheden": -7.66,
+  "rendement": -5.8,
   "gem_odd": 1.75
  },
  "dertig_dagen": {
-  "tips": 130,
-  "gewonnen": 71,
+  "tips": 131,
+  "gewonnen": 72,
   "verloren": 59,
   "raak": 55,
-  "winst_eenheden": -8.37,
-  "rendement": -6.4,
+  "winst_eenheden": -7.66,
+  "rendement": -5.8,
   "gem_odd": 1.75
  },
  "per_markt": {
@@ -82,22 +82,22 @@
   },
   "1X2": {
    "totaal": {
-    "tips": 41,
-    "gewonnen": 21,
+    "tips": 42,
+    "gewonnen": 22,
     "verloren": 20,
-    "raak": 51,
-    "winst_eenheden": -2.32,
-    "rendement": -5.7,
-    "gem_odd": 1.9
+    "raak": 52,
+    "winst_eenheden": -1.61,
+    "rendement": -3.8,
+    "gem_odd": 1.89
    },
    "dertig_dagen": {
-    "tips": 41,
-    "gewonnen": 21,
+    "tips": 42,
+    "gewonnen": 22,
     "verloren": 20,
-    "raak": 51,
-    "winst_eenheden": -2.32,
-    "rendement": -5.7,
-    "gem_odd": 1.9
+    "raak": 52,
+    "winst_eenheden": -1.61,
+    "rendement": -3.8,
+    "gem_odd": 1.89
    }
   }
  },
@@ -110,8 +110,17 @@
   "rendement": -10.3,
   "gem_odd": 1.74
  },
- "open": 4,
+ "open": 3,
  "laatste": [
+  {
+   "datum": "2026-11-14",
+   "wedstrijd": "Almeria - FC Andorra",
+   "markt": "1X2",
+   "tip": "Almeria wint",
+   "odd": 1.71,
+   "uitslag": "2-1",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-11-14",
    "wedstrijd": "Salford City - Northampton",
@@ -281,15 +290,6 @@
    "tip": "Beide teams scoren",
    "odd": 1.5,
    "uitslag": "1-5",
-   "status": "gewonnen"
-  },
-  {
-   "datum": "2026-11-07",
-   "wedstrijd": "Leeds - Tottenham",
-   "markt": "Under 2.5",
-   "tip": "Minder dan 2.5 doelpunten",
-   "odd": 1.91,
-   "uitslag": "1-0",
    "status": "gewonnen"
   }
  ]

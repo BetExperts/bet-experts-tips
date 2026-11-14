@@ -2801,9 +2801,11 @@
   "edge": 0.0424,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-13T21:28:31+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.85,
-  "bijgewerkt": "2026-11-14T13:43:40+00:00"
+  "bijgewerkt": "2026-11-14T13:43:40+00:00",
+  "eindstand": "2-1",
+  "afgesloten": "2026-11-14T21:27:32+00:00"
  },
  "btts-chapecoense-sc-vasco-da-gama-2026-11-15": {
   "fid": "1492312",
