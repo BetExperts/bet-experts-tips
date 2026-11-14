@@ -2722,8 +2722,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-11-11T14:39:01+00:00",
   "status": "open",
-  "odd_laatst": 1.85,
-  "bijgewerkt": "2026-11-13T21:28:10+00:00"
+  "odd_laatst": 1.95,
+  "bijgewerkt": "2026-11-14T13:43:40+00:00"
  },
  "btts-wycombe-huddersfield-2026-11-14": {
   "fid": "1564414",
@@ -2761,7 +2761,7 @@
   "gepubliceerd": "2026-11-11T14:39:04+00:00",
   "status": "open",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-11-13T21:28:10+00:00"
+  "bijgewerkt": "2026-11-14T13:43:40+00:00"
  },
  "btts-albacete-celta-de-vigo-ii-2026-11-16": {
   "fid": "1570014",
@@ -2780,7 +2780,7 @@
   "gepubliceerd": "2026-11-13T14:48:46+00:00",
   "status": "open",
   "odd_laatst": 1.66,
-  "bijgewerkt": "2026-11-13T21:28:10+00:00"
+  "bijgewerkt": "2026-11-14T13:43:40+00:00"
  },
  "1x2-almeria-fc-andorra-2026-11-14": {
   "fid": "1570015",
@@ -2798,7 +2798,45 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-13T21:28:31+00:00",
   "status": "open",
-  "odd_laatst": 1.71,
-  "bijgewerkt": "2026-11-13T21:28:31+00:00"
+  "odd_laatst": 1.85,
+  "bijgewerkt": "2026-11-14T13:43:40+00:00"
+ },
+ "btts-chapecoense-sc-vasco-da-gama-2026-11-15": {
+  "fid": "1492312",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Chapecoense-sc - Vasco DA Gama",
+  "competitie": "Brasileirao",
+  "aftrap": "2026-11-14T23:30:00+00:00",
+  "odd_publicatie": 1.91,
+  "bookmaker": "Bet365",
+  "kans": 0.5569,
+  "kans_markt": 0.5232,
+  "edge": 0.0637,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-14T13:44:05+00:00",
+  "status": "open",
+  "odd_laatst": 1.91,
+  "bijgewerkt": "2026-11-14T13:44:05+00:00"
+ },
+ "1x2-tenerife-ad-ceuta-fc-2026-11-15": {
+  "fid": "1570023",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Tenerife wint",
+  "wedstrijd": "Tenerife - AD Ceuta FC",
+  "competitie": "La Liga 2",
+  "aftrap": "2026-11-15T13:00:00+00:00",
+  "odd_publicatie": 1.91,
+  "bookmaker": "Bingoal",
+  "kans": 0.5492,
+  "kans_markt": 0.5105,
+  "edge": 0.0489,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-14T13:44:06+00:00",
+  "status": "open",
+  "odd_laatst": 1.91,
+  "bijgewerkt": "2026-11-14T13:44:06+00:00"
  }
 }
