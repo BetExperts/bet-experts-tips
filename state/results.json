@@ -2822,9 +2822,11 @@
   "edge": 0.0637,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-14T13:44:05+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.95,
-  "bijgewerkt": "2026-11-14T19:59:04+00:00"
+  "bijgewerkt": "2026-11-14T19:59:04+00:00",
+  "eindstand": "0-2",
+  "afgesloten": "2026-11-15T01:52:46+00:00"
  },
  "1x2-tenerife-ad-ceuta-fc-2026-11-15": {
   "fid": "1570023",
