@@ -1,22 +1,22 @@
 {
- "bijgewerkt": "2026-11-15T14:13:17+00:00",
+ "bijgewerkt": "2026-11-15T17:06:12+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 132,
-  "gewonnen": 72,
+  "tips": 133,
+  "gewonnen": 73,
   "verloren": 60,
   "raak": 55,
-  "winst_eenheden": -8.66,
-  "rendement": -6.6,
+  "winst_eenheden": -7.75,
+  "rendement": -5.8,
   "gem_odd": 1.76
  },
  "dertig_dagen": {
-  "tips": 132,
-  "gewonnen": 72,
+  "tips": 133,
+  "gewonnen": 73,
   "verloren": 60,
   "raak": 55,
-  "winst_eenheden": -8.66,
-  "rendement": -6.6,
+  "winst_eenheden": -7.75,
+  "rendement": -5.8,
   "gem_odd": 1.76
  },
  "per_markt": {
@@ -82,21 +82,21 @@
   },
   "1X2": {
    "totaal": {
-    "tips": 42,
-    "gewonnen": 22,
+    "tips": 43,
+    "gewonnen": 23,
     "verloren": 20,
-    "raak": 52,
-    "winst_eenheden": -1.61,
-    "rendement": -3.8,
+    "raak": 53,
+    "winst_eenheden": -0.7,
+    "rendement": -1.6,
     "gem_odd": 1.89
    },
    "dertig_dagen": {
-    "tips": 42,
-    "gewonnen": 22,
+    "tips": 43,
+    "gewonnen": 23,
     "verloren": 20,
-    "raak": 52,
-    "winst_eenheden": -1.61,
-    "rendement": -3.8,
+    "raak": 53,
+    "winst_eenheden": -0.7,
+    "rendement": -1.6,
     "gem_odd": 1.89
    }
   }
@@ -110,8 +110,17 @@
   "rendement": -10.3,
   "gem_odd": 1.74
  },
- "open": 2,
+ "open": 1,
  "laatste": [
+  {
+   "datum": "2026-11-15",
+   "wedstrijd": "Tenerife - AD Ceuta FC",
+   "markt": "1X2",
+   "tip": "Tenerife wint",
+   "odd": 1.91,
+   "uitslag": "2-0",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-11-14",
    "wedstrijd": "Chapecoense-sc - Vasco DA Gama",
@@ -282,15 +291,6 @@
    "odd": 1.5,
    "uitslag": "3-1",
    "status": "gewonnen"
-  },
-  {
-   "datum": "2026-11-07",
-   "wedstrijd": "Zbrojovka Brno - Baník Ostrava",
-   "markt": "1X2",
-   "tip": "Zbrojovka Brno wint",
-   "odd": 2.07,
-   "uitslag": "1-3",
-   "status": "verloren"
   }
  ]
 }
