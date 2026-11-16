@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-16T16:16:19+00:00",
+ "bijgewerkt": "2026-11-16T20:26:57+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
   "tips": 133,
@@ -11,12 +11,12 @@
   "gem_odd": 1.76
  },
  "dertig_dagen": {
-  "tips": 122,
-  "gewonnen": 68,
-  "verloren": 54,
-  "raak": 56,
-  "winst_eenheden": -5.85,
-  "rendement": -4.8,
+  "tips": 119,
+  "gewonnen": 66,
+  "verloren": 53,
+  "raak": 55,
+  "winst_eenheden": -6.24,
+  "rendement": -5.2,
   "gem_odd": 1.75
  },
  "per_markt": {
@@ -31,12 +31,12 @@
     "gem_odd": 1.61
    },
    "dertig_dagen": {
-    "tips": 48,
-    "gewonnen": 31,
+    "tips": 47,
+    "gewonnen": 30,
     "verloren": 17,
-    "raak": 65,
-    "winst_eenheden": 0.94,
-    "rendement": 2.0,
+    "raak": 64,
+    "winst_eenheden": 0.47,
+    "rendement": 1.0,
     "gem_odd": 1.61
    }
   },
@@ -91,13 +91,13 @@
     "gem_odd": 1.89
    },
    "dertig_dagen": {
-    "tips": 40,
-    "gewonnen": 23,
-    "verloren": 17,
+    "tips": 38,
+    "gewonnen": 22,
+    "verloren": 16,
     "raak": 58,
-    "winst_eenheden": 2.3,
-    "rendement": 5.7,
-    "gem_odd": 1.89
+    "winst_eenheden": 2.38,
+    "rendement": 6.3,
+    "gem_odd": 1.88
    }
   }
  },
