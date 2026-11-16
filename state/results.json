@@ -2848,5 +2848,43 @@
   "bijgewerkt": "2026-11-14T19:59:04+00:00",
   "eindstand": "2-0",
   "afgesloten": "2026-11-15T17:06:11+00:00"
+ },
+ "btts-arminia-bielefeld-1-fc-magdeburg-2026-11-20": {
+  "fid": "1576233",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Arminia Bielefeld - 1. FC Magdeburg",
+  "competitie": "2. Bundesliga",
+  "aftrap": "2026-11-20T17:30:00+00:00",
+  "odd_publicatie": 1.55,
+  "bookmaker": "Circus",
+  "kans": 0.6305,
+  "kans_markt": 0.5989,
+  "edge": -0.0227,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-16T23:46:53+00:00",
+  "status": "open",
+  "odd_laatst": 1.55,
+  "bijgewerkt": "2026-11-16T23:46:53+00:00"
+ },
+ "btts-guingamp-rodez-2026-11-20": {
+  "fid": "1552532",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Guingamp - Rodez",
+  "competitie": "Ligue 2",
+  "aftrap": "2026-11-20T19:00:00+00:00",
+  "odd_publicatie": 1.55,
+  "bookmaker": "StarCasino",
+  "kans": 0.6209,
+  "kans_markt": 0.6078,
+  "edge": -0.0375,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-16T23:46:54+00:00",
+  "status": "open",
+  "odd_laatst": 1.55,
+  "bijgewerkt": "2026-11-16T23:46:54+00:00"
  }
 }
