@@ -2867,8 +2867,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-16T23:46:53+00:00",
   "status": "open",
-  "odd_laatst": 1.55,
-  "bijgewerkt": "2026-11-16T23:46:53+00:00"
+  "odd_laatst": 1.57,
+  "bijgewerkt": "2026-11-17T16:21:35+00:00"
  },
  "btts-guingamp-rodez-2026-11-20": {
   "fid": "1552532",
@@ -2887,6 +2887,44 @@
   "gepubliceerd": "2026-11-16T23:46:54+00:00",
   "status": "open",
   "odd_laatst": 1.55,
-  "bijgewerkt": "2026-11-16T23:46:54+00:00"
+  "bijgewerkt": "2026-11-17T16:21:35+00:00"
+ },
+ "btts-cercle-brugge-kvc-westerlo-2026-11-20": {
+  "fid": "1558682",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Cercle Brugge - KVC Westerlo",
+  "competitie": "Jupiler Pro League",
+  "aftrap": "2026-11-20T19:45:00+00:00",
+  "odd_publicatie": 1.47,
+  "bookmaker": "StarCasino",
+  "kans": 0.7055,
+  "kans_markt": 0.653,
+  "edge": 0.0371,
+  "tip_van_de_dag": true,
+  "gepubliceerd": "2026-11-17T16:22:53+00:00",
+  "status": "open",
+  "odd_laatst": 1.47,
+  "bijgewerkt": "2026-11-17T16:22:53+00:00"
+ },
+ "1x2-vitesse-jong-az-2026-11-20": {
+  "fid": "1551895",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Vitesse wint",
+  "wedstrijd": "Vitesse - Jong AZ",
+  "competitie": "Eerste Divisie",
+  "aftrap": "2026-11-20T19:00:00+00:00",
+  "odd_publicatie": 1.93,
+  "bookmaker": "Circus",
+  "kans": 0.5348,
+  "kans_markt": 0.508,
+  "edge": 0.0321,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-17T16:22:53+00:00",
+  "status": "open",
+  "odd_laatst": 1.93,
+  "bijgewerkt": "2026-11-17T16:22:53+00:00"
  }
 }
