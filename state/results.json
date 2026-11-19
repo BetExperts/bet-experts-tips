@@ -2867,8 +2867,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-16T23:46:53+00:00",
   "status": "open",
-  "odd_laatst": 1.57,
-  "bijgewerkt": "2026-11-18T22:38:31+00:00"
+  "odd_laatst": 1.62,
+  "bijgewerkt": "2026-11-19T15:57:54+00:00"
  },
  "btts-guingamp-rodez-2026-11-20": {
   "fid": "1552532",
@@ -2887,7 +2887,7 @@
   "gepubliceerd": "2026-11-16T23:46:54+00:00",
   "status": "open",
   "odd_laatst": 1.55,
-  "bijgewerkt": "2026-11-18T22:38:31+00:00"
+  "bijgewerkt": "2026-11-19T15:57:54+00:00"
  },
  "btts-cercle-brugge-kvc-westerlo-2026-11-20": {
   "fid": "1558682",
@@ -2905,8 +2905,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-11-17T16:22:53+00:00",
   "status": "open",
-  "odd_laatst": 1.47,
-  "bijgewerkt": "2026-11-18T22:38:31+00:00"
+  "odd_laatst": 1.44,
+  "bijgewerkt": "2026-11-19T15:57:54+00:00"
  },
  "1x2-vitesse-jong-az-2026-11-20": {
   "fid": "1551895",
@@ -2925,7 +2925,7 @@
   "gepubliceerd": "2026-11-17T16:22:53+00:00",
   "status": "open",
   "odd_laatst": 1.93,
-  "bijgewerkt": "2026-11-18T22:38:31+00:00"
+  "bijgewerkt": "2026-11-19T15:57:54+00:00"
  },
  "1x2-union-berlin-rb-leipzig-2026-11-21": {
   "fid": "1575225",
@@ -2943,8 +2943,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-11-17T23:02:19+00:00",
   "status": "open",
-  "odd_laatst": 1.6,
-  "bijgewerkt": "2026-11-18T22:38:31+00:00"
+  "odd_laatst": 1.57,
+  "bijgewerkt": "2026-11-19T15:57:54+00:00"
  },
  "over-2-5-strasbourg-stade-brestois-29-2026-11-21": {
   "fid": "1552826",
@@ -2963,7 +2963,7 @@
   "gepubliceerd": "2026-11-17T23:02:19+00:00",
   "status": "open",
   "odd_laatst": 1.67,
-  "bijgewerkt": "2026-11-18T22:38:31+00:00"
+  "bijgewerkt": "2026-11-19T15:57:54+00:00"
  },
  "1x2-plymouth-peterborough-2026-11-21": {
   "fid": "1564425",
@@ -2982,7 +2982,7 @@
   "gepubliceerd": "2026-11-17T23:02:20+00:00",
   "status": "open",
   "odd_laatst": 1.82,
-  "bijgewerkt": "2026-11-18T22:38:31+00:00"
+  "bijgewerkt": "2026-11-19T15:57:54+00:00"
  },
  "1x2-catanzaro-palermo-2026-11-21": {
   "fid": "1601607",
@@ -3000,8 +3000,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-17T23:02:21+00:00",
   "status": "open",
-  "odd_laatst": 1.87,
-  "bijgewerkt": "2026-11-18T22:38:31+00:00"
+  "odd_laatst": 1.8,
+  "bijgewerkt": "2026-11-19T15:57:54+00:00"
  },
  "under-2-5-northampton-rochdale-2026-11-21": {
   "fid": "1563871",
@@ -3020,7 +3020,7 @@
   "gepubliceerd": "2026-11-17T23:02:22+00:00",
   "status": "open",
   "odd_laatst": 1.8,
-  "bijgewerkt": "2026-11-18T22:38:31+00:00"
+  "bijgewerkt": "2026-11-19T15:57:54+00:00"
  },
  "btts-mansfield-town-milton-keynes-dons-2026-11-21": {
   "fid": "1564422",
@@ -3039,7 +3039,7 @@
   "gepubliceerd": "2026-11-17T23:02:23+00:00",
   "status": "open",
   "odd_laatst": 1.55,
-  "bijgewerkt": "2026-11-18T22:38:31+00:00"
+  "bijgewerkt": "2026-11-19T15:57:54+00:00"
  },
  "btts-sv-elversberg-sc-freiburg-2026-11-21": {
   "fid": "1575229",
@@ -3058,6 +3058,120 @@
   "gepubliceerd": "2026-11-17T23:02:24+00:00",
   "status": "open",
   "odd_laatst": 1.52,
-  "bijgewerkt": "2026-11-18T22:38:31+00:00"
+  "bijgewerkt": "2026-11-19T15:57:54+00:00"
+ },
+ "under-2-5-metz-boulogne-2026-11-20": {
+  "fid": "1552534",
+  "markt": "Under 2.5",
+  "pick": "under25",
+  "tip": "Minder dan 2.5 doelpunten",
+  "wedstrijd": "Metz - Boulogne",
+  "competitie": "Ligue 2",
+  "aftrap": "2026-11-20T19:00:00+00:00",
+  "odd_publicatie": 1.9,
+  "bookmaker": "Bet365",
+  "kans": 0.55,
+  "kans_markt": 0.5068,
+  "edge": 0.0451,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-19T15:59:05+00:00",
+  "status": "open",
+  "odd_laatst": 1.9,
+  "bijgewerkt": "2026-11-19T15:59:05+00:00"
+ },
+ "over-2-5-sparta-rotterdam-az-alkmaar-2026-11-22": {
+  "fid": "1552230",
+  "markt": "Over 2.5",
+  "pick": "over25",
+  "tip": "Meer dan 2.5 doelpunten",
+  "wedstrijd": "Sparta Rotterdam - AZ Alkmaar",
+  "competitie": "Eredivisie",
+  "aftrap": "2026-11-22T13:30:00+00:00",
+  "odd_publicatie": 1.64,
+  "bookmaker": "OneCasino",
+  "kans": 0.662,
+  "kans_markt": 0.6417,
+  "edge": 0.0857,
+  "tip_van_de_dag": true,
+  "gepubliceerd": "2026-11-19T15:59:06+00:00",
+  "status": "open",
+  "odd_laatst": 1.64,
+  "bijgewerkt": "2026-11-19T15:59:06+00:00"
+ },
+ "under-2-5-getafe-atletico-madrid-2026-11-22": {
+  "fid": "1570456",
+  "markt": "Under 2.5",
+  "pick": "under25",
+  "tip": "Minder dan 2.5 doelpunten",
+  "wedstrijd": "Getafe - Atletico Madrid",
+  "competitie": "La Liga",
+  "aftrap": "2026-11-22T20:00:00+00:00",
+  "odd_publicatie": 1.82,
+  "bookmaker": "Circus",
+  "kans": 0.5822,
+  "kans_markt": 0.5376,
+  "edge": 0.0596,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-19T15:59:07+00:00",
+  "status": "open",
+  "odd_laatst": 1.82,
+  "bijgewerkt": "2026-11-19T15:59:07+00:00"
+ },
+ "1x2-botev-plovdiv-cska-sofia-2026-11-22": {
+  "fid": "1551145",
+  "markt": "1X2",
+  "pick": "away",
+  "tip": "CSKA Sofia wint",
+  "wedstrijd": "Botev Plovdiv - CSKA Sofia",
+  "competitie": "Bulgarian First League",
+  "aftrap": "2026-11-22T16:00:00+00:00",
+  "odd_publicatie": 1.96,
+  "bookmaker": "Bingoal",
+  "kans": 0.5339,
+  "kans_markt": 0.4936,
+  "edge": 0.0465,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-19T15:59:09+00:00",
+  "status": "open",
+  "odd_laatst": 1.96,
+  "bijgewerkt": "2026-11-19T15:59:09+00:00"
+ },
+ "btts-go-ahead-eagles-fortuna-sittard-2026-11-22": {
+  "fid": "1552227",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "GO Ahead Eagles - Fortuna Sittard",
+  "competitie": "Eredivisie",
+  "aftrap": "2026-11-22T15:45:00+00:00",
+  "odd_publicatie": 1.53,
+  "bookmaker": "Circus",
+  "kans": 0.6535,
+  "kans_markt": 0.6179,
+  "edge": -0.0002,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-19T15:59:10+00:00",
+  "status": "open",
+  "odd_laatst": 1.53,
+  "bijgewerkt": "2026-11-19T15:59:10+00:00"
+ },
+ "btts-atalanta-inter-2026-11-22": {
+  "fid": "1550198",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Atalanta - Inter",
+  "competitie": "Serie A",
+  "aftrap": "2026-11-22T19:45:00+00:00",
+  "odd_publicatie": 1.48,
+  "bookmaker": "Circus",
+  "kans": 0.6529,
+  "kans_markt": 0.642,
+  "edge": -0.0337,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-19T15:59:11+00:00",
+  "status": "open",
+  "odd_laatst": 1.48,
+  "bijgewerkt": "2026-11-19T15:59:11+00:00"
  }
 }
