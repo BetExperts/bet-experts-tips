@@ -2950,9 +2950,11 @@
   "edge": 0.065,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-11-17T23:02:19+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.53,
-  "bijgewerkt": "2026-11-20T22:16:46+00:00"
+  "bijgewerkt": "2026-11-20T22:16:46+00:00",
+  "eindstand": "1-5",
+  "afgesloten": "2026-11-21T17:28:36+00:00"
  },
  "over-2-5-strasbourg-stade-brestois-29-2026-11-21": {
   "fid": "1552826",
@@ -2988,9 +2990,11 @@
   "edge": 0.055,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-17T23:02:20+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.92,
-  "bijgewerkt": "2026-11-21T14:51:11+00:00"
+  "bijgewerkt": "2026-11-21T14:51:11+00:00",
+  "eindstand": "0-2",
+  "afgesloten": "2026-11-21T17:28:36+00:00"
  },
  "1x2-catanzaro-palermo-2026-11-21": {
   "fid": "1601607",
@@ -3026,9 +3030,11 @@
   "edge": 0.036,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-17T23:02:22+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.76,
-  "bijgewerkt": "2026-11-21T14:51:11+00:00"
+  "bijgewerkt": "2026-11-21T14:51:11+00:00",
+  "eindstand": "3-2",
+  "afgesloten": "2026-11-21T17:28:36+00:00"
  },
  "btts-mansfield-town-milton-keynes-dons-2026-11-21": {
   "fid": "1564422",
@@ -3045,9 +3051,11 @@
   "edge": -0.0301,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-17T23:02:23+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.55,
-  "bijgewerkt": "2026-11-21T14:51:11+00:00"
+  "bijgewerkt": "2026-11-21T14:51:11+00:00",
+  "eindstand": "1-1",
+  "afgesloten": "2026-11-21T17:28:36+00:00"
  },
  "btts-sv-elversberg-sc-freiburg-2026-11-21": {
   "fid": "1575229",
@@ -3064,9 +3072,11 @@
   "edge": -0.0313,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-17T23:02:24+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.52,
-  "bijgewerkt": "2026-11-20T22:16:46+00:00"
+  "bijgewerkt": "2026-11-20T22:16:46+00:00",
+  "eindstand": "0-1",
+  "afgesloten": "2026-11-21T17:28:36+00:00"
  },
  "under-2-5-metz-boulogne-2026-11-20": {
   "fid": "1552534",
@@ -3296,9 +3306,11 @@
   "edge": 0.0369,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-11-21T14:52:01+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.54,
-  "bijgewerkt": "2026-11-21T14:52:01+00:00"
+  "bijgewerkt": "2026-11-21T14:52:01+00:00",
+  "eindstand": "2-0",
+  "afgesloten": "2026-11-21T17:28:36+00:00"
  },
  "btts-inter-miami-columbus-crew-2026-11-22": {
   "fid": "1649495",
