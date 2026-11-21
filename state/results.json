@@ -3115,8 +3115,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-11-19T15:59:06+00:00",
   "status": "open",
-  "odd_laatst": 1.5,
-  "bijgewerkt": "2026-11-21T14:51:11+00:00"
+  "odd_laatst": 1.64,
+  "bijgewerkt": "2026-11-21T20:57:26+00:00"
  },
  "under-2-5-getafe-atletico-madrid-2026-11-22": {
   "fid": "1570456",
@@ -3134,8 +3134,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-19T15:59:07+00:00",
   "status": "open",
-  "odd_laatst": 1.82,
-  "bijgewerkt": "2026-11-21T14:51:11+00:00"
+  "odd_laatst": 1.8,
+  "bijgewerkt": "2026-11-21T20:57:26+00:00"
  },
  "1x2-botev-plovdiv-cska-sofia-2026-11-22": {
   "fid": "1551145",
@@ -3153,8 +3153,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-19T15:59:09+00:00",
   "status": "open",
-  "odd_laatst": 1.96,
-  "bijgewerkt": "2026-11-21T14:51:11+00:00"
+  "odd_laatst": 1.92,
+  "bijgewerkt": "2026-11-21T20:57:26+00:00"
  },
  "btts-go-ahead-eagles-fortuna-sittard-2026-11-22": {
   "fid": "1552227",
@@ -3172,8 +3172,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-19T15:59:10+00:00",
   "status": "open",
-  "odd_laatst": 1.5,
-  "bijgewerkt": "2026-11-21T14:51:11+00:00"
+  "odd_laatst": 1.52,
+  "bijgewerkt": "2026-11-21T20:57:26+00:00"
  },
  "btts-atalanta-inter-2026-11-22": {
   "fid": "1550198",
@@ -3191,8 +3191,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-19T15:59:11+00:00",
   "status": "open",
-  "odd_laatst": 1.48,
-  "bijgewerkt": "2026-11-21T14:51:11+00:00"
+  "odd_laatst": 1.49,
+  "bijgewerkt": "2026-11-21T20:57:26+00:00"
  },
  "1x2-pogon-szczecin-slask-wroclaw-2026-11-20": {
   "fid": "1553230",
@@ -3250,8 +3250,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-19T22:43:12+00:00",
   "status": "open",
-  "odd_laatst": 2.05,
-  "bijgewerkt": "2026-11-21T14:51:11+00:00"
+  "odd_laatst": 2.06,
+  "bijgewerkt": "2026-11-21T20:57:26+00:00"
  },
  "over-2-5-basaksehir-corum-fk-2026-11-23": {
   "fid": "1584467",
@@ -3269,8 +3269,8 @@
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-11-20T15:41:37+00:00",
   "status": "open",
-  "odd_laatst": 1.6,
-  "bijgewerkt": "2026-11-21T14:51:11+00:00"
+  "odd_laatst": 1.57,
+  "bijgewerkt": "2026-11-21T20:57:26+00:00"
  },
  "btts-monza-fiorentina-2026-11-23": {
   "fid": "1550203",
@@ -3289,7 +3289,7 @@
   "gepubliceerd": "2026-11-20T15:41:37+00:00",
   "status": "open",
   "odd_laatst": 1.55,
-  "bijgewerkt": "2026-11-21T14:51:11+00:00"
+  "bijgewerkt": "2026-11-21T20:57:26+00:00"
  },
  "1x2-middlesbrough-bristol-city-2026-11-21": {
   "fid": "1563266",
@@ -3328,8 +3328,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-21T14:52:02+00:00",
   "status": "open",
-  "odd_laatst": 1.45,
-  "bijgewerkt": "2026-11-21T14:52:02+00:00"
+  "odd_laatst": 1.46,
+  "bijgewerkt": "2026-11-21T20:57:26+00:00"
  },
  "btts-wieczysta-krakow-motor-lublin-2026-11-23": {
   "fid": "1553233",
@@ -3347,7 +3347,64 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-21T14:52:03+00:00",
   "status": "open",
-  "odd_laatst": 1.5,
-  "bijgewerkt": "2026-11-21T14:52:03+00:00"
+  "odd_laatst": 1.4,
+  "bijgewerkt": "2026-11-21T20:57:26+00:00"
+ },
+ "btts-fc-dallas-portland-timbers-2026-11-21": {
+  "fid": "1649494",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "FC Dallas - Portland Timbers",
+  "competitie": "MLS",
+  "aftrap": "2026-11-21T21:00:00+00:00",
+  "odd_publicatie": 1.46,
+  "bookmaker": "Circus",
+  "kans": 0.664,
+  "kans_markt": 0.6505,
+  "edge": -0.0305,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-21T20:58:04+00:00",
+  "status": "open",
+  "odd_laatst": 1.46,
+  "bijgewerkt": "2026-11-21T20:58:04+00:00"
+ },
+ "btts-bromley-wycombe-2026-11-24": {
+  "fid": "1564334",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Bromley - Wycombe",
+  "competitie": "League One",
+  "aftrap": "2026-11-24T19:45:00+00:00",
+  "odd_publicatie": 1.62,
+  "bookmaker": "StarCasino",
+  "kans": 0.6236,
+  "kans_markt": 0.5854,
+  "edge": 0.0102,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-21T20:58:05+00:00",
+  "status": "open",
+  "odd_laatst": 1.62,
+  "bijgewerkt": "2026-11-21T20:58:05+00:00"
+ },
+ "btts-portsmouth-west-ham-2026-11-24": {
+  "fid": "1563280",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Portsmouth - West Ham",
+  "competitie": "Championship",
+  "aftrap": "2026-11-24T19:45:00+00:00",
+  "odd_publicatie": 1.71,
+  "bookmaker": "StarCasino",
+  "kans": 0.5903,
+  "kans_markt": 0.5628,
+  "edge": 0.0094,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-21T20:58:06+00:00",
+  "status": "open",
+  "odd_laatst": 1.71,
+  "bijgewerkt": "2026-11-21T20:58:06+00:00"
  }
 }
