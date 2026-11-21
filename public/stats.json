@@ -1,42 +1,42 @@
 {
- "bijgewerkt": "2026-11-21T20:58:10+00:00",
+ "bijgewerkt": "2026-11-21T23:12:19+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 146,
-  "gewonnen": 78,
-  "verloren": 68,
+  "tips": 149,
+  "gewonnen": 79,
+  "verloren": 70,
   "raak": 53,
-  "winst_eenheden": -12.89,
-  "rendement": -8.8,
+  "winst_eenheden": -14.07,
+  "rendement": -9.4,
   "gem_odd": 1.75
  },
  "dertig_dagen": {
-  "tips": 119,
-  "gewonnen": 65,
-  "verloren": 54,
-  "raak": 55,
-  "winst_eenheden": -8.2,
-  "rendement": -6.9,
+  "tips": 122,
+  "gewonnen": 66,
+  "verloren": 56,
+  "raak": 54,
+  "winst_eenheden": -9.38,
+  "rendement": -7.7,
   "gem_odd": 1.74
  },
  "per_markt": {
   "BTTS": {
    "totaal": {
-    "tips": 56,
+    "tips": 57,
     "gewonnen": 34,
-    "verloren": 22,
-    "raak": 61,
-    "winst_eenheden": -2.41,
-    "rendement": -4.3,
-    "gem_odd": 1.61
+    "verloren": 23,
+    "raak": 60,
+    "winst_eenheden": -3.41,
+    "rendement": -6.0,
+    "gem_odd": 1.6
    },
    "dertig_dagen": {
-    "tips": 48,
+    "tips": 49,
     "gewonnen": 30,
-    "verloren": 18,
-    "raak": 62,
-    "winst_eenheden": -0.51,
-    "rendement": -1.1,
+    "verloren": 19,
+    "raak": 61,
+    "winst_eenheden": -1.51,
+    "rendement": -3.1,
     "gem_odd": 1.6
    }
   },
@@ -62,41 +62,41 @@
   },
   "Under 2.5": {
    "totaal": {
-    "tips": 23,
-    "gewonnen": 10,
+    "tips": 24,
+    "gewonnen": 11,
     "verloren": 13,
-    "raak": 43,
-    "winst_eenheden": -4.59,
-    "rendement": -20.0,
+    "raak": 46,
+    "winst_eenheden": -3.77,
+    "rendement": -15.7,
     "gem_odd": 1.85
    },
    "dertig_dagen": {
-    "tips": 17,
-    "gewonnen": 7,
+    "tips": 18,
+    "gewonnen": 8,
     "verloren": 10,
-    "raak": 41,
-    "winst_eenheden": -4.21,
-    "rendement": -24.8,
+    "raak": 44,
+    "winst_eenheden": -3.39,
+    "rendement": -18.8,
     "gem_odd": 1.85
    }
   },
   "1X2": {
    "totaal": {
-    "tips": 48,
+    "tips": 49,
     "gewonnen": 25,
-    "verloren": 23,
-    "raak": 52,
-    "winst_eenheden": -2.49,
-    "rendement": -5.2,
+    "verloren": 24,
+    "raak": 51,
+    "winst_eenheden": -3.49,
+    "rendement": -7.1,
     "gem_odd": 1.88
    },
    "dertig_dagen": {
-    "tips": 39,
+    "tips": 40,
     "gewonnen": 21,
-    "verloren": 18,
-    "raak": 54,
-    "winst_eenheden": -0.6,
-    "rendement": -1.5,
+    "verloren": 19,
+    "raak": 52,
+    "winst_eenheden": -1.6,
+    "rendement": -4.0,
     "gem_odd": 1.88
    }
   }
@@ -110,8 +110,26 @@
   "rendement": -8.1,
   "gem_odd": 1.72
  },
- "open": 16,
+ "open": 13,
  "laatste": [
+  {
+   "datum": "2026-11-21",
+   "wedstrijd": "FC Dallas - Portland Timbers",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.46,
+   "uitslag": "3-0",
+   "status": "verloren"
+  },
+  {
+   "datum": "2026-11-21",
+   "wedstrijd": "Lille - Lyon",
+   "markt": "Under 2.5",
+   "tip": "Minder dan 2.5 doelpunten",
+   "odd": 1.82,
+   "uitslag": "0-1",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-11-21",
    "wedstrijd": "Plymouth - Peterborough",
@@ -164,6 +182,15 @@
    "tip": "Beide teams scoren",
    "odd": 1.5,
    "uitslag": "0-1",
+   "status": "verloren"
+  },
+  {
+   "datum": "2026-11-21",
+   "wedstrijd": "Catanzaro - Palermo",
+   "markt": "1X2",
+   "tip": "Palermo wint",
+   "odd": 1.87,
+   "uitslag": "3-1",
    "status": "verloren"
   },
   {
@@ -264,33 +291,6 @@
    "odd": 1.85,
    "uitslag": "1-1",
    "status": "gewonnen"
-  },
-  {
-   "datum": "2026-11-14",
-   "wedstrijd": "Rochdale - York",
-   "markt": "BTTS",
-   "tip": "Beide teams scoren",
-   "odd": 1.62,
-   "uitslag": "0-1",
-   "status": "verloren"
-  },
-  {
-   "datum": "2026-11-08",
-   "wedstrijd": "Fiorentina - Juventus",
-   "markt": "1X2",
-   "tip": "Juventus wint",
-   "odd": 2.07,
-   "uitslag": "2-2",
-   "status": "verloren"
-  },
-  {
-   "datum": "2026-11-08",
-   "wedstrijd": "Plzen - Sparta Praha",
-   "markt": "Over 2.5",
-   "tip": "Meer dan 2.5 doelpunten",
-   "odd": 1.67,
-   "uitslag": "1-1",
-   "status": "verloren"
   }
  ]
 }
