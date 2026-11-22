@@ -3138,8 +3138,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-19T15:59:07+00:00",
   "status": "open",
-  "odd_laatst": 1.8,
-  "bijgewerkt": "2026-11-21T20:57:26+00:00"
+  "odd_laatst": 1.77,
+  "bijgewerkt": "2026-11-22T14:47:32+00:00"
  },
  "1x2-botev-plovdiv-cska-sofia-2026-11-22": {
   "fid": "1551145",
@@ -3157,8 +3157,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-19T15:59:09+00:00",
   "status": "open",
-  "odd_laatst": 1.92,
-  "bijgewerkt": "2026-11-21T20:57:26+00:00"
+  "odd_laatst": 1.68,
+  "bijgewerkt": "2026-11-22T14:47:32+00:00"
  },
  "btts-go-ahead-eagles-fortuna-sittard-2026-11-22": {
   "fid": "1552227",
@@ -3177,7 +3177,7 @@
   "gepubliceerd": "2026-11-19T15:59:10+00:00",
   "status": "open",
   "odd_laatst": 1.52,
-  "bijgewerkt": "2026-11-21T20:57:26+00:00"
+  "bijgewerkt": "2026-11-22T14:47:32+00:00"
  },
  "btts-atalanta-inter-2026-11-22": {
   "fid": "1550198",
@@ -3195,8 +3195,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-19T15:59:11+00:00",
   "status": "open",
-  "odd_laatst": 1.49,
-  "bijgewerkt": "2026-11-21T20:57:26+00:00"
+  "odd_laatst": 1.52,
+  "bijgewerkt": "2026-11-22T14:47:32+00:00"
  },
  "1x2-pogon-szczecin-slask-wroclaw-2026-11-20": {
   "fid": "1553230",
@@ -3256,8 +3256,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-19T22:43:12+00:00",
   "status": "open",
-  "odd_laatst": 2.06,
-  "bijgewerkt": "2026-11-21T20:57:26+00:00"
+  "odd_laatst": 2.07,
+  "bijgewerkt": "2026-11-22T14:47:32+00:00"
  },
  "over-2-5-basaksehir-corum-fk-2026-11-23": {
   "fid": "1584467",
@@ -3276,7 +3276,7 @@
   "gepubliceerd": "2026-11-20T15:41:37+00:00",
   "status": "open",
   "odd_laatst": 1.57,
-  "bijgewerkt": "2026-11-21T20:57:26+00:00"
+  "bijgewerkt": "2026-11-22T14:47:32+00:00"
  },
  "btts-monza-fiorentina-2026-11-23": {
   "fid": "1550203",
@@ -3295,7 +3295,7 @@
   "gepubliceerd": "2026-11-20T15:41:37+00:00",
   "status": "open",
   "odd_laatst": 1.55,
-  "bijgewerkt": "2026-11-21T20:57:26+00:00"
+  "bijgewerkt": "2026-11-22T14:47:32+00:00"
  },
  "1x2-middlesbrough-bristol-city-2026-11-21": {
   "fid": "1563266",
@@ -3355,8 +3355,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-21T14:52:03+00:00",
   "status": "open",
-  "odd_laatst": 1.4,
-  "bijgewerkt": "2026-11-21T20:57:26+00:00"
+  "odd_laatst": 1.52,
+  "bijgewerkt": "2026-11-22T14:47:32+00:00"
  },
  "btts-fc-dallas-portland-timbers-2026-11-21": {
   "fid": "1649494",
@@ -3395,8 +3395,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-21T20:58:05+00:00",
   "status": "open",
-  "odd_laatst": 1.62,
-  "bijgewerkt": "2026-11-21T20:58:05+00:00"
+  "odd_laatst": 1.6,
+  "bijgewerkt": "2026-11-22T14:47:32+00:00"
  },
  "btts-portsmouth-west-ham-2026-11-24": {
   "fid": "1563280",
@@ -3415,6 +3415,63 @@
   "gepubliceerd": "2026-11-21T20:58:06+00:00",
   "status": "open",
   "odd_laatst": 1.71,
-  "bijgewerkt": "2026-11-21T20:58:06+00:00"
+  "bijgewerkt": "2026-11-22T14:47:32+00:00"
+ },
+ "over-2-5-marseille-le-mans-2026-11-22": {
+  "fid": "1552822",
+  "markt": "Over 2.5",
+  "pick": "over25",
+  "tip": "Meer dan 2.5 doelpunten",
+  "wedstrijd": "Marseille - Le Mans",
+  "competitie": "Ligue 1",
+  "aftrap": "2026-11-22T19:45:00+00:00",
+  "odd_publicatie": 1.54,
+  "bookmaker": "OneCasino",
+  "kans": 0.6719,
+  "kans_markt": 0.6335,
+  "edge": 0.0347,
+  "tip_van_de_dag": true,
+  "gepubliceerd": "2026-11-22T14:47:56+00:00",
+  "status": "open",
+  "odd_laatst": 1.54,
+  "bijgewerkt": "2026-11-22T14:47:56+00:00"
+ },
+ "under-2-5-sparta-praha-slovan-liberec-2026-11-22": {
+  "fid": "1560080",
+  "markt": "Under 2.5",
+  "pick": "under25",
+  "tip": "Minder dan 2.5 doelpunten",
+  "wedstrijd": "Sparta Praha - Slovan Liberec",
+  "competitie": "Czech Liga",
+  "aftrap": "2026-11-22T17:00:00+00:00",
+  "odd_publicatie": 1.86,
+  "bookmaker": "Vbet",
+  "kans": 0.5541,
+  "kans_markt": 0.5049,
+  "edge": 0.0306,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-22T14:47:57+00:00",
+  "status": "open",
+  "odd_laatst": 1.86,
+  "bijgewerkt": "2026-11-22T14:47:57+00:00"
+ },
+ "btts-burnley-birmingham-2026-11-25": {
+  "fid": "1563284",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Burnley - Birmingham",
+  "competitie": "Championship",
+  "aftrap": "2026-11-25T19:45:00+00:00",
+  "odd_publicatie": 1.62,
+  "bookmaker": "StarCasino",
+  "kans": 0.5941,
+  "kans_markt": 0.5933,
+  "edge": -0.0375,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-22T14:47:57+00:00",
+  "status": "open",
+  "odd_laatst": 1.62,
+  "bijgewerkt": "2026-11-22T14:47:57+00:00"
  }
 }
