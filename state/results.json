@@ -3282,7 +3282,7 @@
   "gepubliceerd": "2026-11-20T15:41:37+00:00",
   "status": "open",
   "odd_laatst": 1.57,
-  "bijgewerkt": "2026-11-22T14:47:32+00:00"
+  "bijgewerkt": "2026-11-22T21:07:16+00:00"
  },
  "btts-monza-fiorentina-2026-11-23": {
   "fid": "1550203",
@@ -3300,8 +3300,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-20T15:41:37+00:00",
   "status": "open",
-  "odd_laatst": 1.55,
-  "bijgewerkt": "2026-11-22T14:47:32+00:00"
+  "odd_laatst": 1.57,
+  "bijgewerkt": "2026-11-22T21:07:16+00:00"
  },
  "1x2-middlesbrough-bristol-city-2026-11-21": {
   "fid": "1563266",
@@ -3362,7 +3362,7 @@
   "gepubliceerd": "2026-11-21T14:52:03+00:00",
   "status": "open",
   "odd_laatst": 1.52,
-  "bijgewerkt": "2026-11-22T14:47:32+00:00"
+  "bijgewerkt": "2026-11-22T21:07:16+00:00"
  },
  "btts-fc-dallas-portland-timbers-2026-11-21": {
   "fid": "1649494",
@@ -3401,8 +3401,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-21T20:58:05+00:00",
   "status": "open",
-  "odd_laatst": 1.6,
-  "bijgewerkt": "2026-11-22T14:47:32+00:00"
+  "odd_laatst": 1.62,
+  "bijgewerkt": "2026-11-22T21:07:16+00:00"
  },
  "btts-portsmouth-west-ham-2026-11-24": {
   "fid": "1563280",
@@ -3421,7 +3421,7 @@
   "gepubliceerd": "2026-11-21T20:58:06+00:00",
   "status": "open",
   "odd_laatst": 1.71,
-  "bijgewerkt": "2026-11-22T14:47:32+00:00"
+  "bijgewerkt": "2026-11-22T21:07:16+00:00"
  },
  "over-2-5-marseille-le-mans-2026-11-22": {
   "fid": "1552822",
@@ -3479,7 +3479,26 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-22T14:47:57+00:00",
   "status": "open",
-  "odd_laatst": 1.62,
-  "bijgewerkt": "2026-11-22T14:47:57+00:00"
+  "odd_laatst": 1.57,
+  "bijgewerkt": "2026-11-22T21:07:16+00:00"
+ },
+ "btts-chicago-fire-charlotte-2026-11-23": {
+  "fid": "1649493",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Chicago Fire - Charlotte",
+  "competitie": "MLS",
+  "aftrap": "2026-11-22T23:30:00+00:00",
+  "odd_publicatie": 1.5,
+  "bookmaker": "Bet365",
+  "kans": 0.6703,
+  "kans_markt": 0.6448,
+  "edge": 0.0054,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-22T21:08:47+00:00",
+  "status": "open",
+  "odd_laatst": 1.5,
+  "bijgewerkt": "2026-11-22T21:08:47+00:00"
  }
 }
