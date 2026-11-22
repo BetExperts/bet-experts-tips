@@ -1,62 +1,62 @@
 {
- "bijgewerkt": "2026-11-21T23:12:19+00:00",
+ "bijgewerkt": "2026-11-22T03:13:31+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 149,
+  "tips": 151,
   "gewonnen": 79,
-  "verloren": 70,
-  "raak": 53,
-  "winst_eenheden": -14.07,
-  "rendement": -9.4,
+  "verloren": 72,
+  "raak": 52,
+  "winst_eenheden": -16.07,
+  "rendement": -10.6,
   "gem_odd": 1.75
  },
  "dertig_dagen": {
-  "tips": 122,
+  "tips": 124,
   "gewonnen": 66,
-  "verloren": 56,
-  "raak": 54,
-  "winst_eenheden": -9.38,
-  "rendement": -7.7,
+  "verloren": 58,
+  "raak": 53,
+  "winst_eenheden": -11.38,
+  "rendement": -9.2,
   "gem_odd": 1.74
  },
  "per_markt": {
   "BTTS": {
    "totaal": {
-    "tips": 57,
+    "tips": 58,
     "gewonnen": 34,
-    "verloren": 23,
-    "raak": 60,
-    "winst_eenheden": -3.41,
-    "rendement": -6.0,
+    "verloren": 24,
+    "raak": 59,
+    "winst_eenheden": -4.41,
+    "rendement": -7.6,
     "gem_odd": 1.6
    },
    "dertig_dagen": {
-    "tips": 49,
+    "tips": 50,
     "gewonnen": 30,
-    "verloren": 19,
-    "raak": 61,
-    "winst_eenheden": -1.51,
-    "rendement": -3.1,
+    "verloren": 20,
+    "raak": 60,
+    "winst_eenheden": -2.51,
+    "rendement": -5.0,
     "gem_odd": 1.6
    }
   },
   "Over 2.5": {
    "totaal": {
-    "tips": 19,
+    "tips": 20,
     "gewonnen": 9,
-    "verloren": 10,
-    "raak": 47,
-    "winst_eenheden": -3.4,
-    "rendement": -17.9,
+    "verloren": 11,
+    "raak": 45,
+    "winst_eenheden": -4.4,
+    "rendement": -22.0,
     "gem_odd": 1.72
    },
    "dertig_dagen": {
-    "tips": 15,
+    "tips": 16,
     "gewonnen": 7,
-    "verloren": 8,
-    "raak": 47,
-    "winst_eenheden": -2.88,
-    "rendement": -19.2,
+    "verloren": 9,
+    "raak": 44,
+    "winst_eenheden": -3.88,
+    "rendement": -24.3,
     "gem_odd": 1.71
    }
   },
@@ -110,8 +110,17 @@
   "rendement": -8.1,
   "gem_odd": 1.72
  },
- "open": 13,
+ "open": 11,
  "laatste": [
+  {
+   "datum": "2026-11-21",
+   "wedstrijd": "Inter Miami - Columbus Crew",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.45,
+   "uitslag": "0-3",
+   "status": "verloren"
+  },
   {
    "datum": "2026-11-21",
    "wedstrijd": "FC Dallas - Portland Timbers",
@@ -119,6 +128,15 @@
    "tip": "Beide teams scoren",
    "odd": 1.46,
    "uitslag": "3-0",
+   "status": "verloren"
+  },
+  {
+   "datum": "2026-11-21",
+   "wedstrijd": "Strasbourg - Stade Brestois 29",
+   "markt": "Over 2.5",
+   "tip": "Meer dan 2.5 doelpunten",
+   "odd": 1.67,
+   "uitslag": "0-1",
    "status": "verloren"
   },
   {
@@ -273,24 +291,6 @@
    "odd": 1.91,
    "uitslag": "0-2",
    "status": "verloren"
-  },
-  {
-   "datum": "2026-11-14",
-   "wedstrijd": "Almeria - FC Andorra",
-   "markt": "1X2",
-   "tip": "Almeria wint",
-   "odd": 1.71,
-   "uitslag": "2-1",
-   "status": "gewonnen"
-  },
-  {
-   "datum": "2026-11-14",
-   "wedstrijd": "Salford City - Northampton",
-   "markt": "Under 2.5",
-   "tip": "Minder dan 2.5 doelpunten",
-   "odd": 1.85,
-   "uitslag": "1-1",
-   "status": "gewonnen"
   }
  ]
 }
