@@ -3139,9 +3139,11 @@
   "edge": 0.0596,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-19T15:59:07+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.77,
-  "bijgewerkt": "2026-11-22T14:47:32+00:00"
+  "bijgewerkt": "2026-11-22T14:47:32+00:00",
+  "eindstand": "0-3",
+  "afgesloten": "2026-11-23T10:43:13+00:00"
  },
  "1x2-botev-plovdiv-cska-sofia-2026-11-22": {
   "fid": "1551145",
