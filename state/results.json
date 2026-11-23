@@ -3286,9 +3286,11 @@
   "edge": 0.0312,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-11-20T15:41:37+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.57,
-  "bijgewerkt": "2026-11-22T21:07:16+00:00"
+  "bijgewerkt": "2026-11-22T21:07:16+00:00",
+  "eindstand": "4-2",
+  "afgesloten": "2026-11-23T22:37:12+00:00"
  },
  "btts-monza-fiorentina-2026-11-23": {
   "fid": "1550203",
@@ -3305,9 +3307,11 @@
   "edge": 0.0212,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-20T15:41:37+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-11-23T18:36:47+00:00"
+  "bijgewerkt": "2026-11-23T18:36:47+00:00",
+  "eindstand": "3-0",
+  "afgesloten": "2026-11-23T22:37:12+00:00"
  },
  "1x2-middlesbrough-bristol-city-2026-11-21": {
   "fid": "1563266",
@@ -3366,9 +3370,11 @@
   "edge": -0.004,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-21T14:52:03+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.52,
-  "bijgewerkt": "2026-11-22T21:07:16+00:00"
+  "bijgewerkt": "2026-11-22T21:07:16+00:00",
+  "eindstand": "2-1",
+  "afgesloten": "2026-11-23T22:37:12+00:00"
  },
  "btts-fc-dallas-portland-timbers-2026-11-21": {
   "fid": "1649494",
@@ -3526,8 +3532,10 @@
   "edge": -0.0345,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-23T18:37:12+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.5,
-  "bijgewerkt": "2026-11-23T18:37:12+00:00"
+  "bijgewerkt": "2026-11-23T18:37:12+00:00",
+  "eindstand": "0-1",
+  "afgesloten": "2026-11-23T22:37:12+00:00"
  }
 }
