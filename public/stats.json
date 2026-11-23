@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-23T10:43:16+00:00",
+ "bijgewerkt": "2026-11-23T18:37:12+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
   "tips": 160,
@@ -11,12 +11,12 @@
   "gem_odd": 1.74
  },
  "dertig_dagen": {
-  "tips": 127,
-  "gewonnen": 66,
-  "verloren": 61,
-  "raak": 52,
-  "winst_eenheden": -14.77,
-  "rendement": -11.6,
+  "tips": 119,
+  "gewonnen": 61,
+  "verloren": 58,
+  "raak": 51,
+  "winst_eenheden": -15.23,
+  "rendement": -12.8,
   "gem_odd": 1.74
  },
  "per_markt": {
@@ -31,13 +31,13 @@
     "gem_odd": 1.6
    },
    "dertig_dagen": {
-    "tips": 50,
-    "gewonnen": 29,
-    "verloren": 21,
-    "raak": 58,
-    "winst_eenheden": -4.62,
-    "rendement": -9.2,
-    "gem_odd": 1.59
+    "tips": 47,
+    "gewonnen": 27,
+    "verloren": 20,
+    "raak": 57,
+    "winst_eenheden": -4.68,
+    "rendement": -10.0,
+    "gem_odd": 1.58
    }
   },
   "Over 2.5": {
@@ -51,13 +51,13 @@
     "gem_odd": 1.71
    },
    "dertig_dagen": {
-    "tips": 16,
-    "gewonnen": 7,
+    "tips": 15,
+    "gewonnen": 6,
     "verloren": 9,
-    "raak": 44,
-    "winst_eenheden": -4.2,
-    "rendement": -26.2,
-    "gem_odd": 1.69
+    "raak": 40,
+    "winst_eenheden": -5.07,
+    "rendement": -33.8,
+    "gem_odd": 1.67
    }
   },
   "Under 2.5": {
@@ -71,12 +71,12 @@
     "gem_odd": 1.85
    },
    "dertig_dagen": {
-    "tips": 20,
-    "gewonnen": 8,
+    "tips": 19,
+    "gewonnen": 7,
     "verloren": 12,
-    "raak": 40,
-    "winst_eenheden": -5.39,
-    "rendement": -26.9,
+    "raak": 37,
+    "winst_eenheden": -6.24,
+    "rendement": -32.8,
     "gem_odd": 1.85
    }
   },
@@ -91,13 +91,13 @@
     "gem_odd": 1.88
    },
    "dertig_dagen": {
-    "tips": 41,
-    "gewonnen": 22,
-    "verloren": 19,
-    "raak": 54,
-    "winst_eenheden": -0.56,
-    "rendement": -1.4,
-    "gem_odd": 1.88
+    "tips": 38,
+    "gewonnen": 21,
+    "verloren": 17,
+    "raak": 55,
+    "winst_eenheden": 0.76,
+    "rendement": 2.0,
+    "gem_odd": 1.89
    }
   }
  },
@@ -110,7 +110,7 @@
   "rendement": -3.0,
   "gem_odd": 1.71
  },
- "open": 6,
+ "open": 7,
  "laatste": [
   {
    "datum": "2026-11-22",
