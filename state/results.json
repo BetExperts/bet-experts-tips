@@ -3200,9 +3200,11 @@
   "edge": -0.0337,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-19T15:59:11+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.52,
-  "bijgewerkt": "2026-11-22T14:47:32+00:00"
+  "bijgewerkt": "2026-11-22T14:47:32+00:00",
+  "eindstand": "4-4",
+  "afgesloten": "2026-11-23T01:39:53+00:00"
  },
  "1x2-pogon-szczecin-slask-wroclaw-2026-11-20": {
   "fid": "1553230",
@@ -3261,9 +3263,11 @@
   "edge": 0.0536,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-19T22:43:12+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 2.07,
-  "bijgewerkt": "2026-11-22T14:47:32+00:00"
+  "bijgewerkt": "2026-11-22T14:47:32+00:00",
+  "eindstand": "1-0",
+  "afgesloten": "2026-11-23T01:39:53+00:00"
  },
  "over-2-5-basaksehir-corum-fk-2026-11-23": {
   "fid": "1584467",
@@ -3438,9 +3442,11 @@
   "edge": 0.0347,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-11-22T14:47:56+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.54,
-  "bijgewerkt": "2026-11-22T14:47:56+00:00"
+  "bijgewerkt": "2026-11-22T14:47:56+00:00",
+  "eindstand": "2-3",
+  "afgesloten": "2026-11-23T01:39:53+00:00"
  },
  "under-2-5-sparta-praha-slovan-liberec-2026-11-22": {
   "fid": "1560080",
@@ -3497,8 +3503,10 @@
   "edge": 0.0054,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-22T21:08:47+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.5,
-  "bijgewerkt": "2026-11-22T21:08:47+00:00"
+  "bijgewerkt": "2026-11-22T21:08:47+00:00",
+  "eindstand": "1-2",
+  "afgesloten": "2026-11-23T01:39:53+00:00"
  }
 }
