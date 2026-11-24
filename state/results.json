@@ -3494,7 +3494,7 @@
   "gepubliceerd": "2026-11-22T14:47:57+00:00",
   "status": "open",
   "odd_laatst": 1.6,
-  "bijgewerkt": "2026-11-24T18:05:58+00:00"
+  "bijgewerkt": "2026-11-24T23:58:01+00:00"
  },
  "btts-chicago-fire-charlotte-2026-11-23": {
   "fid": "1649493",
@@ -3574,7 +3574,7 @@
   "gepubliceerd": "2026-11-24T02:26:38+00:00",
   "status": "open",
   "odd_laatst": 1.85,
-  "bijgewerkt": "2026-11-24T18:05:58+00:00"
+  "bijgewerkt": "2026-11-24T23:58:01+00:00"
  },
  "1x2-werder-bremen-borussia-monchengladbach-2026-11-27": {
   "fid": "1575237",
@@ -3592,8 +3592,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-24T02:26:39+00:00",
   "status": "open",
-  "odd_laatst": 1.74,
-  "bijgewerkt": "2026-11-24T18:05:58+00:00"
+  "odd_laatst": 1.76,
+  "bijgewerkt": "2026-11-24T23:58:01+00:00"
  },
  "btts-groningen-willem-ii-2026-11-27": {
   "fid": "1552238",
@@ -3612,7 +3612,7 @@
   "gepubliceerd": "2026-11-24T02:26:40+00:00",
   "status": "open",
   "odd_laatst": 1.67,
-  "bijgewerkt": "2026-11-24T18:05:58+00:00"
+  "bijgewerkt": "2026-11-24T23:58:01+00:00"
  },
  "btts-rakow-czestochowa-piast-gliwice-2026-11-27": {
   "fid": "1553241",
@@ -3631,7 +3631,7 @@
   "gepubliceerd": "2026-11-24T02:26:41+00:00",
   "status": "open",
   "odd_laatst": 1.5,
-  "bijgewerkt": "2026-11-24T18:05:58+00:00"
+  "bijgewerkt": "2026-11-24T23:58:01+00:00"
  },
  "under-2-5-lokomotiv-sofia-slavia-sofia-2026-11-27": {
   "fid": "1551157",
@@ -3650,6 +3650,120 @@
   "gepubliceerd": "2026-11-24T18:06:39+00:00",
   "status": "open",
   "odd_laatst": 1.95,
-  "bijgewerkt": "2026-11-24T18:06:39+00:00"
+  "bijgewerkt": "2026-11-24T23:58:01+00:00"
+ },
+ "1x2-kvc-westerlo-raal-la-louviere-2026-11-28": {
+  "fid": "1558697",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "KVC Westerlo wint",
+  "wedstrijd": "KVC Westerlo - RAAL La Louvière",
+  "competitie": "Jupiler Pro League",
+  "aftrap": "2026-11-28T15:00:00+00:00",
+  "odd_publicatie": 1.97,
+  "bookmaker": "Tonybet",
+  "kans": 0.5363,
+  "kans_markt": 0.4978,
+  "edge": 0.0566,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-24T23:59:09+00:00",
+  "status": "open",
+  "odd_laatst": 1.97,
+  "bijgewerkt": "2026-11-24T23:59:09+00:00"
+ },
+ "1x2-gaziantep-fk-amed-2026-11-28": {
+  "fid": "1584480",
+  "markt": "1X2",
+  "pick": "away",
+  "tip": "Amed wint",
+  "wedstrijd": "Gaziantep FK - Amed",
+  "competitie": "Super Lig",
+  "aftrap": "2026-11-28T16:00:00+00:00",
+  "odd_publicatie": 2.1,
+  "bookmaker": "Unibet",
+  "kans": 0.5007,
+  "kans_markt": 0.457,
+  "edge": 0.0515,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-24T23:59:10+00:00",
+  "status": "open",
+  "odd_laatst": 2.1,
+  "bijgewerkt": "2026-11-24T23:59:10+00:00"
+ },
+ "over-2-5-west-ham-stoke-city-2026-11-28": {
+  "fid": "1563297",
+  "markt": "Over 2.5",
+  "pick": "over25",
+  "tip": "Meer dan 2.5 doelpunten",
+  "wedstrijd": "West Ham - Stoke City",
+  "competitie": "Championship",
+  "aftrap": "2026-11-28T15:00:00+00:00",
+  "odd_publicatie": 1.8,
+  "bookmaker": "Bet365",
+  "kans": 0.5787,
+  "kans_markt": 0.5464,
+  "edge": 0.0416,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-24T23:59:11+00:00",
+  "status": "open",
+  "odd_laatst": 1.8,
+  "bijgewerkt": "2026-11-24T23:59:11+00:00"
+ },
+ "over-2-5-inter-genoa-2026-11-28": {
+  "fid": "1550211",
+  "markt": "Over 2.5",
+  "pick": "over25",
+  "tip": "Meer dan 2.5 doelpunten",
+  "wedstrijd": "Inter - Genoa",
+  "competitie": "Serie A",
+  "aftrap": "2026-11-28T19:45:00+00:00",
+  "odd_publicatie": 1.64,
+  "bookmaker": "LeoVegas",
+  "kans": 0.6328,
+  "kans_markt": 0.5884,
+  "edge": 0.0378,
+  "tip_van_de_dag": true,
+  "gepubliceerd": "2026-11-24T23:59:12+00:00",
+  "status": "open",
+  "odd_laatst": 1.64,
+  "bijgewerkt": "2026-11-24T23:59:12+00:00"
+ },
+ "btts-slovan-bratislava-fk-kosice-2026-11-28": {
+  "fid": "1551609",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Slovan Bratislava - FK Košice",
+  "competitie": "Slovak Super Liga",
+  "aftrap": "2026-11-28T17:00:00+00:00",
+  "odd_publicatie": 1.48,
+  "bookmaker": "888Sports",
+  "kans": 0.6583,
+  "kans_markt": 0.626,
+  "edge": -0.0258,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-24T23:59:13+00:00",
+  "status": "open",
+  "odd_laatst": 1.48,
+  "bijgewerkt": "2026-11-24T23:59:13+00:00"
+ },
+ "btts-psv-eindhoven-go-ahead-eagles-2026-11-28": {
+  "fid": "1552240",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "PSV Eindhoven - GO Ahead Eagles",
+  "competitie": "Eredivisie",
+  "aftrap": "2026-11-28T17:45:00+00:00",
+  "odd_publicatie": 1.48,
+  "bookmaker": "711",
+  "kans": 0.6567,
+  "kans_markt": 0.6371,
+  "edge": -0.0281,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-24T23:59:13+00:00",
+  "status": "open",
+  "odd_laatst": 1.48,
+  "bijgewerkt": "2026-11-24T23:59:13+00:00"
  }
 }
