@@ -3413,8 +3413,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-21T20:58:05+00:00",
   "status": "open",
-  "odd_laatst": 1.62,
-  "bijgewerkt": "2026-11-24T02:25:48+00:00"
+  "odd_laatst": 1.71,
+  "bijgewerkt": "2026-11-24T18:05:58+00:00"
  },
  "btts-portsmouth-west-ham-2026-11-24": {
   "fid": "1563280",
@@ -3432,8 +3432,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-21T20:58:06+00:00",
   "status": "open",
-  "odd_laatst": 1.71,
-  "bijgewerkt": "2026-11-24T02:25:48+00:00"
+  "odd_laatst": 1.75,
+  "bijgewerkt": "2026-11-24T18:05:58+00:00"
  },
  "over-2-5-marseille-le-mans-2026-11-22": {
   "fid": "1552822",
@@ -3493,8 +3493,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-22T14:47:57+00:00",
   "status": "open",
-  "odd_laatst": 1.57,
-  "bijgewerkt": "2026-11-24T02:25:48+00:00"
+  "odd_laatst": 1.6,
+  "bijgewerkt": "2026-11-24T18:05:58+00:00"
  },
  "btts-chicago-fire-charlotte-2026-11-23": {
   "fid": "1649493",
@@ -3554,8 +3554,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-24T02:26:37+00:00",
   "status": "open",
-  "odd_laatst": 1.9,
-  "bijgewerkt": "2026-11-24T02:26:37+00:00"
+  "odd_laatst": 2.0,
+  "bijgewerkt": "2026-11-24T18:05:58+00:00"
  },
  "under-2-5-alanyaspor-konyaspor-2026-11-27": {
   "fid": "1584475",
@@ -3574,7 +3574,7 @@
   "gepubliceerd": "2026-11-24T02:26:38+00:00",
   "status": "open",
   "odd_laatst": 1.85,
-  "bijgewerkt": "2026-11-24T02:26:38+00:00"
+  "bijgewerkt": "2026-11-24T18:05:58+00:00"
  },
  "1x2-werder-bremen-borussia-monchengladbach-2026-11-27": {
   "fid": "1575237",
@@ -3592,8 +3592,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-24T02:26:39+00:00",
   "status": "open",
-  "odd_laatst": 1.78,
-  "bijgewerkt": "2026-11-24T02:26:39+00:00"
+  "odd_laatst": 1.74,
+  "bijgewerkt": "2026-11-24T18:05:58+00:00"
  },
  "btts-groningen-willem-ii-2026-11-27": {
   "fid": "1552238",
@@ -3611,8 +3611,8 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-24T02:26:40+00:00",
   "status": "open",
-  "odd_laatst": 1.57,
-  "bijgewerkt": "2026-11-24T02:26:40+00:00"
+  "odd_laatst": 1.67,
+  "bijgewerkt": "2026-11-24T18:05:58+00:00"
  },
  "btts-rakow-czestochowa-piast-gliwice-2026-11-27": {
   "fid": "1553241",
@@ -3630,7 +3630,26 @@
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-24T02:26:41+00:00",
   "status": "open",
-  "odd_laatst": 1.54,
-  "bijgewerkt": "2026-11-24T02:26:41+00:00"
+  "odd_laatst": 1.5,
+  "bijgewerkt": "2026-11-24T18:05:58+00:00"
+ },
+ "under-2-5-lokomotiv-sofia-slavia-sofia-2026-11-27": {
+  "fid": "1551157",
+  "markt": "Under 2.5",
+  "pick": "under25",
+  "tip": "Minder dan 2.5 doelpunten",
+  "wedstrijd": "Lokomotiv Sofia - Slavia Sofia",
+  "competitie": "Bulgarian First League",
+  "aftrap": "2026-11-27T16:30:00+00:00",
+  "odd_publicatie": 1.95,
+  "bookmaker": "Bet365",
+  "kans": 0.5774,
+  "kans_markt": 0.5258,
+  "edge": 0.126,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-24T18:06:39+00:00",
+  "status": "open",
+  "odd_laatst": 1.95,
+  "bijgewerkt": "2026-11-24T18:06:39+00:00"
  }
 }
