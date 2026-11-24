@@ -3414,7 +3414,7 @@
   "gepubliceerd": "2026-11-21T20:58:05+00:00",
   "status": "open",
   "odd_laatst": 1.62,
-  "bijgewerkt": "2026-11-23T18:36:47+00:00"
+  "bijgewerkt": "2026-11-24T02:25:48+00:00"
  },
  "btts-portsmouth-west-ham-2026-11-24": {
   "fid": "1563280",
@@ -3433,7 +3433,7 @@
   "gepubliceerd": "2026-11-21T20:58:06+00:00",
   "status": "open",
   "odd_laatst": 1.71,
-  "bijgewerkt": "2026-11-23T18:36:47+00:00"
+  "bijgewerkt": "2026-11-24T02:25:48+00:00"
  },
  "over-2-5-marseille-le-mans-2026-11-22": {
   "fid": "1552822",
@@ -3494,7 +3494,7 @@
   "gepubliceerd": "2026-11-22T14:47:57+00:00",
   "status": "open",
   "odd_laatst": 1.57,
-  "bijgewerkt": "2026-11-23T18:36:47+00:00"
+  "bijgewerkt": "2026-11-24T02:25:48+00:00"
  },
  "btts-chicago-fire-charlotte-2026-11-23": {
   "fid": "1649493",
@@ -3537,5 +3537,100 @@
   "bijgewerkt": "2026-11-23T18:37:12+00:00",
   "eindstand": "0-1",
   "afgesloten": "2026-11-23T22:37:12+00:00"
+ },
+ "1x2-crawley-town-barnet-2026-11-24": {
+  "fid": "1563769",
+  "markt": "1X2",
+  "pick": "away",
+  "tip": "Barnet wint",
+  "wedstrijd": "Crawley Town - Barnet",
+  "competitie": "League Two",
+  "aftrap": "2026-11-24T19:45:00+00:00",
+  "odd_publicatie": 1.9,
+  "bookmaker": "StarCasino",
+  "kans": 0.5444,
+  "kans_markt": 0.5186,
+  "edge": 0.0344,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-24T02:26:37+00:00",
+  "status": "open",
+  "odd_laatst": 1.9,
+  "bijgewerkt": "2026-11-24T02:26:37+00:00"
+ },
+ "under-2-5-alanyaspor-konyaspor-2026-11-27": {
+  "fid": "1584475",
+  "markt": "Under 2.5",
+  "pick": "under25",
+  "tip": "Minder dan 2.5 doelpunten",
+  "wedstrijd": "Alanyaspor - Konyaspor",
+  "competitie": "Super Lig",
+  "aftrap": "2026-11-27T17:00:00+00:00",
+  "odd_publicatie": 1.85,
+  "bookmaker": "Bet365",
+  "kans": 0.5831,
+  "kans_markt": 0.5402,
+  "edge": 0.0788,
+  "tip_van_de_dag": true,
+  "gepubliceerd": "2026-11-24T02:26:38+00:00",
+  "status": "open",
+  "odd_laatst": 1.85,
+  "bijgewerkt": "2026-11-24T02:26:38+00:00"
+ },
+ "1x2-werder-bremen-borussia-monchengladbach-2026-11-27": {
+  "fid": "1575237",
+  "markt": "1X2",
+  "pick": "home",
+  "tip": "Werder Bremen wint",
+  "wedstrijd": "Werder Bremen - Borussia Mönchengladbach",
+  "competitie": "Bundesliga",
+  "aftrap": "2026-11-27T19:30:00+00:00",
+  "odd_publicatie": 1.78,
+  "bookmaker": "711",
+  "kans": 0.5875,
+  "kans_markt": 0.5422,
+  "edge": 0.0457,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-24T02:26:39+00:00",
+  "status": "open",
+  "odd_laatst": 1.78,
+  "bijgewerkt": "2026-11-24T02:26:39+00:00"
+ },
+ "btts-groningen-willem-ii-2026-11-27": {
+  "fid": "1552238",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Groningen - Willem II",
+  "competitie": "Eredivisie",
+  "aftrap": "2026-11-27T19:00:00+00:00",
+  "odd_publicatie": 1.57,
+  "bookmaker": "Circus",
+  "kans": 0.628,
+  "kans_markt": 0.5972,
+  "edge": -0.0141,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-24T02:26:40+00:00",
+  "status": "open",
+  "odd_laatst": 1.57,
+  "bijgewerkt": "2026-11-24T02:26:40+00:00"
+ },
+ "btts-rakow-czestochowa-piast-gliwice-2026-11-27": {
+  "fid": "1553241",
+  "markt": "BTTS",
+  "pick": "btts_yes",
+  "tip": "Beide teams scoren",
+  "wedstrijd": "Raków Częstochowa - Piast Gliwice",
+  "competitie": "Ekstraklasa",
+  "aftrap": "2026-11-27T17:00:00+00:00",
+  "odd_publicatie": 1.54,
+  "bookmaker": "StarCasino",
+  "kans": 0.6385,
+  "kans_markt": 0.6086,
+  "edge": -0.0167,
+  "tip_van_de_dag": false,
+  "gepubliceerd": "2026-11-24T02:26:41+00:00",
+  "status": "open",
+  "odd_laatst": 1.54,
+  "bijgewerkt": "2026-11-24T02:26:41+00:00"
  }
 }
