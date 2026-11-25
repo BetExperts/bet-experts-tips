@@ -3412,9 +3412,11 @@
   "edge": 0.0102,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-21T20:58:05+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.71,
-  "bijgewerkt": "2026-11-24T18:05:58+00:00"
+  "bijgewerkt": "2026-11-24T18:05:58+00:00",
+  "eindstand": "1-1",
+  "afgesloten": "2026-11-25T03:01:42+00:00"
  },
  "btts-portsmouth-west-ham-2026-11-24": {
   "fid": "1563280",
@@ -3431,9 +3433,11 @@
   "edge": 0.0094,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-21T20:58:06+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.75,
-  "bijgewerkt": "2026-11-24T18:05:58+00:00"
+  "bijgewerkt": "2026-11-24T18:05:58+00:00",
+  "eindstand": "1-0",
+  "afgesloten": "2026-11-25T03:01:42+00:00"
  },
  "over-2-5-marseille-le-mans-2026-11-22": {
   "fid": "1552822",
@@ -3553,9 +3557,11 @@
   "edge": 0.0344,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-24T02:26:37+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 2.0,
-  "bijgewerkt": "2026-11-24T18:05:58+00:00"
+  "bijgewerkt": "2026-11-24T18:05:58+00:00",
+  "eindstand": "0-0",
+  "afgesloten": "2026-11-25T03:01:42+00:00"
  },
  "under-2-5-alanyaspor-konyaspor-2026-11-27": {
   "fid": "1584475",
