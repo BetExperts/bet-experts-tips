@@ -1,22 +1,22 @@
 {
- "bijgewerkt": "2026-11-27T16:55:36+00:00",
+ "bijgewerkt": "2026-11-27T18:56:41+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 168,
-  "gewonnen": 87,
+  "tips": 169,
+  "gewonnen": 88,
   "verloren": 81,
   "raak": 52,
-  "winst_eenheden": -20.15,
-  "rendement": -12.0,
+  "winst_eenheden": -19.2,
+  "rendement": -11.4,
   "gem_odd": 1.74
  },
  "dertig_dagen": {
-  "tips": 110,
+  "tips": 108,
   "gewonnen": 56,
-  "verloren": 54,
-  "raak": 51,
-  "winst_eenheden": -15.18,
-  "rendement": -13.8,
+  "verloren": 52,
+  "raak": 52,
+  "winst_eenheden": -12.85,
+  "rendement": -11.9,
   "gem_odd": 1.73
  },
  "per_markt": {
@@ -31,12 +31,12 @@
     "gem_odd": 1.6
    },
    "dertig_dagen": {
-    "tips": 46,
-    "gewonnen": 25,
-    "verloren": 21,
-    "raak": 54,
-    "winst_eenheden": -6.7,
-    "rendement": -14.6,
+    "tips": 44,
+    "gewonnen": 24,
+    "verloren": 20,
+    "raak": 55,
+    "winst_eenheden": -6.32,
+    "rendement": -14.4,
     "gem_odd": 1.59
    }
   },
@@ -62,22 +62,22 @@
   },
   "Under 2.5": {
    "totaal": {
-    "tips": 26,
-    "gewonnen": 11,
+    "tips": 27,
+    "gewonnen": 12,
     "verloren": 15,
-    "raak": 42,
-    "winst_eenheden": -5.77,
-    "rendement": -22.2,
+    "raak": 44,
+    "winst_eenheden": -4.82,
+    "rendement": -17.9,
     "gem_odd": 1.85
    },
    "dertig_dagen": {
-    "tips": 18,
-    "gewonnen": 6,
+    "tips": 19,
+    "gewonnen": 7,
     "verloren": 12,
-    "raak": 33,
-    "winst_eenheden": -7.04,
-    "rendement": -39.1,
-    "gem_odd": 1.85
+    "raak": 37,
+    "winst_eenheden": -6.09,
+    "rendement": -32.1,
+    "gem_odd": 1.86
    }
   },
   "1X2": {
@@ -91,12 +91,12 @@
     "gem_odd": 1.89
    },
    "dertig_dagen": {
-    "tips": 32,
+    "tips": 31,
     "gewonnen": 18,
-    "verloren": 14,
-    "raak": 56,
-    "winst_eenheden": 1.03,
-    "rendement": 3.2,
+    "verloren": 13,
+    "raak": 58,
+    "winst_eenheden": 2.03,
+    "rendement": 6.5,
     "gem_odd": 1.89
    }
   }
@@ -110,8 +110,17 @@
   "rendement": -0.6,
   "gem_odd": 1.7
  },
- "open": 26,
+ "open": 25,
  "laatste": [
+  {
+   "datum": "2026-11-27",
+   "wedstrijd": "Lokomotiv Sofia - Slavia Sofia",
+   "markt": "Under 2.5",
+   "tip": "Minder dan 2.5 doelpunten",
+   "odd": 1.95,
+   "uitslag": "0-0",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-11-25",
    "wedstrijd": "Burnley - Birmingham",
@@ -281,15 +290,6 @@
    "tip": "Beide teams scoren",
    "odd": 1.46,
    "uitslag": "3-0",
-   "status": "verloren"
-  },
-  {
-   "datum": "2026-11-21",
-   "wedstrijd": "Strasbourg - Stade Brestois 29",
-   "markt": "Over 2.5",
-   "tip": "Meer dan 2.5 doelpunten",
-   "odd": 1.67,
-   "uitslag": "0-1",
    "status": "verloren"
   }
  ]

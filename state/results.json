@@ -3656,9 +3656,11 @@
   "edge": 0.126,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-24T18:06:39+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.9,
-  "bijgewerkt": "2026-11-26T23:55:23+00:00"
+  "bijgewerkt": "2026-11-26T23:55:23+00:00",
+  "eindstand": "0-0",
+  "afgesloten": "2026-11-27T18:55:28+00:00"
  },
  "1x2-kvc-westerlo-raal-la-louviere-2026-11-28": {
   "fid": "1558697",
