@@ -1,42 +1,42 @@
 {
- "bijgewerkt": "2026-11-27T23:37:21+00:00",
+ "bijgewerkt": "2026-11-28T01:57:20+00:00",
  "sinds": "2026-10-15T08:51:56+00:00",
  "totaal": {
-  "tips": 169,
-  "gewonnen": 88,
-  "verloren": 81,
+  "tips": 174,
+  "gewonnen": 90,
+  "verloren": 84,
   "raak": 52,
-  "winst_eenheden": -19.2,
-  "rendement": -11.4,
+  "winst_eenheden": -21.09,
+  "rendement": -12.1,
   "gem_odd": 1.74
  },
  "dertig_dagen": {
-  "tips": 105,
-  "gewonnen": 53,
-  "verloren": 52,
+  "tips": 108,
+  "gewonnen": 54,
+  "verloren": 54,
   "raak": 50,
-  "winst_eenheden": -15.56,
-  "rendement": -14.8,
+  "winst_eenheden": -16.98,
+  "rendement": -15.7,
   "gem_odd": 1.73
  },
  "per_markt": {
   "BTTS": {
    "totaal": {
-    "tips": 67,
-    "gewonnen": 38,
+    "tips": 69,
+    "gewonnen": 40,
     "verloren": 29,
-    "raak": 57,
-    "winst_eenheden": -7.31,
-    "rendement": -10.9,
-    "gem_odd": 1.6
+    "raak": 58,
+    "winst_eenheden": -6.2,
+    "rendement": -9.0,
+    "gem_odd": 1.59
    },
    "dertig_dagen": {
-    "tips": 44,
-    "gewonnen": 24,
+    "tips": 45,
+    "gewonnen": 25,
     "verloren": 20,
-    "raak": 55,
-    "winst_eenheden": -6.32,
-    "rendement": -14.4,
+    "raak": 56,
+    "winst_eenheden": -5.74,
+    "rendement": -12.8,
     "gem_odd": 1.59
    }
   },
@@ -62,56 +62,101 @@
   },
   "Under 2.5": {
    "totaal": {
-    "tips": 27,
+    "tips": 28,
     "gewonnen": 12,
-    "verloren": 15,
-    "raak": 44,
-    "winst_eenheden": -4.82,
-    "rendement": -17.9,
+    "verloren": 16,
+    "raak": 43,
+    "winst_eenheden": -5.82,
+    "rendement": -20.8,
     "gem_odd": 1.85
    },
    "dertig_dagen": {
-    "tips": 19,
+    "tips": 20,
     "gewonnen": 7,
-    "verloren": 12,
-    "raak": 37,
-    "winst_eenheden": -6.09,
-    "rendement": -32.1,
+    "verloren": 13,
+    "raak": 35,
+    "winst_eenheden": -7.09,
+    "rendement": -35.5,
     "gem_odd": 1.86
    }
   },
   "1X2": {
    "totaal": {
-    "tips": 52,
+    "tips": 54,
     "gewonnen": 26,
-    "verloren": 26,
-    "raak": 50,
-    "winst_eenheden": -4.45,
-    "rendement": -8.6,
+    "verloren": 28,
+    "raak": 48,
+    "winst_eenheden": -6.45,
+    "rendement": -11.9,
     "gem_odd": 1.89
    },
    "dertig_dagen": {
-    "tips": 29,
+    "tips": 30,
     "gewonnen": 16,
-    "verloren": 13,
-    "raak": 55,
-    "winst_eenheden": 0.05,
-    "rendement": 0.2,
+    "verloren": 14,
+    "raak": 53,
+    "winst_eenheden": -0.95,
+    "rendement": -3.2,
     "gem_odd": 1.88
    }
   }
  },
  "tip_van_de_dag": {
-  "tips": 27,
+  "tips": 28,
   "gewonnen": 16,
-  "verloren": 11,
-  "raak": 59,
-  "winst_eenheden": -0.17,
-  "rendement": -0.6,
-  "gem_odd": 1.7
+  "verloren": 12,
+  "raak": 57,
+  "winst_eenheden": -1.17,
+  "rendement": -4.2,
+  "gem_odd": 1.71
  },
- "open": 26,
+ "open": 21,
  "laatste": [
+  {
+   "datum": "2026-11-27",
+   "wedstrijd": "Levante - Racing Santander",
+   "markt": "1X2",
+   "tip": "Levante wint",
+   "odd": 2.02,
+   "uitslag": "1-3",
+   "status": "verloren"
+  },
+  {
+   "datum": "2026-11-27",
+   "wedstrijd": "Werder Bremen - Borussia Mönchengladbach",
+   "markt": "1X2",
+   "tip": "Werder Bremen wint",
+   "odd": 1.78,
+   "uitslag": "3-3",
+   "status": "verloren"
+  },
+  {
+   "datum": "2026-11-27",
+   "wedstrijd": "Groningen - Willem II",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.57,
+   "uitslag": "1-1",
+   "status": "gewonnen"
+  },
+  {
+   "datum": "2026-11-27",
+   "wedstrijd": "Alanyaspor - Konyaspor",
+   "markt": "Under 2.5",
+   "tip": "Minder dan 2.5 doelpunten",
+   "odd": 1.85,
+   "uitslag": "1-2",
+   "status": "verloren"
+  },
+  {
+   "datum": "2026-11-27",
+   "wedstrijd": "Raków Częstochowa - Piast Gliwice",
+   "markt": "BTTS",
+   "tip": "Beide teams scoren",
+   "odd": 1.54,
+   "uitslag": "1-2",
+   "status": "gewonnen"
+  },
   {
    "datum": "2026-11-27",
    "wedstrijd": "Lokomotiv Sofia - Slavia Sofia",
@@ -245,51 +290,6 @@
    "tip": "Minder dan 2.5 doelpunten",
    "odd": 1.86,
    "uitslag": "1-3",
-   "status": "verloren"
-  },
-  {
-   "datum": "2026-11-22",
-   "wedstrijd": "Botev Plovdiv - CSKA Sofia",
-   "markt": "1X2",
-   "tip": "CSKA Sofia wint",
-   "odd": 1.96,
-   "uitslag": "3-3",
-   "status": "verloren"
-  },
-  {
-   "datum": "2026-11-22",
-   "wedstrijd": "GO Ahead Eagles - Fortuna Sittard",
-   "markt": "BTTS",
-   "tip": "Beide teams scoren",
-   "odd": 1.53,
-   "uitslag": "0-1",
-   "status": "verloren"
-  },
-  {
-   "datum": "2026-11-22",
-   "wedstrijd": "Sparta Rotterdam - AZ Alkmaar",
-   "markt": "Over 2.5",
-   "tip": "Meer dan 2.5 doelpunten",
-   "odd": 1.64,
-   "uitslag": "1-5",
-   "status": "gewonnen"
-  },
-  {
-   "datum": "2026-11-21",
-   "wedstrijd": "Inter Miami - Columbus Crew",
-   "markt": "BTTS",
-   "tip": "Beide teams scoren",
-   "odd": 1.45,
-   "uitslag": "0-3",
-   "status": "verloren"
-  },
-  {
-   "datum": "2026-11-21",
-   "wedstrijd": "FC Dallas - Portland Timbers",
-   "markt": "BTTS",
-   "tip": "Beide teams scoren",
-   "odd": 1.46,
-   "uitslag": "3-0",
    "status": "verloren"
   }
  ]

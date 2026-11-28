@@ -3580,9 +3580,11 @@
   "edge": 0.0788,
   "tip_van_de_dag": true,
   "gepubliceerd": "2026-11-24T02:26:38+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.67,
-  "bijgewerkt": "2026-11-27T16:54:23+00:00"
+  "bijgewerkt": "2026-11-27T16:54:23+00:00",
+  "eindstand": "1-2",
+  "afgesloten": "2026-11-28T01:57:10+00:00"
  },
  "1x2-werder-bremen-borussia-monchengladbach-2026-11-27": {
   "fid": "1575237",
@@ -3599,9 +3601,11 @@
   "edge": 0.0457,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-24T02:26:39+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.7,
-  "bijgewerkt": "2026-11-27T16:54:23+00:00"
+  "bijgewerkt": "2026-11-27T16:54:23+00:00",
+  "eindstand": "3-3",
+  "afgesloten": "2026-11-28T01:57:10+00:00"
  },
  "btts-groningen-willem-ii-2026-11-27": {
   "fid": "1552238",
@@ -3618,9 +3622,11 @@
   "edge": -0.0141,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-24T02:26:40+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.85,
-  "bijgewerkt": "2026-11-27T16:54:23+00:00"
+  "bijgewerkt": "2026-11-27T16:54:23+00:00",
+  "eindstand": "1-1",
+  "afgesloten": "2026-11-28T01:57:10+00:00"
  },
  "btts-rakow-czestochowa-piast-gliwice-2026-11-27": {
   "fid": "1553241",
@@ -3637,9 +3643,11 @@
   "edge": -0.0167,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-24T02:26:41+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 1.53,
-  "bijgewerkt": "2026-11-27T16:54:23+00:00"
+  "bijgewerkt": "2026-11-27T16:54:23+00:00",
+  "eindstand": "1-2",
+  "afgesloten": "2026-11-28T01:57:10+00:00"
  },
  "under-2-5-lokomotiv-sofia-slavia-sofia-2026-11-27": {
   "fid": "1551157",
@@ -4038,9 +4046,11 @@
   "edge": 0.0307,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-27T16:55:22+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 2.02,
-  "bijgewerkt": "2026-11-27T16:55:22+00:00"
+  "bijgewerkt": "2026-11-27T16:55:22+00:00",
+  "eindstand": "1-3",
+  "afgesloten": "2026-11-28T01:57:10+00:00"
  },
  "1x2-brann-kristiansund-bk-2026-11-29": {
   "fid": "1494813",
