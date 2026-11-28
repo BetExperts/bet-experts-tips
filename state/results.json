@@ -3704,9 +3704,11 @@
   "edge": 0.0515,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-24T23:59:10+00:00",
-  "status": "open",
+  "status": "gewonnen",
   "odd_laatst": 2.28,
-  "bijgewerkt": "2026-11-28T15:45:00+00:00"
+  "bijgewerkt": "2026-11-28T15:45:00+00:00",
+  "eindstand": "1-2",
+  "afgesloten": "2026-11-28T18:54:31+00:00"
  },
  "over-2-5-west-ham-stoke-city-2026-11-28": {
   "fid": "1563297",
@@ -3723,9 +3725,11 @@
   "edge": 0.0416,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-24T23:59:11+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.91,
-  "bijgewerkt": "2026-11-27T23:36:15+00:00"
+  "bijgewerkt": "2026-11-27T23:36:15+00:00",
+  "eindstand": "1-0",
+  "afgesloten": "2026-11-28T18:54:31+00:00"
  },
  "over-2-5-inter-genoa-2026-11-28": {
   "fid": "1550211",
@@ -3799,9 +3803,11 @@
   "edge": 0.0529,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-25T23:43:33+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.74,
-  "bijgewerkt": "2026-11-27T23:36:15+00:00"
+  "bijgewerkt": "2026-11-27T23:36:15+00:00",
+  "eindstand": "0-0",
+  "afgesloten": "2026-11-28T18:54:31+00:00"
  },
  "over-2-5-lech-poznan-pogon-szczecin-2026-11-29": {
   "fid": "1553239",
@@ -3932,9 +3938,11 @@
   "edge": 0.0406,
   "tip_van_de_dag": false,
   "gepubliceerd": "2026-11-26T17:13:28+00:00",
-  "status": "open",
+  "status": "verloren",
   "odd_laatst": 1.73,
-  "bijgewerkt": "2026-11-27T23:36:15+00:00"
+  "bijgewerkt": "2026-11-27T23:36:15+00:00",
+  "eindstand": "0-1",
+  "afgesloten": "2026-11-28T18:54:31+00:00"
  },
  "under-2-5-corinthians-gremio-2026-11-29": {
   "fid": "1492473",
